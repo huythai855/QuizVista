@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What was the overall vibe of your dream? (Choose the one that fits best!)",
+        "ans": [
+            "Happy, warm, optimistic.",
+            "Anxious, scary, ominous.",
+            "Nostalgic, bittersweet, touching.",
+            "Confusing, wacky, mysterious."
+        ]
+    },
+    {
+        "question": "Did you see anyone else in your dream with you? Who?",
+        "ans": [
+            "Yes, someone I used to know, but who's no longer in my life.",
+            "Yes, and it was someone I care about deeply, like a friend or family member.",
+            "Yes, but it was someone who I don't really like.",
+            "I don't think I saw anyone that I know in my dream."
+        ]
+    },
+    {
+        "question": "Where were you in your dream?",
+        "ans": [
+            "Somewhere familiar, like at my home or another place I feel comfortable in.",
+            "Somewhere unfamiliar, or a place I've never been, but could be real.",
+            "A fictional place that could never exist.",
+            "I'm not sure, or I don't remember."
+        ]
+    },
+    {
+        "question": "Did you feel like you were in control of the dream, or was it more like watching a movie?",
+        "ans": [
+            "I definitely felt in control, even if I was doing things I didn't want to be!",
+            "It felt more like watching a movie. I couldn't really control what happened next.",
+            "It felt a bit like a mix of both! Sometimes I was controlling it, sometimes I wasn't.",
+            "I don't know, or I don't remember."
+        ]
+    },
+    {
+        "question": "Did your dream stick with you, and can you remember it clearly right now?",
+        "ans": [
+            "Very clearly. It's like a real memory of something that actually happened to me.",
+            "Somewhat clearly. I can remember major parts, but there are chunks missing.",
+            "Not super clearly. I remember some parts, but it's mostly gone.",
+            "I can't remember it very clearly; it's mostly just vibes now."
+        ]
+    },
+    {
+        "question": "Did any particular colors stand out to you in your dream?",
+        "ans": [
+            "There were warm colors, like reds, yellows, and oranges.",
+            "There were cool colors, like blues, greens, and purples.",
+            "There were neutral colors, like black, white, and grays.",
+            "I don't remember any particular colors."
+        ]
+    },
+    {
+        "question": "Have you ever had this dream before?",
+        "ans": [
+            "Yes. I've had this dream many times, and it's always the same.",
+            "I've had this dream many times before, but it changes every time I have it.",
+            "I've had this dream a couple of times, but not often.",
+            "I've never had this dream before, or I'm not sure if I have."
+        ]
+    },
+    {
+        "question": "Did any special or mysterious animals appear in your dream?",
+        "ans": [
+            "There was an animal that flies around in the sky.",
+            "There was an animal that spends its time on the ground.",
+            "There was an animal that swims through water.",
+            "There were no animals, or I don't remember."
+        ]
+    },
+    {
+        "question": "Did one of these things happen in your dream?",
+        "ans": [
+            "I dreamed I was flying or falling.",
+            "I dreamed my teeth fell out, or another upsetting thing happened to my body.",
+            "I dreamed I was being chased, or was looking for something.",
+            "None of these, or I don't remember."
+        ]
+    },
+    {
+        "question": "How about one of these? Did any of these happen in your dream?",
+        "ans": [
+            "I kissed or held the hand of someone I like.",
+            "I hurt someone (even if I didn't mean to).",
+            "I was embarrassed by something in public.",
+            "None of these, or I don't remember."
+        ]
+    },
+    {
+        "question": "How deeply were you sleeping while you had your dream?",
+        "ans": [
+            "Super deep. I was sleeping like a rock, and didn't wake up until the morning.",
+            "I was sleeping pretty well. I might have woken up once or twice, but got back to sleep pretty quickly.",
+            "I wasn't sleeping very well. I woke up many times during the night.",
+            "I barely slept at all, and had my dream during the few moments of sleep I did get."
+        ]
+    },
+    {
+        "question": "How old are you? (Trust us, it matters!)",
+        "ans": [
+            "10 years old or younger.",
+            "10-20 years old.",
+            "21-30 years old.",
+            "31+ years old."
+        ]
+    }
+]

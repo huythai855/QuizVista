@@ -1,0 +1,137 @@
+[
+    {
+        "question": "You just broke up with your partner. How does your friend find out?",
+        "ans": [
+            "I call them immediately after it happens.",
+            "I’ll shoot them a text the next morning.",
+            "I’ll tell them about it next time I see them.",
+            "They’ll find out when I change my relationship status online."
+        ]
+    },
+    {
+        "question": "Do you feel like you can be yourself around them?",
+        "ans": [
+            "Absolutely! I feel like the most authentic version of myself when I’m with them.",
+            "Usually. It’s not that hard to keep it real with them.",
+            "Sometimes. I don’t always feel like I can be myself around them, though.",
+            "Not really. I put on a polite, overly friendly front when I’m around them."
+        ]
+    },
+    {
+        "question": "How often do you chat with them?",
+        "ans": [
+            "Every day! I just got a text from them, actually.",
+            "Several times a week—we don’t talk every day.",
+            "Occasionally. We don’t talk all that much.",
+            "Rarely. We’ll sometimes interact on social media."
+        ]
+    },
+    {
+        "question": "You’ve got a big crush on your co-worker. Are you spilling the beans to your friend?",
+        "ans": [
+            "Bold of you to assume they don’t know already.",
+            "For sure! I know I can trust them.",
+            "I might, but I’m not completely sure.",
+            "Probably not. We’re not super close, y’know?"
+        ]
+    },
+    {
+        "question": "You stayed up all night binging a new show instead of studying. What does your friend say?",
+        "ans": [
+            "“Ooh, which one?! Tell me all about it!”",
+            "“I can relate. I’ve definitely done that before!”",
+            "“Oof. Hope you're able to catch up on sleep.”",
+            "“Oh, that's cool. Anyway, I'm thinking of throwing a party next weekend.”"
+        ]
+    },
+    {
+        "question": "In any given conversation, who does most of the talking?",
+        "ans": [
+            "We spend equal amounts of time talking and listening.",
+            "Sometimes one of us talks a little bit more than the other.",
+            "One of us definitely tends to take over the conversation.",
+            "Our convos are hardly ever balanced."
+        ]
+    },
+    {
+        "question": "How well does your friend know your family?",
+        "ans": [
+            "They’re practically a part of my family at this point.",
+            "They get along great!",
+            "They don’t know each other that well.",
+            "They don’t know each other at all."
+        ]
+    },
+    {
+        "question": "You’ve just had a really bad day. Do you feel comfortable crying around them?",
+        "ans": [
+            "Absolutely! They’re always my shoulder to cry on.",
+            "Yeah, but I don’t cry around them super often.",
+            "Not really—we aren’t that close.",
+            "I don’t hang out with them enough to cry around them."
+        ]
+    },
+    {
+        "question": "You just got a raise at work. How does your friend congratulate you?",
+        "ans": [
+            "They give me a huge hug and take me out to dinner.",
+            "They send me a long text expressing how proud they are.",
+            "They shoot me a quick “Congratulations!” text.",
+            "They like the announcement post I make on social media."
+        ]
+    },
+    {
+        "question": "You and your friend got into an argument. How do you resolve things?",
+        "ans": [
+            "We talk it out! There are no secrets between us.",
+            "We might vent about it to another friend before talking things out.",
+            "We give vague apologies and consider things settled.",
+            "We don’t spend enough time together to get into fights."
+        ]
+    },
+    {
+        "question": "Your friend wants to hit the club, but you aren’t really in the mood. How does your friend react?",
+        "ans": [
+            "“That’s totally fine! What would you like to do instead?”",
+            "“Oh, dang. Would you be interested in going next week?”",
+            "“Do you mind if I go anyways? It’ll be a lot of fun!”",
+            "“I’m still gonna go out. I’ll see you around!”"
+        ]
+    },
+    {
+        "question": "You make plans with your friend to hang out this weekend. Are they late to the meet-up?",
+        "ans": [
+            "Nope! They arrive right on time.",
+            "They’re 10 minutes late, but they have a good excuse.",
+            "They sometimes cancel at the last minute.",
+            "I’m not sure—we don’t hang out enough for me to say."
+        ]
+    },
+    {
+        "question": "How do you feel about yourself when you are around your friend?",
+        "ans": [
+            "I feel like I get a boost in how I feel about myself when I'm around them.",
+            "I feel fine about myself when I'm around them.",
+            "I sometimes feel slightly worse about myself when I'm around them.",
+            "I feel like my self-esteem is a lot lower when I'm around them."
+        ]
+    },
+    {
+        "question": "How do you feel when you are with your friend?",
+        "ans": [
+            "I feel very excited to be around them.",
+            "I feel very content and relaxed.",
+            "I feel neutral.",
+            "I feel down when I’m around them."
+        ]
+    },
+    {
+        "question": "Do you and your friend share the same values?",
+        "ans": [
+            "Very much so.",
+            "For the most part.",
+            "Somewhat, but not completely.",
+            "Absolutely not."
+        ]
+    }
+]

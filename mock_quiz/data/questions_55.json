@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Your ideal Friday night involves…",
+        "ans": [
+            "Going to bed early. I need my full eight hours!",
+            "Eating ice cream and watching reality TV with my bestie.",
+            "Going to my friend’s art show, dancing, and good food.",
+            "Whatever I feel like. I always have invites and options to choose from."
+        ]
+    },
+    {
+        "question": "How would you describe your social circle?",
+        "ans": [
+            "Strange, confounding, and misunderstood.",
+            "Small, chill, and loyal.",
+            "Brimming, dynamic, and fascinating.",
+            "Exclusive, legendary, and iconic."
+        ]
+    },
+    {
+        "question": "Your wardrobe is full of…",
+        "ans": [
+            "There’s no common thread. Clothes are just clothes to me.",
+            "Mostly casual, simple staple pieces, but a few standout outfits.",
+            "A mix of trends and timeless, effortless staples. I'm definitely stylish.",
+            "Unique, stylish pieces that most people don’t own. I'm a trendsetter."
+        ]
+    },
+    {
+        "question": "You recently picked up a new hobby. What is it?",
+        "ans": [
+            "Knitting",
+            "Writing",
+            "Photography",
+            "Traveling"
+        ]
+    },
+    {
+        "question": "What’s the most worn-out book on your bookshelf?",
+        "ans": [
+            "Harry Potter and the Sorcerer’s Stone by JK Rowling",
+            "The Great Gatsby by F. Scott Fitzgerald",
+            "Slaughter House Five by Kurt Vonnegut Jr.",
+            "Eve’s Hollywood by Eve Babitz"
+        ]
+    },
+    {
+        "question": "You win a vacation to anywhere in the world. Where are you going?",
+        "ans": [
+            "Niagara Falls",
+            "Las Vegas, Nevada",
+            "Paris, France",
+            "The Seychelles"
+        ]
+    },
+    {
+        "question": "In your friend group, you’re the friend who…",
+        "ans": [
+            "Plans the most epic board game nights.",
+            "Recommends the best TV shows to binge.",
+            "Introduces everyone to great new music.",
+            "Always knows the coolest underground spots to hang out."
+        ]
+    },
+    {
+        "question": "Where do you get your interior design inspo from?",
+        "ans": [
+            "Whatever’s available at Target",
+            "HGTV",
+            "Architectural Digest",
+            "Apartamento Magazine"
+        ]
+    },
+    {
+        "question": "You’re at a party and you know no one. How are you feeling?",
+        "ans": [
+            "Anxious. I'm ready to head home.",
+            "Mildly uneasy. But I'll be fine!",
+            "Relaxed. I'm excited to make new friends.",
+            "Totally unbothered. Strangers are naturally drawn to me."
+        ]
+    },
+    {
+        "question": "A genie grants you one wish. You wish for…",
+        "ans": [
+            "Popularity. I'd love to have a bigger social circle.",
+            "Beauty. Think of the aesthetic pics I could take!",
+            "Time travel. There are so many memories I'd love to relive.",
+            "Immortality. Life is way too good to ever end."
+        ]
+    },
+    {
+        "question": "You trip and fall in public. You…",
+        "ans": [
+            "Don’t get up for a long 10 seconds. I'm mortified.",
+            "Blush and try to stand up quickly before anyone notices.",
+            "Stand back up and laugh about it.",
+            "Get helped up by a cute stranger."
+        ]
+    },
+    {
+        "question": "Your life is a movie. What song plays when your character is introduced?",
+        "ans": [
+            "“Moves Like Jagger” by Maroon 5",
+            "“Gooey” by Glass Animals",
+            "“Bad Girls” by M.I.A.",
+            "“Born to Die” by Lana Del Rey"
+        ]
+    }
+]

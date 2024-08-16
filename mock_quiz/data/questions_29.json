@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which of these animals are you most like?",
+        "ans": [
+            "Dolphin",
+            "Cat",
+            "Horse",
+            "Dog"
+        ]
+    },
+    {
+        "question": "It’s vacation time—woohoo! Where are you headed?",
+        "ans": [
+            "The mountains. I want to hide away in a cabin.",
+            "The tallest rollercoaster in the world! I’ve got to experience that.",
+            "The mall, duh. What’s a vacation without a shopping spree?",
+            "I don’t know. My family won’t decide and it’s killing me."
+        ]
+    },
+    {
+        "question": "How would your best friends describe you?",
+        "ans": [
+            "Opinionated",
+            "Reserved",
+            "Stubborn",
+            "Restless"
+        ]
+    },
+    {
+        "question": "If you were a color, what color would you be?",
+        "ans": [
+            "White",
+            "Red",
+            "Green",
+            "Blue"
+        ]
+    },
+    {
+        "question": "What do you like most about yourself?",
+        "ans": [
+            "My drive. I know I can do anything.",
+            "My caring heart. I have a lot of love to give.",
+            "My protecting nature. I won’t let anyone hurt those I love.",
+            "My confidence. I’m not afraid of anything."
+        ]
+    },
+    {
+        "question": "At the end of the day, you’d say you’re an:",
+        "ans": [
+            "Introvert. I prefer my own company.",
+            "Extrovert. I love being around people!",
+            "Ambivert. I like to socialize, but I need my alone time.",
+            "I don’t know. Does this question really matter?"
+        ]
+    },
+    {
+        "question": "It’s party time! Where can you be found?",
+        "ans": [
+            "In the corner. Parties aren’t really my scene.",
+            "On the center of the dance floor. I have to show off my outfit!",
+            "In a circle of friends. Yeah, I know everyone here.",
+            "With the DJ, asking them to change the song. They seriously call this music?"
+        ]
+    },
+    {
+        "question": "You’re outside. It’s dark. You hear a rustling. What do you do?",
+        "ans": [
+            "Run away as fast as I can. One sound and I’m out.",
+            "Turn on the flashlight on my phone. Whatever it is can’t hide for long.",
+            "Clutch my bag. If it’s a mugger, they can’t have my stuff.",
+            "Get my fists ready. Oh yeah, I’m going to fight."
+        ]
+    },
+    {
+        "question": "It’s movie night! What type of film are you likely to watch?",
+        "ans": [
+            "Comedy",
+            "Romance",
+            "Action",
+            "Drama"
+        ]
+    },
+    {
+        "question": "You wake up in a cold sweat. What were you dreaming about?",
+        "ans": [
+            "My house burning down. What would I do without my things?",
+            "Speaking in front of the class. I hate public speaking.",
+            "Telling my deepest darkest secrets. That’s my business and no one else’s.",
+            "Failing a test. Who am I without my achievements?"
+        ]
+    },
+    {
+        "question": "Time for a worst-case scenario! Which one would most likely happen to you?",
+        "ans": [
+            "I’d be most likely to fall in front of people. I’m so clumsy.",
+            "I’d be most likely to upset a world leader. What? I’ve got a lot of opinions.",
+            "I’d be most likely to shop until I drop…literally. I’d probably die at the checkout.",
+            "I’d be most likely to run a red light. I swear it was yellow when I saw it."
+        ]
+    },
+    {
+        "question": "If you had to choose, what do you think your weakness is?",
+        "ans": [
+            "Spending money",
+            "Being too critical",
+            "Not opening up to others",
+            "Having a short temper"
+        ]
+    }
+]

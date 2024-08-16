@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Would you say you lie a lot?",
+        "ans": [
+            "Yeah, if I’m being honest. It just comes naturally to me.",
+            "I guess? I tell white lies here and there, but only to protect myself.",
+            "No, not really. I try to tell the truth whenever possible.",
+            "I don’t know; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "How would you describe your skill sets when compared to others?",
+        "ans": [
+            "Superior. I’m the best at everything I do, no matter the competition.",
+            "Usually better. I’m confident in myself, but I’m not the best at everything.",
+            "About the same as other people, or sometimes I’m a little worse than other people.",
+            "I’m not sure; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "If something doesn’t go your way, what do you do?",
+        "ans": [
+            "Convince someone to shift things in my favor with a smile or a good lie. I don’t mind manipulating people if it gets me what I want.",
+            "Argue with whoever’s in charge. It’s their fault, not mine.",
+            "Shake it off or walk away. It is what it is. You can’t win every battle.",
+            "I’m not sure; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "Do people often describe you as impulsive?",
+        "ans": [
+            "All of the time! I never think before I act—I just do what I want.",
+            "It depends. Sometimes I can be really impulsive, and other times, I try to think before I act.",
+            "No. I like to think through my actions.",
+            "I’m not sure; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "In your friend group, you’re typically the one to:",
+        "ans": [
+            "Stir the pot. What’s a friend group without a little bit of drama?",
+            "Tell made-up stories for fun. If I have to lie to get their attention, so be it.",
+            "Keep the peace. I help my friends make amends.",
+            "I don’t know; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "Would you describe yourself as an angry person?",
+        "ans": [
+            "Yes. I know I have an aggressive personality.",
+            "Sometimes. I can be hostile, but only when I’m really upset.",
+            "Not at all! I’m a calm person.",
+            "I’m not sure; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "Say you do something that hurts a friend. Do you feel guilty?",
+        "ans": [
+            "Nope. If they’re bothered by what I say or do, that’s their problem.",
+            "Maybe. If they’re being petty, that’s on them. But if I made a mistake, I guess that’s on me.",
+            "Yes. The last thing I’d ever want to do is hurt them (even if it’s by accident).",
+            "I’m not sure; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "What’s the first word that comes to mind when you think of “authority”?",
+        "ans": [
+            "Irritating. I hate listening to authority figures.",
+            "Silly. Does anyone really listen to the rules these days?",
+            "Order. I respect authority. Rules are in place for a reason.",
+            "I don’t know; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "How would you describe your life?",
+        "ans": [
+            "Chaotic. I never seem to have a peaceful moment. I’m always scheming or fighting with someone.",
+            "A little dramatic. Looking back, drama tends to follow me everywhere",
+            "Calm. I usually stick to a routine and prioritize relaxation.",
+            "I’m not sure; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "Your house is on fire. What are you getting out first?",
+        "ans": [
+            "Myself, duh. I’m what’s most important. Everything else can burn.",
+            "My work. I can’t achieve my goals without my laptop or creative project.",
+            "My family members. I have to make sure they're safe.",
+            "I’m not sure; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "You’re taking a test and don’t know half of the answers. What do you do?",
+        "ans": [
+            "Pull up the answers on my phone. What? The way I see it, cheating is resourceful.",
+            "Peek at a classmate’s answers, but only when I get stumped.",
+            "Do my best to answer the questions on my own. The last thing I’d do is cheat.",
+            "I don’t know; I’m indifferent to this question."
+        ]
+    },
+    {
+        "question": "Which of these mottos best speaks to you?",
+        "ans": [
+            "I can do whatever I want, as long as I come out on top.",
+            "If someone is foolish enough to be tricked, they probably had it coming.",
+            "Anything is possible if you’re fair and kind.",
+            "I’m not sure; I’m indifferent to this question."
+        ]
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Take a second to think of the most notable or important things that happened to you today. Did you think of:",
+        "ans": [
+            "A bad event that sent me spiraling (ex: I snapped at my brother—I constantly lose my cool).",
+            "A bad event, but one that I don’t have a strong emotional reaction to (ex: I was assigned a project that I’m not excited about).",
+            "A neutral or positive event (ex: I tried a new cafe with delicious coffee).",
+            "A positive event that brightened my whole day (I called my mom. Connecting with my family feels so good!)."
+        ]
+    },
+    {
+        "question": "Would you say that you’re an optimist?",
+        "ans": [
+            "Yes.",
+            "I'm not sure. I might be in the middle.",
+            "I’m probably slightly less positive than the average person.",
+            "No, definitely not. Look around—how could I be?"
+        ]
+    },
+    {
+        "question": "Do you feel like you have people in your life that you could bring your biggest problems to?",
+        "ans": [
+            "Without a doubt. I have tons of close relationships where I feel completely accepted and supported.",
+            "I have a few great relationships like this—maybe 2-5.",
+            "I can think of one relationship that fits this description.",
+            "I don’t think I have any relationships where I’d feel comfortable talking through my biggest problems."
+        ]
+    },
+    {
+        "question": "Do you believe you’re more afraid of failure than the average person?",
+        "ans": [
+            "Definitely. When I’ve failed in the past, I’ve found it basically impossible to stop dwelling and start mobilizing.",
+            "Possibly.",
+            "Neutral; I'm not sure.",
+            "No. At this point, I’m not afraid of failure. I know that challenges are an opportunity to grow, learn, and come out stronger."
+        ]
+    },
+    {
+        "question": "Do you believe that you’re good in a crisis?",
+        "ans": [
+            "Definitely not. I usually get too stressed to think clearly. I sometimes make decisions I regret as a result.",
+            "I'm not horrible, but I'm probably a little below average.",
+            "I'm not sure. I'm probably about average.",
+            "Yes! I find that my mind gets sharper in high-pressure situations, and I’m able to make strong, thoughtful decisions as a result."
+        ]
+    },
+    {
+        "question": "Would you say that you have a lot of willpower?",
+        "ans": [
+            "No. I want to try new things—start exercising, daily meditation—but I’m never able to stick to plans consistently.",
+            "I struggle with my willpower, but so does everyone. I’m able to keep some healthy habits consistently, but others I’m less successful with.",
+            "I have healthy habits, but it doesn’t feel like a matter of willpower. Once a behavior is in my routine, it’s easy for me to keep doing it.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "When you’re going through a hard time, is it your instinct to isolate yourself?",
+        "ans": [
+            "Yes. I don’t feel like I should bring my issues to friends and family because they might think less of me.",
+            "I try not to isolate myself because I know my loved ones want to help. But admittedly, it’s hard for me to truly open up sometimes.",
+            "No. I trust the people close to me and usually find it easy to open up to them. That’s what friends are for, after all!",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Failure is:",
+        "ans": [
+            "A sign that there’s something seriously wrong with myself or my life.",
+            "Scary, because it can cause chaos and disrupt my routines.",
+            "Normal. Everyone fails sometimes—it’s how you respond to failure that matters.",
+            "I’m not sure; none of these answers fit me."
+        ]
+    },
+    {
+        "question": "Do you struggle with feelings of loss of control?",
+        "ans": [
+            "Yes, absolutely. I sometimes feel like my problems are so big, and I’m totally powerless to handle them.",
+            "I struggle with those feelings at times, but I’m usually able to move past them.",
+            "For the most part, I’m able to remember that my life isn’t happening to me, and at the end of the day, I control my destiny.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Do you feel like your daily routines support your overall happiness?",
+        "ans": [
+            "Yes. I know I feel happier when I eat well, drink water, exercise, and get good sleep (so that’s what I do!).",
+            "I could probably stick to habits that support my happiness better than I do. But it’s not a huge issue for me.",
+            "No. If I could manage to improve my physical health or avoid activities that leave me feeling bad (like doom scrolling), I’d be much happier.",
+            "I’m not sure."
+        ]
+    }
+]

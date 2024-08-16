@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What’s the first section you browse in the bookstore or library?",
+        "ans": [
+            "The young adult section. I like to keep my reading PG-13.",
+            "The new adult section. The steamier the book, the better.",
+            "The fiction section. The main priority is forgetting reality.",
+            "The monthly displays. I like to see what other readers recommend."
+        ]
+    },
+    {
+        "question": "You have the day to yourself. What’s your prime reading location?",
+        "ans": [
+            "On the couch with a blanket and my favorite music on in the background.",
+            "A coffee shop, preferably a seat next to a window.",
+            "My bed. There’s nothing like cuddling up with a good book.",
+            "On a hammock outdoors. Reading in the sun is truly magical."
+        ]
+    },
+    {
+        "question": "In your eyes, how should a book make you feel?",
+        "ans": [
+            "Exhilarated, like I’ve entered into a new and fantastical world.",
+            "All warm and cozy, like a giant hug.",
+            "On edge, like I’m being watched.",
+            "Calm and peaceful, like I’m at a spa."
+        ]
+    },
+    {
+        "question": "What’s your go-to reading beverage?",
+        "ans": [
+            "Coffee. There’s no tastier way to stay alert.",
+            "Tea. It warms my soul, like a book.",
+            "Water. Staying hydrated is as important as reading.",
+            "Nothing. I don’t sip on drinks while I read."
+        ]
+    },
+    {
+        "question": "Do you prefer standalones or book series?",
+        "ans": [
+            "Book series. I always know what to read next!",
+            "Standalones. No commitment. No cliffhangers. Perfect.",
+            "Either. I’ll pick up anything if I like the genre or author.",
+            "Series are fine, but I won’t read anything that has more than 3 books."
+        ]
+    },
+    {
+        "question": "Out of all these book tropes, which is your favorite?",
+        "ans": [
+            "One Bed. Oh, the shenanigans that unfold with 2 people and 1 bed.",
+            "Enemies to Lovers. Nothing beats the hero falling for the villain.",
+            "Second Chance. Every character is morally grey.",
+            "The Chosen One. Give me all the prophecies and save-the-world pressures."
+        ]
+    },
+    {
+        "question": "The weekend’s here and you can’t wait to relax. What TV show do you binge?",
+        "ans": [
+            "Friends or Schitt's Creek",
+            "American Horror Story or The Walking Dead",
+            "Lost or Stranger Things",
+            "WandaVision or Once Upon a Time"
+        ]
+    },
+    {
+        "question": "What’s something a book must have?",
+        "ans": [
+            "A fast pace. I want to be hooked from the very start.",
+            "A love triangle. Give me ships or give me death!",
+            "A mystery. I like playing detective.",
+            "A plot twist. Things are more interesting when they are unexpected."
+        ]
+    },
+    {
+        "question": "What do you like to see in a main character?",
+        "ans": [
+            "A sense of humor. They should make me laugh.",
+            "Relatable flaws. I want to see myself in them.",
+            "A strong will. Stubbornness keeps things interesting.",
+            "Kindness. I want to like and support them."
+        ]
+    },
+    {
+        "question": "If a book has this, it’s an immediate turn off:",
+        "ans": [
+            "History. I prefer my stories in the present time.",
+            "Romance. It’s fine as a subplot but not as the main event.",
+            "Cliches. I want to read something original.",
+            "Magic. Let’s keep things realistic."
+        ]
+    },
+    {
+        "question": "What’s something your life needs a little bit more of these days?",
+        "ans": [
+            "Excitement.",
+            "Drama.",
+            "Romance.",
+            "Adventure."
+        ]
+    },
+    {
+        "question": "When it comes to book covers, what are you drawn to?",
+        "ans": [
+            "Cartoon graphic designs. They're so bright and crisp.",
+            "Fun lettering and silhouette images. I make up my own interpretations.",
+            "Artistic illustrations. The more plot Easter eggs, the better!",
+            "Realistic photos. I like to imagine myself on the cover."
+        ]
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "question": "Choose a (cheesy) inspirational quote:",
+        "ans": [
+            "Live, Laugh, Love",
+            "Keep Calm and Carry On",
+            "But First, Coffee",
+            "Donut Worry, Be Happy"
+        ]
+    },
+    {
+        "question": "What are your thoughts on Taylor Swift?",
+        "ans": [
+            "Are you kidding? She <i>is</i> the music industry.",
+            "I’m not a Swiftie, but I like her music just fine.",
+            "I don’t have strong feelings about her or her music.",
+            "I can’t stand her."
+        ]
+    },
+    {
+        "question": "Do you like rollercoasters?",
+        "ans": [
+            "Heck yeah! Put me in the front car, please.",
+            "They’re fine, I guess.",
+            "No, but my friends force me to go on them.",
+            "Absolutely not. You couldn’t pay me to go on one!"
+        ]
+    },
+    {
+        "question": "In your opinion, what’s the best type of vacation?",
+        "ans": [
+            "One where I get to stay home—no travel required!",
+            "A vacation where I get to fly halfway across the world.",
+            "A road trip with lots of stops along the way.",
+            "A weekend trip to the coast."
+        ]
+    },
+    {
+        "question": "What’s your biggest pet peeve?",
+        "ans": [
+            "People who chew loudly.",
+            "People who talk during the movies.",
+            "People who crack their knuckles.",
+            "People who always show up late."
+        ]
+    },
+    {
+        "question": "What’s your idea of a fun second date?",
+        "ans": [
+            "Something quiet, like a short nature hike.",
+            "Something adventurous, like a trip to an ice rink.",
+            "Something fun, like a night at home playing video games.",
+            "Something classic, like dinner and a movie."
+        ]
+    },
+    {
+        "question": "Someone just cut in front of you in line! What do you do?",
+        "ans": [
+            "I call them out and ask them to wait their turn.",
+            "I politely remind them that there’s a line.",
+            "I clear my throat and hope that they notice.",
+            "I say nothing. It’s not worth the trouble."
+        ]
+    },
+    {
+        "question": "What room is a must-have in your dream house?",
+        "ans": [
+            "A room where the walls and floors are trampolines.",
+            "A movie theater.",
+            "An indoor pool (complete with a water slide).",
+            "A room so filled with plants that it's basically a jungle."
+        ]
+    },
+    {
+        "question": "What type of gesture is most meaningful to you?",
+        "ans": [
+            "Receiving a random but thoughtful gift.",
+            "Being given a warm hug.",
+            "Getting an unsolicited compliment.",
+            "Someone making the time to be with me."
+        ]
+    },
+    {
+        "question": "Which of these house pets would you most like to have?",
+        "ans": [
+            "A dog",
+            "A cat",
+            "A guinea pig, rabbit, or ferret",
+            "A parrot, reptile, or fish"
+        ]
+    },
+    {
+        "question": "What’s your go-to beverage in the morning?",
+        "ans": [
+            "Milk",
+            "Water",
+            "Orange juice",
+            "An energy drink or cup of coffee"
+        ]
+    },
+    {
+        "question": "Which strange event would you most like to experience?",
+        "ans": [
+            "Spotting a UFO.",
+            "Visiting a real haunted house.",
+            "Meeting my long-lost twin.",
+            "Switching bodies with someone else."
+        ]
+    },
+    {
+        "question": "You won the mystery prize! You can choose from:",
+        "ans": [
+            "A brown paper bag filled with pennies.",
+            "A pickle that glows in the dark.",
+            "A plush blanket with a clown on it.",
+            "A cat-sized baseball cap."
+        ]
+    },
+    {
+        "question": "What’s your preferred way to travel?",
+        "ans": [
+            "On foot. I like the exercise!",
+            "By car. See you soon!",
+            "By bus. At least I don’t have to drive!",
+            "By plane. What’s quicker than flying?"
+        ]
+    },
+    {
+        "question": "Which made-up reality TV show would you most like to watch?",
+        "ans": [
+            "Beauty & the Feast: a beauty pageant and cooking competition rolled into one.",
+            "Big Pupper: people adopt random puppies and see how big they grow in 6 months.",
+            "The Amazing Space: a scavenger hunt in outer space.",
+            "Don’t Forgetti the Spaghetti: a contest where people make spaghetti blindfolded."
+        ]
+    },
+    {
+        "question": "Pick a stupid American law that either currently exists or used to exist:",
+        "ans": [
+            "It’s illegal to stash an alligator in your bathtub. (Arkansas)",
+            "It’s illegal to top your cherry pie with ice cream. (Kansas)",
+            "It’s illegal to tap your toe to music in stores or restaurants. (New Hampshire)",
+            "It’s illegal to lasso a fish. (Tennessee)"
+        ]
+    }
+]

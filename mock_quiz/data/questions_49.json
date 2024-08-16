@@ -1,0 +1,110 @@
+[
+    {
+        "question": "How many people have you kissed?",
+        "ans": [
+            "More people than is easy to count—I’ve had plenty of practice!",
+            "A few people.",
+            "One.",
+            "None."
+        ]
+    },
+    {
+        "question": "How would you describe your kissing “rhythm?”",
+        "ans": [
+            "A mix of speeds and intensities.",
+            "Slow and smooth.",
+            "Slow and cautious.",
+            "Fast and choppy."
+        ]
+    },
+    {
+        "question": "Are you a confident kisser?",
+        "ans": [
+            "Definitely, I always feel confident when I’m kissing someone.",
+            "Yes, for the most part.",
+            "Not really, sometimes I feel a little nervous.",
+            "No, I always feel really nervous to kiss someone."
+        ]
+    },
+    {
+        "question": "Have you ever kissed a really good kisser before?",
+        "ans": [
+            "Definitely! I’ve kissed lots of great kissers.",
+            "Yes, I’ve kissed one or two good kissers before.",
+            "No, the people I’ve kissed haven’t been that great at it.",
+            "No, I don’t have much kissing experience in general."
+        ]
+    },
+    {
+        "question": "Has anyone ever told you that you’re a good kisser?",
+        "ans": [
+            "Yes, multiple people have told me that.",
+            "Yes, one person has.",
+            "No, that hasn’t come up before.",
+            "No, but I haven’t kissed that many people!"
+        ]
+    },
+    {
+        "question": "What’s your favorite type of kissing?",
+        "ans": [
+            "Any type of kissing. I go with the flow depending on the mood.",
+            "French kissing.",
+            "Making out.",
+            "Just a few quick pecks."
+        ]
+    },
+    {
+        "question": "What are your thoughts on kissing with tongue?",
+        "ans": [
+            "I love it if the mood is right!",
+            "I sometimes enjoy it!",
+            "I think I prefer kissing without it.",
+            "I’m not sure because I haven’t tried it yet."
+        ]
+    },
+    {
+        "question": "Have you tried multiple different types of kissing (french kissing, neck kissing, etc.)?",
+        "ans": [
+            "Yes, I feel like I’ve tried most of them at this point!",
+            "Yes, I’ve tried several different types.",
+            "Yea, but only a couple so far.",
+            "No, I haven’t really experimented with different types of kissing."
+        ]
+    },
+    {
+        "question": "What do you usually do with your hands when you’re kissing someone?",
+        "ans": [
+            "I run my fingers through the person’s hair and romantically hold their face.",
+            "I use them to gently pull the person in closer and hold them.",
+            "I hold the other person’s hands in mine.",
+            "I don’t usually do anything with my hands, honestly."
+        ]
+    },
+    {
+        "question": "How do people usually act when you’re kissing them?",
+        "ans": [
+            "Super into it and like they can’t get enough.",
+            "Like they’re having a good time, at least from what I can tell.",
+            "They seem to like it, but we usually don’t kiss for very long.",
+            "They act kind of awkward and we quickly move on to something else."
+        ]
+    },
+    {
+        "question": "How would you describe your lips?",
+        "ans": [
+            "Smooth, soft, and hydrated.",
+            "Moisturized and well-maintained (most of the time, at least!).",
+            "Pretty average—I don’t really do much to my lips.",
+            "Chapped most of the time."
+        ]
+    },
+    {
+        "question": "How is your oral hygiene?",
+        "ans": [
+            "Excellent. I floss and brush twice a day.",
+            "Good. I brush twice a day.",
+            "Pretty good. I brush at least once a day.",
+            "It could be better. I sometimes forget to brush."
+        ]
+    }
+]

@@ -1,0 +1,227 @@
+[
+    {
+        "question": "Who was the president of the United States during the Cuban Missile Crisis?",
+        "ans": [
+            "Dwight D. Eisenhower",
+            "John F. Kennedy",
+            "Lyndon B. Johnson",
+            "Richard Nixon"
+        ]
+    },
+    {
+        "question": "How many players can be on a football field at once?",
+        "ans": [
+            "9",
+            "11",
+            "22",
+            "30"
+        ]
+    },
+    {
+        "question": "Which countries share a border with Panama?",
+        "ans": [
+            "Nicaragua, Honduras, and Venezuela",
+            "Costa Rica and Columbia",
+            "Columbia, Ecuador, and Nicaragua",
+            "Costa Rica and Venezuela"
+        ]
+    },
+    {
+        "question": "Which planet is furthest from the sun?",
+        "ans": [
+            "Saturn",
+            "Uranus",
+            "Neptune",
+            "Mars"
+        ]
+    },
+    {
+        "question": "Which two cities is Charles Dickens’ novel <i>A Tale of Two Cities</i> about?",
+        "ans": [
+            "London and Rome",
+            "Barcelona and Glasgow",
+            "London and Paris",
+            "Rome and Paris"
+        ]
+    },
+    {
+        "question": "Who’s the lead singer of The Rolling Stones?",
+        "ans": [
+            "Steven Tyler",
+            "Paul McCartney",
+            "Mick Jagger",
+            "Keith Richards"
+        ]
+    },
+    {
+        "question": "What does the Roman numeral XC represent?",
+        "ans": [
+            "90",
+            "100",
+            "1000",
+            "2100"
+        ]
+    },
+    {
+        "question": "Which animal is NOT extinct?",
+        "ans": [
+            "Carolina parakeet",
+            "Tasmanian tiger",
+            "Western black rhinoceros",
+            "South Asian river dolphin"
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a Greek god or goddess?",
+        "ans": [
+            "Oceanus",
+            "Chaos",
+            "Hypnos",
+            "Divinity"
+        ]
+    },
+    {
+        "question": "What famous actor voiced Lightning McQueen in the Disney-Pixar film <i>Cars</i>?",
+        "ans": [
+            "Will Arnett",
+            "Tom Hanks",
+            "Owen Wilson",
+            "Joey Lawrence"
+        ]
+    },
+    {
+        "question": "Who signed all 3 documents that freed America from British rule?",
+        "ans": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Alexander Hamilton",
+            "Benjamin Franklin"
+        ]
+    },
+    {
+        "question": "Which country exports the most coffee?",
+        "ans": [
+            "Columbia",
+            "Brazil",
+            "Switzerland",
+            "Germany"
+        ]
+    },
+    {
+        "question": "Which baseball team has won the most World Series titles?",
+        "ans": [
+            "New York Yankees",
+            "St. Louis Cardinals",
+            "Boston Red Sox",
+            "Oakland A’s"
+        ]
+    },
+    {
+        "question": "Who painted <i>Girl with a Pearl Earring</i>?",
+        "ans": [
+            "Vermeer",
+            "Rembrandt",
+            "Bernini",
+            "Da Vinci"
+        ]
+    },
+    {
+        "question": "Which 3 colors make up the flag of Madagascar?",
+        "ans": [
+            "White, red, and green",
+            "Blue, yellow, and white",
+            "White, orange, and green",
+            "Red, white, and blue"
+        ]
+    },
+    {
+        "question": "What is the heaviest organ in the human body?",
+        "ans": [
+            "Skin",
+            "Heart",
+            "Brain",
+            "Liver"
+        ]
+    },
+    {
+        "question": "Who is the half-blood prince in the <i>Harry Potter</i> series?",
+        "ans": [
+            "Harry Potter",
+            "Severus Snape",
+            "Sirius Black",
+            "Lord Voldemort"
+        ]
+    },
+    {
+        "question": "What were the dates of WWII?",
+        "ans": [
+            "1939-1944",
+            "1940-1945",
+            "1941-1944",
+            "1939-1945"
+        ]
+    },
+    {
+        "question": "What is the largest desert in the world?",
+        "ans": [
+            "Sahara",
+            "Antarctica",
+            "Arabian",
+            "Arctic"
+        ]
+    },
+    {
+        "question": "Who composed \"The Four Seasons\"?",
+        "ans": [
+            "Beethoven",
+            "Vivaldi",
+            "Bach",
+            "Chopin"
+        ]
+    },
+    {
+        "question": "Who is known as the father of geometry?",
+        "ans": [
+            "Euclid",
+            "Albert Einstein",
+            "Isaac Newton",
+            "Alan Turing"
+        ]
+    },
+    {
+        "question": "Who wrote <i>For Whom the Bell Tolls</i>?",
+        "ans": [
+            "Ernest Hemingway",
+            "John Steinbeck",
+            "William Faulkner",
+            "Cormac McCarthy"
+        ]
+    },
+    {
+        "question": "What are the main ingredients in a traditional martini?",
+        "ans": [
+            "Vodka and vermouth",
+            "Gin and vermouth",
+            "Vodka and bitters",
+            "Gin and bitters"
+        ]
+    },
+    {
+        "question": "Who invented the World Wide Web?",
+        "ans": [
+            "Al Gore",
+            "Tim Berners-Lee",
+            "Steve Wozniak",
+            "Bill Gates"
+        ]
+    },
+    {
+        "question": "What does “anosmia” refer to?",
+        "ans": [
+            "A lack of iron in the body.",
+            "The inability to smell.",
+            "A lack of vitamin C in the body.",
+            "The inability to picture images in the mind."
+        ]
+    }
+]

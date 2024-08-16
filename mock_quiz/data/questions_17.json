@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Choose a group of activities that sound most interesting to you:",
+        "ans": [
+            "Going to a concert, listening to a TedTalk, or creating a podcast.",
+            "Meditating, taking a bath, or reading.",
+            "Playing basketball, throwing pottery, or baking bread.",
+            "Camping, kayaking, or fishing."
+        ]
+    },
+    {
+        "question": "How do you make an important decision?",
+        "ans": [
+            "I make a pros and cons list, of course!",
+            "I get the opinion of someone I trust.",
+            "I go with my gut.",
+            "I try to visually picture the likely outcomes of both choices."
+        ]
+    },
+    {
+        "question": "You’re working outside with a group on a project for work or school. What’s your reaction?",
+        "ans": [
+            "Sweet! I love collaborating with other people.",
+            "Ugh. I prefer independent work.",
+            "As long as we’re working outside, I’m happy.",
+            "Fine, but I want to be the group leader."
+        ]
+    },
+    {
+        "question": "You're meeting a friend at a new restaurant. How do you find it?",
+        "ans": [
+            "Use a map or Google Earth.",
+            "Ask someone how to get there.",
+            "Wander around until I locate it.",
+            "Follow written directions."
+        ]
+    },
+    {
+        "question": "Pick a place to study:",
+        "ans": [
+            "A quiet, private cubby in the library so I can work undisturbed.",
+            "Leaning up against a tree at the park or in my favorite nature clearing.",
+            "A busy café where I’m in the middle of all the hustle and bustle.",
+            "Anywhere. I can focus in all sorts of environments."
+        ]
+    },
+    {
+        "question": "If you had to change your phone number, how would you memorize it?",
+        "ans": [
+            "Write it down a few times.",
+            "Say it out loud over and over.",
+            "Repeat it in my head until it sticks.",
+            "Find a way to relate it to another number I know, like a birthday or historical date."
+        ]
+    },
+    {
+        "question": "What would help you relieve stress?",
+        "ans": [
+            "Talking about my problems with a friend.",
+            "Taking a walk on my favorite nature trail.",
+            "Going to a party to get my mind off things.",
+            "Solving the problem that’s creating the stress."
+        ]
+    },
+    {
+        "question": "You just got a new electronic device. How do you figure out how it works?",
+        "ans": [
+            "Carefully read the instructions.",
+            "Watch a video tutorial online.",
+            "Ask a friend to teach me how to use it.",
+            "Play around with it until I learn all the ins and outs."
+        ]
+    },
+    {
+        "question": "What’s your favorite class?",
+        "ans": [
+            "P.E. or a science lab. I like to be active and hands-on.",
+            "Music or a foreign language. I love getting to use my voice when I’m learning new things.",
+            "English or history. I enjoy reading and writing.",
+            "Math or computer science. Let’s solve some problems!"
+        ]
+    },
+    {
+        "question": "What kind of assessment do you prefer to show what you’ve learned?",
+        "ans": [
+            "A demonstration or performance.",
+            "A written report.",
+            "A group presentation.",
+            "An exam."
+        ]
+    },
+    {
+        "question": "You get to try out a new job for a week. Which ones sound the most interesting?",
+        "ans": [
+            "Construction worker, woodworker, or personal trainer.",
+            "Graphic designer, interior designer, or photographer.",
+            "Therapist, recruiter, or career counselor.",
+            "Park ranger, biologist, or rancher."
+        ]
+    },
+    {
+        "question": "You’re having fun online looking at dream homes. What do you most want to see?",
+        "ans": [
+            "A video tour of the space.",
+            "A description of the rooms and amenities.",
+            "The floor plan.",
+            "The image from Google Earth."
+        ]
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "question": "Do you ever feel as though you're an outsider in your group of friends?",
+        "ans": [
+            "Never or rarely.",
+            "Sometimes.",
+            "Often, or always.",
+            "I'm never with a group of friends."
+        ]
+    },
+    {
+        "question": "Do you ever feel as though you have nobody to talk to?",
+        "ans": [
+            "Never or rarely.",
+            "Sometimes.",
+            "Often.",
+            "Always."
+        ]
+    },
+    {
+        "question": "Do you ever feel like you're missing out on something, even if you're not sure what?",
+        "ans": [
+            "Never, or rarely.",
+            "Sometimes.",
+            "Often.",
+            "Always."
+        ]
+    },
+    {
+        "question": "Is it easy for you to talk to new people and make new friends?",
+        "ans": [
+            "Yes, it's very easy to make new friends.",
+            "It's pretty easy to make new friends.",
+            "It's a little difficult to make new friends, but not impossible.",
+            "It feels impossible for me to make new friends."
+        ]
+    },
+    {
+        "question": "Is it easy for you to feel heard and seen in your everyday life?",
+        "ans": [
+            "Yes, I often get the sympathy and affection I need.",
+            "I can usually get help and support, but not always.",
+            "I don’t usually feel supported by others.",
+            "I never or rarely feel supported or understood by others."
+        ]
+    },
+    {
+        "question": "Do you ever feel self-conscious or out-of-place when you’re in public?",
+        "ans": [
+            "No, I never feel out of place in public.",
+            "I sometimes feel self-conscious in public, but not uncomfortable.",
+            "I often feel out-of-place in public settings, and it makes me uncomfortable.",
+            "I always feel self-conscious when I'm out in public."
+        ]
+    },
+    {
+        "question": "Do you ever feel as though your accomplishments aren't recognized or rewarded?",
+        "ans": [
+            "No, I feel rewarded and recognized for my achievements.",
+            "I usually feel rewarded and recognized for my accomplishments, but not all the time.",
+            "I often feel like my hard work and achievements aren’t recognized or rewarded.",
+            "I always feel overlooked for my accomplishments."
+        ]
+    },
+    {
+        "question": "Do you feel you belong to some sort of community that makes you feel connected to others—like a club, friend group, neighborhood, online community, or even your local coffee shop?",
+        "ans": [
+            "Yes, I feel I belong to a community, or more than one community.",
+            "I sometimes feel like I belong to a community, but not always.",
+            "I don’t usually feel a sense of belonging with a community.",
+            "I never feel a sense of belonging with a group or community."
+        ]
+    }
+]

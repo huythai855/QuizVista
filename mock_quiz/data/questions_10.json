@@ -1,0 +1,128 @@
+[
+    {
+        "question": "Take a second to think: in your brain, does the number 7 have a personality (or a color)?",
+        "ans": [
+            "Yes, I immediately think of a clear, specific personality for the number 7.",
+            "I get certain vibes from different numbers or letters, but nothing too specific.",
+            "No, not at all—what are you talking about?",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Does \"Monday\" have a specific personality or color in your head?",
+        "ans": [
+            "Yes, it has a very distinct personality or color. (Examples: it’s friendly, or it’s red.)",
+            "Maybe? I have some feelings I associate with Monday, but I’m not sure it has its own personality or color.",
+            "No, definitely not. Mondays are just Mondays.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Does the month of February make you think of a specific color (or, does it have human qualities in your head)?",
+        "ans": [
+            "Yes! (Examples: February is shy and whimsical, for instance—or maybe it’s yellow.)",
+            "I guess? It’s usually snowy, so I think of white. And Valentine’s Day is in February, so I think of it as a romantic month.",
+            "No, not at all. It’s just a time of year.",
+            "I don’t really know."
+        ]
+    },
+    {
+        "question": "Does the letter \"A\" have a specific personality or color?",
+        "ans": [
+            "Oh for sure! (Examples: A is very proper and standoffish, for instance, or perhaps it’s turquoise.)",
+            "Possibly. I have some vague feelings about the letter “A,” I guess?",
+            "No way. It’s just a letter!",
+            "I don’t know."
+        ]
+    },
+    {
+        "question": "Now, add the letter \"C.\" Can you imagine personality differences between \"A\" and \"C,\" or how the letters would interact?",
+        "ans": [
+            "Oh yes. (Example: all “C” wants to do is party and have fun, but “A” is very studious and goes to bed early.)",
+            "Maybe. I have some feelings about “A,” but not very strong feelings about “C.”",
+            "Absolutely not. They’re just letters, people!",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Do certain sounds make you feel things on a physical level? (E.g., the sound of someone cracking their gum makes you feel itchy.)",
+        "ans": [
+            "Yes, certain sounds produce specific physical sensations! (Example: Taylor Swift’s voice makes me feel tingly.)",
+            "Sometimes, but it doesn’t always happen or it’s not very intense.",
+            "No, I’ve never experienced this.",
+            "I don’t know."
+        ]
+    },
+    {
+        "question": "Do the words you’re reading look colorful to you?",
+        "ans": [
+            "Yes, they’re definitely colored in.",
+            "Now that you mention it, some are colorful.",
+            "No, they’re just black.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "You just saw a stranger trip and hurt her knee. Does it seem like you can physically feel her pain?",
+        "ans": [
+            "Yes—my own knee hurts as if I fell down myself!",
+            "Sort of—I feel for her on an emotional level, but nothing more.",
+            "I hope she’s OK, but personally, I feel fine.",
+            "I don’t know."
+        ]
+    },
+    {
+        "question": "Do you see colors or abstract shapes during routine activities, like listening to music or eating lunch?",
+        "ans": [
+            "Almost always! It can even get distracting on occasion.",
+            "Sometimes—it depends on what activity I’m doing.",
+            "No, no shapes and colors for me.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Does hearing certain words make you taste certain foods? (For instance, the word “summer” makes you taste chocolate.)",
+        "ans": [
+            "Yes! I associate specific foods with specific words.",
+            "Sometimes, especially if I’m hungry.",
+            "No, that’s very strange. Words are words.",
+            "I don’t know."
+        ]
+    },
+    {
+        "question": "When you think about your future schedule, can you “see” the passage of time?",
+        "ans": [
+            "Yeah! In my head, I see time as, like, a shape or a landscape laid out around me.",
+            "I don’t “see” time, but I imagine a calendar in my head.",
+            "No…I’m not even totally sure what you’re talking about.",
+            "I don’t know."
+        ]
+    },
+    {
+        "question": "Do you ever confuse numbers with colors?",
+        "ans": [
+            "Yes (and boy does it make math hard!).",
+            "No, I don’t think so. Maybe?",
+            "No, never. Numbers are numbers.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Which of the following sentences rings the most true to you?",
+        "ans": [
+            "I almost always experience multiple senses at once—for instance, when I listen to music, I often see colors.",
+            "I sometimes have unusual sensory experiences.",
+            "I don’t really ever have any unusual sensory experiences.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Does anyone in your family experience multiple senses at once?",
+        "ans": [
+            "Yes, a lot of my family members get their sensory wires crossed.",
+            "Maybe one or two, but not many.",
+            "No, nobody in my family ever has unusual sensory experiences.",
+            "I’m not sure."
+        ]
+    }
+]

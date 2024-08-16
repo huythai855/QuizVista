@@ -1,0 +1,128 @@
+[
+    {
+        "question": "How many times can you subtract 8 from 64?",
+        "ans": [
+            "Once",
+            "Eight times",
+            "Six times",
+            "Nine times"
+        ]
+    },
+    {
+        "question": "How many months have 28 days?",
+        "ans": [
+            "They all do.",
+            "One of them.",
+            "Three of them.",
+            "None of them do."
+        ]
+    },
+    {
+        "question": "Which is heavier: 100 pounds of steel or 100 pounds of feathers?",
+        "ans": [
+            "They weigh the same.",
+            "The steel.",
+            "The feathers.",
+            "I need more information."
+        ]
+    },
+    {
+        "question": "What was the tallest mountain in the world before Mount Everest was discovered?",
+        "ans": [
+            "Mount Everest",
+            "Mount McKinley",
+            "Kangchenjunga",
+            "Mount Vesuvius"
+        ]
+    },
+    {
+        "question": "You throw a ball 5 feet away, and it comes right back to you. Which direction did you throw it in?",
+        "ans": [
+            "Up.",
+            "Left.",
+            "Right.",
+            "This is impossible."
+        ]
+    },
+    {
+        "question": "You’re racing against several people and pass the person in 3rd place. What place are you in?",
+        "ans": [
+            "3rd place",
+            "2nd place",
+            "Last place",
+            "1st place"
+        ]
+    },
+    {
+        "question": "How many peaches can you put in an empty basket?",
+        "ans": [
+            "1",
+            "12",
+            "0",
+            "I need more information to answer this!"
+        ]
+    },
+    {
+        "question": "How can a person go 10 days without sleep?",
+        "ans": [
+            "By sleeping at night.",
+            "By getting hypnotized.",
+            "By getting surgery.",
+            "They can’t, it’s impossible."
+        ]
+    },
+    {
+        "question": "You get an email from a mysterious prince who lives far away. He says that if you send him money, he’ll use it to access his wealth (and share it with you). What do you do?",
+        "ans": [
+            "Ignore it. Why would a prince be asking me for money? This seems fishy.",
+            "Reply to him. Can I get some more information about this transaction?",
+            "Send some money! I’ll send as much as I have to. This sounds like a great opportunity.",
+            "Okay, I’ll do it—just this once."
+        ]
+    },
+    {
+        "question": "Which of these countries has the 4th of July?",
+        "ans": [
+            "All of them.",
+            "Mexico.",
+            "United Kingdom.",
+            "United States of America."
+        ]
+    },
+    {
+        "question": "If your friends jumped off a bridge, would you do it too?",
+        "ans": [
+            "Nope. If I were going to, I’d need my own good reason.",
+            "If they had a good reason, I guess I would.",
+            "If they told me to, I’d feel like I had to.",
+            "Yeah! I sure would!"
+        ]
+    },
+    {
+        "question": "How much dirt is in a hole that’s 12 feet deep and 5 feet wide?",
+        "ans": [
+            "None.",
+            "60 square feet of dirt.",
+            "150 pounds of dirt.",
+            "More information is needed."
+        ]
+    },
+    {
+        "question": "If you’re outside and a thunderstorm rolls in, what should you do?",
+        "ans": [
+            "Get to shelter right away.",
+            "Duck under a tall tree or structure.",
+            "Get as low to the ground as I can.",
+            "Hug a copper pole?"
+        ]
+    },
+    {
+        "question": "You’re upset with your best friend. What do you do about it?",
+        "ans": [
+            "I try to have a calm one-on-one talk with them about the problem.",
+            "I post on social media about how rude they are.",
+            "I egg their house.",
+            "I refuse to acknowledge them until they say sorry."
+        ]
+    }
+]

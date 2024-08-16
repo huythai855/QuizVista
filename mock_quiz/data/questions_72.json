@@ -1,0 +1,110 @@
+[
+    {
+        "question": "How do you usually think about the future?",
+        "ans": [
+            "I'm an optimist! Things will always work out, one way or another.",
+            "I'm a bit of a pessimist. I'm always prepared for the worst.",
+            "I'm a realist. I try to be balanced and reasonable.",
+            "I don't really think about the future! The present is wild enough as it is."
+        ]
+    },
+    {
+        "question": "What's your favorite kind of weather?",
+        "ans": [
+            "Sunny and clear, not a cloud in the sky!",
+            "Dark clouds overhead and electricity in the air.",
+            "Snowing after dark, when the sky is pink and everything is silent.",
+            "Breezy and cool, with fresh scents on the wind."
+        ]
+    },
+    {
+        "question": "What's your favorite time of day?",
+        "ans": [
+            "The morning, when everything is fresh and new.",
+            "The afternoon, when life is in full swing.",
+            "The evening, when things start to wind down.",
+            "The night, when it feels like I'm the only one awake."
+        ]
+    },
+    {
+        "question": "Do it for the plot: Which dare would you rather do?",
+        "ans": [
+            "Go bungee jumping.",
+            "Run a mile in the rain.",
+            "Take a cold plunge in a freezing lake.",
+            "Walk across hot coals."
+        ]
+    },
+    {
+        "question": "Choose a birthday gift to receive:",
+        "ans": [
+            "A board game or video game.",
+            "Something sporty, like a mountain bicycle.",
+            "A ticket to a concert or an amusement park.",
+            "A fancy pen and cute stationery that so much fun to write with."
+        ]
+    },
+    {
+        "question": "Which holiday happens near your birthday?",
+        "ans": [
+            "Christmas.",
+            "St. Patrick's Day.",
+            "American Independence Day.",
+            "Halloween."
+        ]
+    },
+    {
+        "question": "How would your friends describe you? Choose the option that feels best!",
+        "ans": [
+            "Someone who's always prepared, and always has a plan.",
+            "Someone who's always down for anything, no matter what.",
+            "Someone who's always inside their own head, and having new ideas.",
+            "Someone who's always giving advice and lending a hand."
+        ]
+    },
+    {
+        "question": "Pick a dessert:",
+        "ans": [
+            "Ice cream!🍦",
+            "Donuts! 🍩",
+            "Chocolate! 🍫",
+            "Pie! 🥧"
+        ]
+    },
+    {
+        "question": "Regardless of your birthday, which season is your real favorite?",
+        "ans": [
+            "Winter! I love the feeling that the world is asleep.",
+            "Spring! I love watching the world wake up.",
+            "Summer! I love long days and big adventures.",
+            "Fall! I love the feeling of change and anticipation."
+        ]
+    },
+    {
+        "question": "Choose a beverage:",
+        "ans": [
+            "Coffee ☕",
+            "Soda 🥤",
+            "Lemonade 🍋",
+            "Tea 🍵"
+        ]
+    },
+    {
+        "question": "Alright, we want a little hint: What time of year does your birthday take place?",
+        "ans": [
+            "Early in the year, but not too early!",
+            "Late in the year, but not the end!",
+            "Near the start of the year!",
+            "Near the end of the year!"
+        ]
+    },
+    {
+        "question": "Choose your star sign, if you know it:",
+        "ans": [
+            "Capricorn, Aquarius, Pisces, or Aries",
+            "Taurus, Gemini, Cancer, or Leo",
+            "Virgo, Libra, Scorpio, or Saggitarius",
+            "I'm not sure!"
+        ]
+    }
+]

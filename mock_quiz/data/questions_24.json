@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Do you feel like you have a good handle on your emotions most days?",
+        "ans": [
+            "Absolutely! I feel really in control of my emotions.",
+            "Mostly, but I slip up occasionally.",
+            "Kind of? I lose control sometimes, though.",
+            "Not really. I don’t feel like I’m in control of my emotions."
+        ]
+    },
+    {
+        "question": "Your teacher just gave you constructive feedback on a project. How do you react?",
+        "ans": [
+            "I thank them and make a mental note for later.",
+            "I smile and nod, but I’m a tiny bit annoyed on the inside.",
+            "I explain how I disagree, but I don’t really push the matter.",
+            "I launch into an argument with them. They’re totally in the wrong!"
+        ]
+    },
+    {
+        "question": "You and your friend get into a pretty nasty argument. How do you patch things up?",
+        "ans": [
+            "I acknowledge the role I played in our argument and take accountability for my actions.",
+            "I offer the most genuine apology I can muster, even if I don’t fully mean it.",
+            "I apologize, but make it clear that they’re the one in the wrong.",
+            "I don’t do anything—it’s up to them to fix things."
+        ]
+    },
+    {
+        "question": "How often do you ask “How are you doing?” to your friends and loved ones?",
+        "ans": [
+            "At least once per conversation.",
+            "Once every few days.",
+            "Once a week or so.",
+            "I don’t typically remember to check-in."
+        ]
+    },
+    {
+        "question": "You just received a bad grade and are feeling super frustrated. How do you react?",
+        "ans": [
+            "I give myself time to unpack my feelings later on in a private space.",
+            "I feel tense about it at first, but push it to the back of my mind until later.",
+            "I don’t talk about it, but I’m a little bit snippy for the rest of the day.",
+            "It really affects my mood—all my peers can tell that I’m upset."
+        ]
+    },
+    {
+        "question": "Do you feel comfortable expressing your feelings in a respectful way?",
+        "ans": [
+            "Yes, definitely. I can share my feelings without blaming other people.",
+            "Usually, yeah—I don’t have too much trouble keeping my cool.",
+            "Occasionally, but it doesn’t take long for me to play the blame game.",
+            "Nah. I tend to blame other people for how I’m feeling."
+        ]
+    },
+    {
+        "question": "The new gadget you want costs 0, but you only have 0 saved up. What’s your next move?",
+        "ans": [
+            "I patiently save a little money over the next few months.",
+            "I ask my neighbors if I can do some chores for a little cash.",
+            "I ask my friend to loan me the rest of the money.",
+            "I guilt-trip my parents until they give me what I want."
+        ]
+    },
+    {
+        "question": "In a given conversation, how much time do you spend talking about yourself?",
+        "ans": [
+            "About 50%—it’s an even split between myself and the other person.",
+            "Between 50 and 60%. I talk a little more than the other person.",
+            "Around 60-80%. I definitely dominate the conversation.",
+            "Over 80%. The other person might get a few sentences in."
+        ]
+    },
+    {
+        "question": "How often do you set aside time for self-reflection?",
+        "ans": [
+            "At least once a day.",
+            "Once every few days, I’d say.",
+            "Once a week, typically.",
+            "No idea—it’s not really a priority for me."
+        ]
+    },
+    {
+        "question": "A friend just disagreed with something you said. How do you react?",
+        "ans": [
+            "I ask them about their opinion. I’m so intrigued to hear their thoughts!",
+            "I laugh it off, though I feel slightly irked.",
+            "I say nothing, but stew about it long after the conversation ends.",
+            "I poke fun at their opinion. That’s what they get for disagreeing with me!"
+        ]
+    },
+    {
+        "question": "Do you like to gossip with your friends?",
+        "ans": [
+            "Nope. I’d be hurt if I knew someone was talking about me behind my back.",
+            "A little bit. It’s definitely a guilty pleasure…",
+            "I like to gossip, but I don’t usually initiate it.",
+            "Absolutely! I love to hear the latest tea."
+        ]
+    },
+    {
+        "question": "Your peer wins an award that you were hoping to get. What do you do?",
+        "ans": [
+            "I smile and congratulate them. They earned it!",
+            "I give them a shout-out, but I don’t really mean it.",
+            "I roll my eyes. They probably became a teacher’s pet in order to win.",
+            "I complain to my friends about how I deserved to win."
+        ]
+    }
+]

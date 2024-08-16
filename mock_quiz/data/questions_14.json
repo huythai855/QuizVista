@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What do you struggle with the most?",
+        "ans": [
+            "Feeling insecure and frustrated with life. How do I know if I’m good enough?",
+            "Being confident in my opinions. It’s so hard to speak up sometimes!",
+            "Believing in others as well as myself. Trust is so difficult!",
+            "Being creative. I feel so blocked!"
+        ]
+    },
+    {
+        "question": "How have you been feeling lately?",
+        "ans": [
+            "Frustrated and irritated.",
+            "Unable to share what’s on my mind.",
+            "Anxious and worried about the future.",
+            "Unhappy and purposeless."
+        ]
+    },
+    {
+        "question": "If you could improve one thing in your life, what would it be?",
+        "ans": [
+            "My work-life balance. I feel like I’m on my last leg.",
+            "My thoughts. I need to stop being so negative.",
+            "My self-worth. I need to start believing in myself.",
+            "My judgment. I wish I wasn’t so harsh on others."
+        ]
+    },
+    {
+        "question": "Your weekend plans with friends change unexpectedly. How do you respond?",
+        "ans": [
+            "I scowl and complain for a little while.",
+            "I nod, even though I have more I want to say.",
+            "I smile and say it’s okay, even if I fear my friends have rejected me.",
+            "I try to convince myself that things are better this way."
+        ]
+    },
+    {
+        "question": "What’s your biggest fear?",
+        "ans": [
+            "Losing my job or passions. I need to have a purpose.",
+            "Not being able to express myself or handle my feelings.",
+            "Being rejected. I want to feel included.",
+            "Not having control of my life."
+        ]
+    },
+    {
+        "question": "You wake up feeling under the weather. What’s ailing you?",
+        "ans": [
+            "My legs and my hips. Can I just stay in bed?",
+            "My neck. Maybe I slept wrong.",
+            "My stomach and my chest. I want to curl up into a ball.",
+            "My head aches and my mind is racing. I just want to sleep."
+        ]
+    },
+    {
+        "question": "What do you wish you had more time for these days?",
+        "ans": [
+            "Self-care. I need to recharge.",
+            "Creating. I want to sing, dance, and paint to my heart’s content.",
+            "Socializing. I wish I could connect with more people.",
+            "Meditating. I’d like to look inward, if only for a moment."
+        ]
+    },
+    {
+        "question": "Which of these mantras do you resonate with the LEAST?",
+        "ans": [
+            "“I am grounded, secure, and safe in my body.”",
+            "“I speak and create my truths.”",
+            "“I accept and love myself unconditionally.”",
+            "“I trust the process and am at peace with myself.”"
+        ]
+    },
+    {
+        "question": "Out of these traits, what do you wish you had more of?",
+        "ans": [
+            "Confidence",
+            "Patience",
+            "Tranquility",
+            "Humility"
+        ]
+    },
+    {
+        "question": "What would bring you the most peace right now?",
+        "ans": [
+            "Doing a craft or taking a walk in nature.",
+            "Listening to music or painting a picture.",
+            "Hanging out with friends or family.",
+            "Going shopping or reading a new book."
+        ]
+    },
+    {
+        "question": "Think about your wardrobe. What color do you have the least of?",
+        "ans": [
+            "Red and orange",
+            "Yellow, green, and indigo",
+            "Blue",
+            "Purple and white"
+        ]
+    },
+    {
+        "question": "Let’s pretend you get to go on your dream vacation. Where do you go?",
+        "ans": [
+            "The top of a snowy mountain.",
+            "A beach with crystal clear water.",
+            "A forest where the trees are taller than skyscrapers.",
+            "A tropical jungle or a desert with large sand dunes."
+        ]
+    }
+]

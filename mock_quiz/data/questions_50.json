@@ -1,0 +1,137 @@
+[
+    {
+        "question": "What’s the smallest state in the USA?",
+        "ans": [
+            "Rhode Island",
+            "Delaware",
+            "Florida",
+            "California"
+        ]
+    },
+    {
+        "question": "If you found a cool rock, you’d ask this type of scientist to identify it for you:",
+        "ans": [
+            "Geologist",
+            "Ecologist",
+            "Biologist",
+            "Physicist"
+        ]
+    },
+    {
+        "question": "Can you figure out which answer is NOT a prime number?",
+        "ans": [
+            "7",
+            "89",
+            "47",
+            "57"
+        ]
+    },
+    {
+        "question": "If you were traveling to the capital of Austria, you’d head to:",
+        "ans": [
+            "Vienna",
+            "Salzburg",
+            "Zürich",
+            "Berlin"
+        ]
+    },
+    {
+        "question": "Which language is spoken by the most people all over the world?",
+        "ans": [
+            "English",
+            "Mandarin Chinese",
+            "Hindi",
+            "Spanish"
+        ]
+    },
+    {
+        "question": "If you were shopping for eggplants in the UK, you’d look for a veggie called:",
+        "ans": [
+            "Aubergine",
+            "Gammon",
+            "Courgette",
+            "Treacle"
+        ]
+    },
+    {
+        "question": "What is the lowest vocal type in a choir?",
+        "ans": [
+            "Soprano",
+            "Alto",
+            "Baritone",
+            "Bass"
+        ]
+    },
+    {
+        "question": "Pick the marsupial from this list of animals:",
+        "ans": [
+            "Opossum",
+            "Fox",
+            "Beaver",
+            "Groundhog"
+        ]
+    },
+    {
+        "question": "Which cartoon has the most episodes?",
+        "ans": [
+            "<i>The Simpsons</i>",
+            "<i>Family Guy</i>",
+            "<i>South Park</i>",
+            "<i>Spongebob Squarepants</i>"
+        ]
+    },
+    {
+        "question": "When the Earth’s shadow totally blocks out the Moon, it’s called a:",
+        "ans": [
+            "Solar eclipse",
+            "Lunar eclipse",
+            "New moon",
+            "Full moon"
+        ]
+    },
+    {
+        "question": "If your friend was born on September 22, their astrological sign would be:",
+        "ans": [
+            "Libra",
+            "Virgo",
+            "Sagittarius",
+            "Leo"
+        ]
+    },
+    {
+        "question": "If you were a purple flower with a name linked to a Greek myth, you’d be a:",
+        "ans": [
+            "Hyacinth",
+            "Hibiscus",
+            "Daffodil",
+            "Daisy"
+        ]
+    },
+    {
+        "question": "Bonus question: Which country does NOT use some sort of peso as their currency?",
+        "ans": [
+            "Chile",
+            "Mexico",
+            "Colombia",
+            "Honduras"
+        ]
+    },
+    {
+        "question": "Bonus question: If you ordered the most popular ice cream flavor in the USA, you’d be eating a scoop of:",
+        "ans": [
+            "Vanilla",
+            "Chocolate",
+            "Strawberry",
+            "Mint chocolate chip"
+        ]
+    },
+    {
+        "question": "Bonus question: Which popular condiment was once advertised as a medicine?",
+        "ans": [
+            "Ketchup",
+            "Mustard",
+            "Relish",
+            "Mayonnaise"
+        ]
+    }
+]

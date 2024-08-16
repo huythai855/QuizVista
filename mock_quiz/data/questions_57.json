@@ -1,0 +1,110 @@
+[
+    {
+        "question": "You win $1,000 on a lottery ticket. What are you doing with the cash?",
+        "ans": [
+            "Saving it, of course. It’s important to have money saved in case of emergencies.",
+            "Investing it in my side hustle. I can turn it into even more money!",
+            "Taking myself on a vacation. Spending money on experiences is so worth it.",
+            "Using it to pay bills. I’ll feel better knowing I spent the money responsibly."
+        ]
+    },
+    {
+        "question": "Apple releases a new iPhone with an unlimited, no-charge battery. You:",
+        "ans": [
+            "Wait in line on release day to get one. I’m not missing out!",
+            "Wait for the initial hype to be over, then snag one.",
+            "Maybe get one someday. It’s not important to me to have the latest tech.",
+            "Probably never get one. It feels pointless to always be buying the newest smartphone."
+        ]
+    },
+    {
+        "question": "You have an entire week off. How are you spending it?",
+        "ans": [
+            "Going on a road trip to somewhere new. I love to travel!",
+            "Spending time with friends and family. Face-to-face time is so important.",
+            "Relaxing at home. Having a low-key week off sounds nice.",
+            "Checking things off my to-do list that I’ve been meaning to get around to."
+        ]
+    },
+    {
+        "question": "An old friend wants to contact you. You'd prefer they:",
+        "ans": [
+            "Mail me a handwritten letter. It feels more personal!",
+            "Call me on the phone. I like hearing someone’s voice.",
+            "Send me a text. Texts are casual and less overwhelming.",
+            "Message me on Snapchat or Instagram. It's how I usually talk to people I know."
+        ]
+    },
+    {
+        "question": "It’s movie night! How are you watching?",
+        "ans": [
+            "I'm flipping through the channels on TV until I see something interesting to watch.",
+            "I'm going to the movie theater to watch something on the big screen.",
+            "I'm streaming something on my TV.",
+            "I'm watching a movie on my phone or computer."
+        ]
+    },
+    {
+        "question": "Twenty years from now, your resume will probably look like:",
+        "ans": [
+            "One job I've worked at the whole time. I want to climb the ladder at one company!",
+            "Five or more unique, interesting jobs I've had. I like to keep my options open and try new things!",
+            "Me running a non-profit or charity. Giving back is important to me.",
+            "Me having built a massive company from the ground up. I'm a hard worker!"
+        ]
+    },
+    {
+        "question": "You're directing your own movie. What's it about?",
+        "ans": [
+            "A humble superhero who saves a small town from destruction.",
+            "A rebel antihero who exposes corrupt politicians.",
+            "A group of online friends who travel to a music festival to meet IRL for the first time.",
+            "A woman who sells all of her belongings and goes on a road trip with her dog."
+        ]
+    },
+    {
+        "question": "The package you ordered finally arrived. What's inside?",
+        "ans": [
+            "A vintage Pac-Man arcade machine.",
+            "A cozy wool sweater.",
+            "A gourmet food basket.",
+            "Concert tickets to see one of my favorite artists."
+        ]
+    },
+    {
+        "question": "In your ideal utopia, everyone would:",
+        "ans": [
+            "Live in close-knit, walkable communities. I’d love seeing my friends and neighbors every day!",
+            "Live independently and be self-reliant. I think it’s important for people to know how to take care of themselves.",
+            "Live with the person they love and start a family. I think the traditional family structure is already pretty utopian!",
+            "Live in small, quiet communities. Stability and predictability lead to a peaceful life."
+        ]
+    },
+    {
+        "question": "When you think about your life, how do you usually feel?",
+        "ans": [
+            "Like I want things to be how they used to be.",
+            "Like I want things to stay how they are now.",
+            "Like I want things to be like they've never been before.",
+            "Like I'm not really sure what I want."
+        ]
+    },
+    {
+        "question": "Your best friend would describe you as:",
+        "ans": [
+            "Authentic, accepting, and creative.",
+            "Idealistic, resourceful, and goal-oriented.",
+            "Cautious, alternative, and independent.",
+            "Traditional, determined, optimistic."
+        ]
+    },
+    {
+        "question": "Which of these things is most important to you?",
+        "ans": [
+            "Being accepting and inclusive.",
+            "Having a healthy work-life balance.",
+            "Working hard to provide for the people I care about.",
+            "Giving back to my community."
+        ]
+    }
+]

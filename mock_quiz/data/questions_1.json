@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Choose a group of colors:",
+        "ans": [
+            "Amethyst, fuchsia, blush.",
+            "Navy, cerulean, eggshell.",
+            "Gold, clementine, sage.",
+            "Crimson, pale yellow, grey."
+        ]
+    },
+    {
+        "question": "Pick one:",
+        "ans": [
+            "You’re reading on a bus with a big bag. A stranger gently turns your page when they see you struggling.",
+            "As a kid, you break your mom's vase and can't fix it. She says it’s fine, but you know she’s sad.",
+            "You just lost the big game but feel great. It’s sunny, birds are chirping, your friends are nearby, all's well.",
+            "You put headphones on, click “noise canceling,” and drown out the world."
+        ]
+    },
+    {
+        "question": "What do you want most in the world right now?",
+        "ans": [
+            "Touch.",
+            "Rest.",
+            "Sunshine.",
+            "Relief."
+        ]
+    },
+    {
+        "question": "Pick a flower:",
+        "ans": [
+            "Lilies: delicate, romantic, pure.",
+            "Orchids: yearning, fragile, beautiful.",
+            "Sunflowers: bright, strong, lovable.",
+            "Lavender: peaceful, useful, sweet."
+        ]
+    },
+    {
+        "question": "What’s your sign's element?",
+        "ans": [
+            "Fire (Leo, Aries, Sagittarius)",
+            "Water (Cancer, Pisces, Scorpio)",
+            "Air (Aquarius, Gemini, Libra)",
+            "Earth (Capricorn, Taurus, Virgo)"
+        ]
+    },
+    {
+        "question": "Describe your emotions in a single phrase:",
+        "ans": [
+            "I already feel big feelings, but I crave even deeper ones.",
+            "I wish I could rid myself of feelings on command.",
+            "I appreciate my ups and downs without getting caught up in them.",
+            "My feelings are something I have to work hard to control."
+        ]
+    },
+    {
+        "question": "What do you want to say most to someone in your life?",
+        "ans": [
+            "“I know you don’t feel the same way, but just know that I love you.”",
+            "“I’m so sorry for everything. I never meant to hurt you.”",
+            "“You’re so beautiful. I enjoy being around you, and I hope you feel the same about me.”",
+            "“You hurt me, but you can’t anymore. I’m a lot stronger than I used to be.”"
+        ]
+    },
+    {
+        "question": "What does outer space make you think about?",
+        "ans": [
+            "Beauty and mystery—space is inherently romantic.",
+            "Perspective—space makes me feel small.",
+            "Promise and adventure—space travel is the final frontier.",
+            "Nothing really—I’m more focused on things down on the ground."
+        ]
+    },
+    {
+        "question": "What is love to you?",
+        "ans": [
+            "Grand, like a fairytale, all-consuming, and earth-shattering.",
+            "Soft, subtle, lovely, and true.",
+            "Painful, but beautiful.",
+            "Love is happiness."
+        ]
+    },
+    {
+        "question": "I’m happiest when:",
+        "ans": [
+            "I’m in the moment and totally full.",
+            "I feel hopeful about my future.",
+            "Someone pleasantly surprises me, and I remember how lovely people can be.",
+            "I’m with the person I love."
+        ]
+    },
+    {
+        "question": "Pick a bad dream:",
+        "ans": [
+            "I’m attempting to solve an impossible problem. No matter how hard I try, my answer is always wrong…",
+            "Someone close to me has betrayed me. I want to scream because I’m so angry, but I can’t make a sound.",
+            "I’m in a crowded station. Everyone is rushing past me. All of a sudden, they all turn to look at me, and my face grows hot.",
+            "I’ve just received horrible news, and I have no one to talk to about it."
+        ]
+    },
+    {
+        "question": "How do you deal with low moods?",
+        "ans": [
+            "I sit with my feelings. I might cry, write, or listen to sad music.",
+            "I ignore them and try to move on with my day. That’s just life.",
+            "I remind myself that I’m a speck in the Universe. That helps me calm down.",
+            "I get angry. I might release pent-up energy with something active, like a jog."
+        ]
+    }
+]

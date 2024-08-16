@@ -1,0 +1,164 @@
+[
+    {
+        "question": "Overall, people tell me that I’m likable and an easy person to get along with.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I don’t have trouble making or keeping friends.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "Generally speaking, I want to be someone who makes other people happier and makes their lives easier.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I don’t really care about my friends’ problems—that’s not my responsibility.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "When my friends or colleagues are sad, it doesn’t really affect me at all.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I’ve had people call me “cold,” “callous,” “uncaring,” or “mean.”",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I’m generally more talented, smart, or special than other people.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I often find myself talking about my accomplishments—I even exaggerate them sometimes, to be honest.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "Other people think my life is amazing, and they probably wish they were more like me.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "When I’m angry or upset, I rarely hold my tongue. Instead, I might yell or hurl insults.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I’ve been called “rude” or “angry” by lots of people in the past.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I end up in conflicts more than other people do, probably because I don’t care if I offend people.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I don’t trust others easily, so I rarely open up to people.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "In relationships, I feel like I have to check their phones and search for signs of cheating—even if they’ve always been trustworthy.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "Generally speaking, I expect the worst in other people.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "When people give me leverage in conversation (by sharing a secret, for instance), I take a mental note so I can use it later.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I tell people nice things that I don’t mean, just to get what I want.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I regularly try to influence people’s actions to help me achieve my end goal.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which word best describes you?",
+        "ans": [
+            "Graceful",
+            "Agile",
+            "Strong",
+            "Passionate"
+        ]
+    },
+    {
+        "question": "Which do you value the most?",
+        "ans": [
+            "Balance",
+            "Freedom",
+            "Patience",
+            "Control"
+        ]
+    },
+    {
+        "question": "What’s your greatest weakness?",
+        "ans": [
+            "My inner turmoil.",
+            "My avoidance.",
+            "My stubbornness.",
+            "My temper."
+        ]
+    },
+    {
+        "question": "How do you usually resolve conflict?",
+        "ans": [
+            "I consider both sides, then find a compromise.",
+            "I try to avoid conflict if at all possible.",
+            "I wait patiently until I think of a good solution.",
+            "I take decisive action to resolve the issue."
+        ]
+    },
+    {
+        "question": "Choose an animal sidekick:",
+        "ans": [
+            "Otter penguin",
+            "Winged lemur",
+            "Ostrich horse",
+            "Mongoose lizard"
+        ]
+    },
+    {
+        "question": "Pick your dream home:",
+        "ans": [
+            "A quaint cottage filled with beautiful tapestries, fur blankets, and a warm fire.",
+            "A decked-out van or RV that I can live and travel in.",
+            "A brick, three-story townhouse located in a dazzling city.",
+            "An ornate, sprawling mansion on a tropical island."
+        ]
+    },
+    {
+        "question": "What’s your favorite season?",
+        "ans": [
+            "Winter",
+            "Fall",
+            "Spring",
+            "Summer"
+        ]
+    },
+    {
+        "question": "You’re lost in a cave. How are you getting out?",
+        "ans": [
+            "I follow a trickling stream until it eventually exits the cave.",
+            "I feel where air is blowing from and follow it to an exit.",
+            "I look for a ray of sunlight, then dig my way out at that point.",
+            "I light my emergency flare and use it to search for an exit."
+        ]
+    },
+    {
+        "question": "Without thinking about it, which set of emojis calls to you first?",
+        "ans": [
+            "🌊🌀🧊💙💧❄️🌕",
+            "☁️🌫️🌪️🤍🌬️🕊️💨",
+            "🪨⛰️🌳💚🌿🧱🗻",
+            "🔥☀️💥❤️‍🔥🐲🪭⛩️"
+        ]
+    },
+    {
+        "question": "You get one item before setting out into the wilderness. What do you choose?",
+        "ans": [
+            "A bottle of water.",
+            "A compass.",
+            "A metal blade.",
+            "A book of matches."
+        ]
+    },
+    {
+        "question": "Which color clothing do you own the most of (out of these options)?",
+        "ans": [
+            "Blue",
+            "Yellow",
+            "Green",
+            "Red"
+        ]
+    },
+    {
+        "question": "What quality are you most proud of?",
+        "ans": [
+            "My courage.",
+            "My empathy.",
+            "My toughness.",
+            "My creativity."
+        ]
+    }
+]

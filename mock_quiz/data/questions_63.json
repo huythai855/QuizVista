@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Pick your dream job:",
+        "ans": [
+            "Lion tamer, fighter jet pilot, or stunt double.",
+            "Firefighter or police officer.",
+            "Hmmm, maybe doctor, lawyer, or teacher.",
+            "Health and wellness coach. I basically do that already anyway!"
+        ]
+    },
+    {
+        "question": "How active are you?",
+        "ans": [
+            "I get my exercise by running from danger. And extreme sports.",
+            "Sedentary. I'm too clumsy to work out much.",
+            "Active enough. I hit the gym every now and then.",
+            "If I'm not at the gym, I'm probably already dead. I never miss my workout."
+        ]
+    },
+    {
+        "question": "Where do you live?",
+        "ans": [
+            "I'm never in one place for too long.",
+            "The city.",
+            "The suburbs.",
+            "The countryside."
+        ]
+    },
+    {
+        "question": "How often do you visit the doctor?",
+        "ans": [
+            "Only when I can't patch myself up on my own. I feel like going to the doctor is a total waste.",
+            "Frequently. There's always something up with me.",
+            "I try to go once a year for a checkup.",
+            "I’m the pinnacle of health. I barely ever need the doctor."
+        ]
+    },
+    {
+        "question": "What's your diet like?",
+        "ans": [
+            "Greasy. Mostly fast food and gas station snacks.",
+            "I often forget to eat. Oops.",
+            "Balanced. I try to hit all the major food groups.",
+            "Vegetarian/vegan. Organic. Locally sourced. Raw."
+        ]
+    },
+    {
+        "question": "Be honest: what's your biggest vice?",
+        "ans": [
+            "Drama. I cause trouble just for fun.",
+            "I can get pretty lazy or sloppy.",
+            "I sometimes smoke, vape, or drink to relax.",
+            "I am just so in love with my life. Is that…does that count?"
+        ]
+    },
+    {
+        "question": "We offer you $10,000 to pet a wild grizzly. What do you do?",
+        "ans": [
+            "Sounds like fun! You don't even have to offer $10,000. I'm there.",
+            "Sure, I'll take my chances. But double the money.",
+            "Absolutely not. That's wildly irresponsible.",
+            "I request the money upfront, then bolt. I know they won't catch me."
+        ]
+    },
+    {
+        "question": "You're a bystander in a bank robbery. What do you do?",
+        "ans": [
+            "I offer to help the thieves for a cut of the cash.",
+            "With my luck, I end up as one the hostages.",
+            "I keep my head down and stay quiet to get out alive.",
+            "I tactfully negotiate with the bandits to let everyone else go."
+        ]
+    },
+    {
+        "question": "How much sleep do you get?",
+        "ans": [
+            "Who needs sleep?",
+            "Maybe 4-5 hours a night.",
+            "A full 8 hours.",
+            "I'm on a scientifically optimized power nap regimen."
+        ]
+    },
+    {
+        "question": "What's your dream vacation?",
+        "ans": [
+            "Sky diving. Backcountry skiing. Street racing.",
+            "Staying home and catching up on my shows.",
+            "I'd use my paid time off to sit on a beach somewhere.",
+            "An intensive 7-day hot yoga retreat."
+        ]
+    },
+    {
+        "question": "Pick a life motto:",
+        "ans": [
+            "What’s life without constant, terrifying risk?",
+            "Go big or go home!",
+            "Live and let live.",
+            "You can never be too careful."
+        ]
+    },
+    {
+        "question": "Finally, when do you see yourself kicking the bucket?",
+        "ans": [
+            "Life’s unpredictable. It could be tomorrow for all I know...",
+            "5 years from now...",
+            "Not until I retire, at least.",
+            "I'm in it for the long haul. I wanna be OLD old."
+        ]
+    }
+]

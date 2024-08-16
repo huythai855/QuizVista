@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Your movie starts with you and your friends piling into the car for a getaway weekend, looking for thrills. Where are you headed?",
+        "ans": [
+            "An abandoned amusement park, where a series of unexplained deaths have occurred in the past.",
+            "An empty hotel that’s deserted for the whole winter. Rumor has it, it’s cursed.",
+            "A deserted mansion with a dark history. All the previous owners died mysteriously.",
+            "An isolated cabin in the woods, with nobody else around for miles."
+        ]
+    },
+    {
+        "question": "After hours of driving, you finally make it to your destination. What’s the first thing you do when you arrive?",
+        "ans": [
+            "I strip to my undies and jump into the nearest body of water. We're here to have fun!",
+            "I wander around the place, explore, and try to find something interesting to do.",
+            "I start planning out our weekend. There's so much to do, and only so little time.",
+            "Not much. Shower, change, take a nap. I'm exhausted from the trip."
+        ]
+    },
+    {
+        "question": "Once you’re all settled in, your friends whip out a Ouji board. You're not sure why, but you have a weird feeling in your gut. Do you play too?",
+        "ans": [
+            "Yes! Things were getting a little boring around here.",
+            "Nah, I'm too busy finishing my book to mess around.",
+            "Nope, but I do want to watch. I've always been curious...",
+            "Okay, but only because it's what everybody else is doing. It gives me bad vibes, though."
+        ]
+    },
+    {
+        "question": "Everyone goes to bed feeling giddy. But you wake in the middle of the night, thinking you heard a noise. What do you do?",
+        "ans": [
+            "Go investigate, but not before grabbing a flashlight.",
+            "I know it’s just my friend trying to scare me, so I yell: “Ha, ha. Very funny. Be quiet!!”",
+            "Ignore it. It's probably just the wind or a raccoon or something. I’m going back to sleep.",
+            "Get out of bed, stand very still, and say something like, \"Hello?\" or, \"Who's there?\""
+        ]
+    },
+    {
+        "question": "You can’t get to sleep, so you start poking around. You find a strange book that says “DO NOT OPEN” in big, red letters on the cover. Do you read it?",
+        "ans": [
+            "Obviously. It looks like a diary, and there’s definitely something juicy in there.",
+            "I take a quick peek, just to get a read on the vibe. If it feels evil or something, I’ll put it back.",
+            "I wake up my friends and ask them if we should open it. I don’t want to read it alone.",
+            "Nope, nuh uh, not a chance. That sucker’s going back in the drawer, ASAP."
+        ]
+    },
+    {
+        "question": "You’re back in bed. Suddenly, a shadowy figure emerges from the darkness, and it looks like it means business. What do you do?",
+        "ans": [
+            "I scream for help! Somebody will wake up and come save me.",
+            "I tell my friend to stop fooling around. It’s obviously them, and this isn’t funny anymore.",
+            "I pretend to be asleep. Maybe it’s just my imagination, or whatever it is will just go away…",
+            "I throw something at it, then dash for the door. I’m not sticking around!"
+        ]
+    },
+    {
+        "question": "You escaped this time, but something’s definitely after you. Better look around you for a weapon. What do you grab?",
+        "ans": [
+            "A hammer! Deadly <i>and</i> practical.",
+            "A gun. It's only got a few bullets, but I'm a good shot.",
+            "Pepper spray. I don't need to kill anything, just hurt them enough to get away.",
+            "A knife. Not the most effective, but classic and reliable."
+        ]
+    },
+    {
+        "question": "Now you’re armed and prepared, but you shouldn’t just stand there! Where do you flee to?",
+        "ans": [
+            "The nearby lake. I’m a great swimmer, and hopefully The Killer can't swim…right?",
+            "The forest. I bet that if I make it far enough in, The Killer won’t be able to find me in all of these trees.",
+            "The nearest road. I need to get a stranger’s attention, and fast.",
+            "I hide somewhere nearby, like a closet, or maybe under the bed. The Killer will think I escaped and leave."
+        ]
+    },
+    {
+        "question": "You find a payphone! Who do you call for help?",
+        "ans": [
+            "The cops. We need law enforcement down here, ASAP.",
+            "My family! Whatever happens next, they need to know where I am.",
+            "The gas station clerk we met earlier. He's nearby, and looks like he can handle himself in a fight.",
+            "A number I found scrawled in blood earlier. Whoever picks up might know how to help."
+        ]
+    },
+    {
+        "question": "The Killer found you, and now you're face to face. It's make-or-break time. What's your final move?",
+        "ans": [
+            "I try to talk things out. Maybe we can make some sort of deal? Just don’t kill me!",
+            "I run. The Killer and I are both tired at this point, but I think I have an edge.",
+            "I stand my ground. If The Killer wants a fight, they’ll get a fight!",
+            "I try to outsmart The Killer. Maybe I can lure them into a trap..."
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Pick your ideal color palette:",
+        "ans": [
+            "Light blue, light pink, light purple, and peach.",
+            "Gold, bright orange, wine red, and maroon.",
+            "Black, azure, light blue, and blue-white.",
+            "Light sage green, light yellow, light orange, tangerine."
+        ]
+    },
+    {
+        "question": "Choose an aesthetic:",
+        "ans": [
+            "Warm cookies, a big hug, a blanket fort.",
+            "A starry sky, an empty road, a cool breeze.",
+            "A jigsaw puzzle, a thick book, an antique desk.",
+            "Bruised knuckles, a pounding heart, the feeling of victory."
+        ]
+    },
+    {
+        "question": "What’s your dream vacation?",
+        "ans": [
+            "A trip to a ski resort in the mountains.",
+            "A tropical beach vacay with lots of surfing and hiking.",
+            "A staycation at home with my best friends.",
+            "A weekend trip to the big city."
+        ]
+    },
+    {
+        "question": "Your friend offered to buy you lunch. What’s on the menu?",
+        "ans": [
+            "Something classic.",
+            "Something spicy.",
+            "Something fancy.",
+            "Something I’ve never tried before."
+        ]
+    },
+    {
+        "question": "Which mocktail sounds most appealing to you?",
+        "ans": [
+            "Virgin Mary (tomato juice and hot sauce).",
+            "Mermaid Refresher (blue punch and pineapple juice).",
+            "Mock Apple Cider Sour (apple cider, lemon juice, and seltzer).",
+            "Sparkling Ginger Lemonade (club soda, ginger, sugar, and lemon juice)."
+        ]
+    },
+    {
+        "question": "Which song lyric do you really vibe with?",
+        "ans": [
+            "“There’s method in my madness, there’s no logic in your sadness.”",
+            "“I won’t look back ‘cause there’s no use, it’s time to move forward.”",
+            "“I work hard every day of my life, I work ‘till I ache my bones.”",
+            "“Looking at the future, it’s so bright, I’m gonna make it mine.”"
+        ]
+    },
+    {
+        "question": "Which three movies are you marathoning during a long flight?",
+        "ans": [
+            "Pan’s Labyrinth, Coraline, and Spirited Away.",
+            "Forrest Gump, Life of Pi, and The Pursuit of Happyness.",
+            "Everything Everywhere All at Once, Inception, and The Matrix.",
+            "Mad Max: Fury Road, Get Out, and The Cabin in the Woods."
+        ]
+    },
+    {
+        "question": "Which season really rocks your world?",
+        "ans": [
+            "Spring.",
+            "Summer.",
+            "Fall.",
+            "Winter."
+        ]
+    },
+    {
+        "question": "What’s at the top of your bucket list?",
+        "ans": [
+            "Getting published.",
+            "Going skydiving.",
+            "Traveling across the world.",
+            "Meeting your favorite celebrity."
+        ]
+    },
+    {
+        "question": "What are four must-have items in your bedroom?",
+        "ans": [
+            "A succulent, a string of lights, a retro lamp, and a knitted blanket.",
+            "A neon sign, a night sky projector, an LED light strip, and a shell-shaped pillow.",
+            "An ornate mirror, artificial vines, a suncatcher, and a tarot-themed tapestry.",
+            "A set of folding crates, a world map, a coffee-themed poster, and a vintage clock."
+        ]
+    },
+    {
+        "question": "Which movie character do you admire the most?",
+        "ans": [
+            "Gandalf from The Lord of the Rings.",
+            "Edna Mode from The Incredibles.",
+            "Anakin Skywalker from Star Wars.",
+            "Tiana from The Princess and The Frog."
+        ]
+    },
+    {
+        "question": "What’s your go-to video game on a Friday night?",
+        "ans": [
+            "A social simulation game like Animal Crossing: New Horizons.",
+            "A tactical RPG like Fire Emblem: Engage.",
+            "An MMO like Final Fantasy XIV.",
+            "A horror game, like a title from the Resident Evil franchise."
+        ]
+    }
+]

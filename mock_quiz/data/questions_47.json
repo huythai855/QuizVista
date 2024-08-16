@@ -1,0 +1,119 @@
+[
+    {
+        "question": "Do you sense that you’re angrier than the average person?",
+        "ans": [
+            "Definitely. I really struggle with my internal rage.",
+            "Probably.",
+            "I think I’m about average.",
+            "Definitely not. I’m less angry than the average person."
+        ]
+    },
+    {
+        "question": "Have people expressed issues with your anger before?",
+        "ans": [
+            "Yes. My temper has put a strain on so many relationships.",
+            "1 or 2 people have, but it’s rare that my anger becomes an issue.",
+            "No, they haven’t.",
+            "No. People actually tell me that I need to stand up for myself more."
+        ]
+    },
+    {
+        "question": "How often do you feel angry?",
+        "ans": [
+            "All the time",
+            "Often",
+            "Rarely",
+            "Never"
+        ]
+    },
+    {
+        "question": "People think of me as someone who runs hot and cold. I can get annoyed (or even angry) very quickly.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I can go from experiencing contentedness to my peak anger level in a short time span.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "So many things (traffic, loud chewing, long lines, etc.) tend to annoy me.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "Sometimes, I find myself feeling angry, but I can’t figure out the reason behind it.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "Generally speaking, I expect the worst in people around me.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I sometimes assume a person’s comment was malicious, then learn I was wrong.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "When I get angry, it’s obvious to others. I might shout, sulk, snap at someone, or be passive-aggressive.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "When I’m angry, I take it out on whoever’s around me—even if it’s not their fault.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I feel embarrassed and ashamed of my negative emotions, like anger.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "When I feel angry or upset, I have trouble expressing it to others.",
+        "ans": [
+            "Strongly agree",
+            "Agree",
+            "Neutral",
+            "Disagree"
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "First, how old are you? (Or, how old are the people watching?)",
+        "ans": [
+            "10 and under.",
+            "11-17.",
+            "18 or over.",
+            "It doesn't matter, I'll watch anything!"
+        ]
+    },
+    {
+        "question": "What vibe are you looking for?",
+        "ans": [
+            "Funny and not too serious. I need a laugh!",
+            "Moving and spellbinding. I want to get swept away.",
+            "Epic and action-packed. I want to get my heart rate up!",
+            "Challenging and profound. I want to shift my perspective."
+        ]
+    },
+    {
+        "question": "What kind of setting interests you the most?",
+        "ans": [
+            "Let's keep it real. Present day, present time, please!",
+            "I love a historical setting with amazing costumes.",
+            "I prefer a fantasy setting full of imagination.",
+            "Take me to the future!"
+        ]
+    },
+    {
+        "question": "How much time do you have?",
+        "ans": [
+            "90 minutes or less.",
+            "90 minutes - 2 hours.",
+            "2-3 hours.",
+            "All the time in the world!"
+        ]
+    },
+    {
+        "question": "What do you most look for in a movie?",
+        "ans": [
+            "Visuals that wow me.",
+            "Characters I can't stop watching.",
+            "A story that I'll think about for a long time.",
+            "Something fresh that I've never seen anywhere else."
+        ]
+    },
+    {
+        "question": "Do care about awards or critics' ratings?",
+        "ans": [
+            "Yes. All the best movies win the Oscars, after all.",
+            "Positive reviews are definitely a plus, but not essential.",
+            "Nope! Critics aren't always right. Actually, they're mostly wrong.",
+            "I don't care either way."
+        ]
+    },
+    {
+        "question": "How do you feel about animated films?",
+        "ans": [
+            "I love animation! Maybe even more than live-action.",
+            "I don't mind animation, as long as the story is good.",
+            "I like animated films for adults, but not children's films.",
+            "I'll stick to live-action, thank you."
+        ]
+    },
+    {
+        "question": "What's your ideal way to watch a movie?",
+        "ans": [
+            "In a theater, on the big screen, where I'm most immersed.",
+            "At home on the couch, where I'm most comfortable.",
+            "On my laptop, phone, or tablet, where it's most convenient.",
+            "I don't know, or I don't care."
+        ]
+    },
+    {
+        "question": "How do you feel about star power?",
+        "ans": [
+            "Yes! I want an all-star cast of faces I recognize.",
+            "I like a star in the leading role, sure.",
+            "It's actually better if I don't recognize anyone on screen.",
+            "As long as the acting is good, I don't care."
+        ]
+    },
+    {
+        "question": "How do you feel about vintage films?",
+        "ans": [
+            "I love them! They just don't make them like they used to.",
+            "I like the classics, but I'm not sure about other oldies...",
+            "A good movie is a good movie, I don't care when it was made!",
+            "I don't love old movies. They're kinda boring..."
+        ]
+    },
+    {
+        "question": "How do you feel about horror or scary movies?",
+        "ans": [
+            "Let's do it. You can't scare me!",
+            "Sure I’ll watch one, but I would like to sleep tonight—so nothing too terrifying please.",
+            "I can handle a little spookiness, but I avoid actual horror movies.",
+            "Absolutely not. I'm here for a good time, not a scary time."
+        ]
+    },
+    {
+        "question": "Finally, are you watching with someone else?",
+        "ans": [
+            "Nope! I'm solo this time.",
+            "Yes! I'm watching with my partner.",
+            "I'm watching with my friend(s).",
+            "I'm watching with my family."
+        ]
+    }
+]

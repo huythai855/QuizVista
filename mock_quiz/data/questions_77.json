@@ -1,0 +1,110 @@
+[
+    {
+        "question": "It’s time to relax! Pick a show to binge.",
+        "ans": [
+            "A reality show (<i>Love is Blind</i>, <i>The Bachelor</i>, etc).",
+            "A popular sitcom (<i>Modern Family</i>, <i>Abbott Elementary</i>, etc).",
+            "A drama (<i>Suits</i>, <i>Outer Banks</i>, etc).",
+            "A fantasy show (<i>Game of Thrones</i>, <i>Stranger Things</i>, etc)."
+        ]
+    },
+    {
+        "question": "How would you describe your style?",
+        "ans": [
+            "On-trend and stylish",
+            "Casual and comfortable",
+            "Timeless and tailored",
+            "Bold and eye-catching"
+        ]
+    },
+    {
+        "question": "Pick a meal to have for dinner:",
+        "ans": [
+            "A hamburger and fries",
+            "Lasagna and a side salad",
+            "Fish tacos and chips",
+            "Oysters"
+        ]
+    },
+    {
+        "question": "You just won a free vacation! Where are you going?",
+        "ans": [
+            "Hawaii",
+            "France",
+            "New Zealand",
+            "Antarctica"
+        ]
+    },
+    {
+        "question": "Pick an audio to listen to:",
+        "ans": [
+            "A pop culture podcast that does celeb interviews.",
+            "A podcast that discusses your favorite movie, TV show, or game.",
+            "A book on tape from a bestselling author.",
+            "A podcast on personality psychology or a niche historical event."
+        ]
+    },
+    {
+        "question": "It’s your turn to DJ for your friends! What music are you playing?",
+        "ans": [
+            "Something currently on Billboard Hot 100.",
+            "Something old, but really famous (like classic rock, for example).",
+            "Something from my favorite indie playlist—maybe Phoebe Bridgers or Hozier!",
+            "Something I’m positive no one here would’ve heard (like an artist with 1k monthly listeners)."
+        ]
+    },
+    {
+        "question": "Pick a drink:",
+        "ans": [
+            "An iced coffee or diet Coke",
+            "A cappuccino or a root beer",
+            "A nice cup of tea",
+            "Cranberry or pomegranate juice"
+        ]
+    },
+    {
+        "question": "Pick a superpower:",
+        "ans": [
+            "Flying",
+            "Super speed or strength",
+            "Invisibility",
+            "The ability to stop time or control the weather"
+        ]
+    },
+    {
+        "question": "Phew, you’re finally home after a long day. What are you doing to unwind?",
+        "ans": [
+            "Watching TikTok or gaming.",
+            "Watching TV or a movie.",
+            "Drawing, playing an instrument, working out, or baking.",
+            "Doing a hobby that none of my friends do (like needlepoint, archery, or beekeeping)."
+        ]
+    },
+    {
+        "question": "Tell us about your social media use:",
+        "ans": [
+            "I’m active on every platform, and I post constantly about my life. Why not? It’s fun!",
+            "I have a TikTok/IG/BeReal/Twitter, and I post a normal amount.",
+            "I don’t use social media.",
+            "I have an account dedicated to a niche interest, like cosplaying or Greek mythology, and post only about that."
+        ]
+    },
+    {
+        "question": "Pick a quote to have on a sign in your home:",
+        "ans": [
+            "Good vibes only",
+            "Not all who wander are lost",
+            "Welcome to our beautiful chaos",
+            "This must be the place"
+        ]
+    },
+    {
+        "question": "Pick a pet:",
+        "ans": [
+            "A cat or a dog",
+            "A bird or a bunny",
+            "A rat or a frog",
+            "A python, pig, tarantula, or duck"
+        ]
+    }
+]

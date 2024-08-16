@@ -1,0 +1,137 @@
+[
+    {
+        "question": "You just woke up. What’s the first thing you do?",
+        "ans": [
+            "Admire myself in the mirror. Confidence is key!",
+            "Get some extra work done. The grind never stops.",
+            "Look at all of my unread texts, then toss my phone aside. They can wait.",
+            "Facetime my best friend, ASAP."
+        ]
+    },
+    {
+        "question": "What’s your astrological sign’s element?",
+        "ans": [
+            "Fire (Aries, Sagittarius, Leo)",
+            "Earth (Capricorn, Taurus, Virgo)",
+            "Air (Aquarius, Libra, Gemini)",
+            "Water (Scorpio, Pisces, Cancer)"
+        ]
+    },
+    {
+        "question": "You have a few free minutes to drink your coffee in peace. What are you daydreaming about?",
+        "ans": [
+            "How amazing I’ll look in that outfit I just bought.",
+            "Free time? What’s that?",
+            "The solo trip I’m planning for next summer.",
+            "My fabulous, jam-packed social calendar."
+        ]
+    },
+    {
+        "question": "If you were an animal, what would you be?",
+        "ans": [
+            "Something awesome and smart—maybe a dolphin?",
+            "Husky. They never give up.",
+            "Maybe a bear. They spend their lives chillin’ solo.",
+            "A meerkat. Those little guys are always looking out for one another."
+        ]
+    },
+    {
+        "question": "Oh, no—someone ran into you and spilled coffee all over your shirt! What do you do?",
+        "ans": [
+            "I rock whatever I wear. I’ll probably start a coffee-stain trend or something.",
+            "I dump my drink on them. It’s only fair.",
+            "Keep walking. I have a spare shirt at work. It pays to be self-sufficient!",
+            "Apologize and ask for their number. Maybe we’ll become friends!"
+        ]
+    },
+    {
+        "question": "Imagine you’re on your dream date. What’s happening?",
+        "ans": [
+            "My date serenades me at a surprise party thrown in my honor—it's perfect!",
+            "We’re at a work event. My date helps me schmooze my boss so I get the big promotion.",
+            "Dream date? Can I just go on an adventure by myself?",
+            "We spend a whole weekend together in a cabin, attached at the hip."
+        ]
+    },
+    {
+        "question": "Which Disney character do you relate to most?",
+        "ans": [
+            "Snow White. Fairest of them all sounds just about right…",
+            "Hmm…maybe Scar because he goes after what he wants. Is…is that bad?",
+            "Mulan. She’s strong and independent.",
+            "Cinderella. She’s always surrounded by her little mouse and bird friends."
+        ]
+    },
+    {
+        "question": "How would your friends describe you?",
+        "ans": [
+            "Amazing, inside and out. Duh.",
+            "They’d say I’m a hard worker.",
+            "They might call me a free spirit.",
+            "They’d say that I’m always there when they need me."
+        ]
+    },
+    {
+        "question": "If you could have any superpower, what would it be?",
+        "ans": [
+            "I’d want to be able to clone myself, so I could hang out with me.",
+            "Super smarts, obviously.",
+            "Invisibility.",
+            "The power to talk to animals."
+        ]
+    },
+    {
+        "question": "Your partner is proposing! How are they doing it?",
+        "ans": [
+            "They’re holding a huge diamond—I can see my reflection in its shine!",
+            "I’m busy, so they keep it quick. “Will you marry me?” Boom, done.",
+            "Either way, the answer is no. Don’t they know we’re just friends?",
+            "They pull out the ring and promise to never, ever leave my side."
+        ]
+    },
+    {
+        "question": "What job do you secretly feel like you’d be amazing at?",
+        "ans": [
+            "Modeling, rocket science…it’d be harder to come up with a job that I wouldn’t be good at.",
+            "World domination. Or, uh, I mean…CEO.",
+            "Park ranger.",
+            "Anything HR. I just want to help people!"
+        ]
+    },
+    {
+        "question": "Time for bed! What do you do before drifting off?",
+        "ans": [
+            "Give myself some much-needed self-care. Face mask, anyone?.",
+            "Look over my vision board. Again.",
+            "Cancel the plans I’d made for later tonight.",
+            "Send super sweet goodnight texts to a group of my 5 closest friends!"
+        ]
+    },
+    {
+        "question": "Pick a set of 3 items:",
+        "ans": [
+            "A hand mirror, a soft towel, and a bottle of lotion.",
+            "A sword, a saddle, and a length of rope.",
+            "A tent, a sleeping bag, and a pair of hiking boots.",
+            "A sectional sofa, an area rug, and several blankets."
+        ]
+    },
+    {
+        "question": "What’s your pet peeve?",
+        "ans": [
+            "When people never let me get a word in.",
+            "When people waste my time.",
+            "When people don’t respect my space.",
+            "When no one is around to hang out."
+        ]
+    },
+    {
+        "question": "What’s your least favorite type of school or work assignment?",
+        "ans": [
+            "Anything that’s peer-reviewed. I don’t need anyone’s input!",
+            "Mindless busywork. My time is valuable, you know.",
+            "Group projects. I can finish things up on my own.",
+            "Solo projects. Why can’t I work with my peers?"
+        ]
+    }
+]

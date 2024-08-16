@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What's your favorite physical way to show a partner some love?",
+        "ans": [
+            "A big, warm hug. I want to be as close as possible!",
+            "I like to cover them with kisses whenever I can!",
+            "I like just to hold their hand, whether we’re out in public or at home.",
+            "I like to touch them in small ways, like tousling their hair or squeezing their shoulder."
+        ]
+    },
+    {
+        "question": "Do you prefer to give gifts, or receive them?",
+        "ans": [
+            "I'm definitely a gift giver. Nothing beats making someone else happy.",
+            "I love receiving gifts! It makes me happy to know that someone thought of me.",
+            "Why not both? I like both.",
+            "I don't really like doing either, honestly. It makes me feel awkward."
+        ]
+    },
+    {
+        "question": "How do you feel about goodbyes?",
+        "ans": [
+            "I hate them. I never want to part from the people I care about.",
+            "They're bittersweet. It's sad to see someone go, but I know I'll see them again.",
+            "I feel good about them, actually. When they're hard, it means our time together was worth it.",
+            "I don't really feel any sort of way about them. I live in the moment, and that's where I stay."
+        ]
+    },
+    {
+        "question": "When it's time to wash up, which do you prefer?",
+        "ans": [
+            "Hot shower",
+            "Cold shower",
+            "Hot bath",
+            "Cold bath"
+        ]
+    },
+    {
+        "question": "Do you take the lead in a relationship, or follow your partner’s lead?",
+        "ans": [
+            "I definitely take the lead! I know what I want, and I like bringing someone else along for the ride.",
+            "I like following the lead! If it makes my partner happy, it makes me happy.",
+            "A little bit of both! I think a relationship is a give-and-take, after all.",
+            "I’m not sure!"
+        ]
+    },
+    {
+        "question": "Do you sleep with stuffed animals on your bed?",
+        "ans": [
+            "Yes. So many. There's barely room for me.",
+            "Sure, there are some plushies on my bed.",
+            "Not really. It's just a couple of pillows and blankets.",
+            "Not plushies, but I do have loads of pillows."
+        ]
+    },
+    {
+        "question": "How do you want to be remembered by the people you’ve dated?",
+        "ans": [
+            "As someone who tried to be kind and make the world a better place.",
+            "As someone who was loved and admired by countless people.",
+            "As someone who lived a quiet life, but was totally genuine.",
+            "As someone who overcame the odds and made something of myself."
+        ]
+    },
+    {
+        "question": "Choose a flavor profile:",
+        "ans": [
+            "Sweet 🍬",
+            "Spicy 🌶️",
+            "Salty 🧂",
+            "Savory 🍖"
+        ]
+    },
+    {
+        "question": "What's your love language? (Choose the one that feels best.)",
+        "ans": [
+            "Acts of service (Doing nice things for other people)",
+            "Receiving service (Getting gifts or having favors done for you)",
+            "Physical touch (Coming into contact with someone you love)",
+            "Words of affirmation or quality time together."
+        ]
+    },
+    {
+        "question": "How do you deal with conflicts in your love life?",
+        "ans": [
+            "I stop everything and focus on finding a solution. I won’t even sleep until it’s sorted out.",
+            "I give my partner plenty of space before I bring the problem up gently.",
+            "I pretend it doesn’t exist and hope it goes away on its own, but if it’s a real problem I’ll do my best to face it.",
+            "I ask my close friends or family for help, or to talk to my partner about it, instead of me."
+        ]
+    },
+    {
+        "question": "Be honest: Can you keep a secret?",
+        "ans": [
+            "Always. No matter how big or small, it's safe with me. I won't tell a soul.",
+            "Sort of. I can keep it mostly to myself, but I might tell one or two of my closest friends.",
+            "Not really. I tend to let it slip sooner or later, hard as I try.",
+            "Not at all. The pressure just kills me. I'd rather not hear it at all."
+        ]
+    },
+    {
+        "question": "What do you want most in this world?",
+        "ans": [
+            "Love and affection",
+            "Money and fame",
+            "Power and control",
+            "Peace and stability"
+        ]
+    }
+]

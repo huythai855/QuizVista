@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Do you ever say things you regret?",
+        "ans": [
+            "Rarely. I always carefully think about something before I say it.",
+            "Sometimes. I don't always know what'll come out of my mouth.",
+            "Often. I tend to say things I don't really mean.",
+            "I don't know. I don't really think about the things I say, I just say them."
+        ]
+    },
+    {
+        "question": "How do you feel when you look at old photos of yourself and think about who you used to be?",
+        "ans": [
+            "I feel proud of how far I've come since then.",
+            "I feel a little embarrassed of who I was, but I don't let it get me down.",
+            "I yearn to go back to the person I was in those photos.",
+            "I don't know, or I don't feel much."
+        ]
+    },
+    {
+        "question": "Do you think it's easy to know what you're feeling and why?",
+        "ans": [
+            "Yes. I tend to understand my emotions and why I'm feeling them.",
+            "Usually. I know what I'm feeling, but why I'm feeling that way isn't always obvious.",
+            "Not really. I have trouble grappling with and figuring out my emotions.",
+            "I don't know, or I'm not sure."
+        ]
+    },
+    {
+        "question": "You overslept, and now you're a half-hour late for a meet-up. What do you do?",
+        "ans": [
+            "I call my friend, explain the situation, and apologize for the inconvenience. I'll set an alarm next time.",
+            "I rush to meet my friend and make up a good excuse to cover my tracks.",
+            "I'm not worried about it. They know I can sometimes be late, so it's not like it's a surprise.",
+            "I don't know, or I'm not sure."
+        ]
+    },
+    {
+        "question": "Someone asks for your seat on the bus, but you're feeling a bit sick yourself. What do you do?",
+        "ans": [
+            "I apologize and tell them that I need to sit down, but I don't give up my seat.",
+            "I give up my seat and stand. As long as I can help someone else, I'll deal with it.",
+            "I say no, and don't explain. I don't owe them anything.",
+            "I don't know, or I'm not sure."
+        ]
+    },
+    {
+        "question": "During a big game, you miss a goal and your team ends up losing. How do you feel?",
+        "ans": [
+            "I’m disappointed, but proud of myself for trying my best, no matter what anyone says.",
+            "I feel embarrassed that I lost the game for my team, and like I should apologize.",
+            "I'm frustrated my team didn’t work harder to help us win when I was giving it my all.",
+            "I'm not sure, I'll have to have some time to process."
+        ]
+    },
+    {
+        "question": "How might you respond when someone tells you you're wrong, even if you're pretty sure you're correct?",
+        "ans": [
+            "I stop and consider the possibility that maybe I am wrong, then do more research to find the truth.",
+            "I hear them out, but I probably won't change my mind. I know I'm right.",
+            "I stop listening. They have it wrong, and there's no point in arguing.",
+            "I change my mind. They must know something I don't."
+        ]
+    },
+    {
+        "question": "A close friend has been acting strange and distant. What do you do?",
+        "ans": [
+            "I bring it up and ask what’s wrong. If I did something to hurt them, I want to know.",
+            "I let it play out and hope things get back to normal soon. I hope they’re just having a bad day.",
+            "I put more distance between us. If they have a problem with me, they should say something.",
+            "I don't know, or I'm not sure."
+        ]
+    },
+    {
+        "question": "How easy is it for you to tell what other people are thinking?",
+        "ans": [
+            "Very easy. I have a good sense for people’s vibes, especially when it concerns me.",
+            "Somewhat easy. I can’t always tell, but I can read the emotions of people close to me.",
+            "Somewhat difficult. It’s often hard for me to tell what other people are thinking and feeling.",
+            "Very difficult. It’s hard enough decoding my own thoughts, let alone other people’s."
+        ]
+    },
+    {
+        "question": "Your friend asks you to do an important favor, but you don't think you have the skills to do it. What do you do?",
+        "ans": [
+            "I decline and explain I'm not the best person for the job. I don't want to mess anything up.",
+            "I offer to do it anyway, but let them know that someone else might be better.",
+            "I accept and don't say anything. I'll figure it out as I go.",
+            "I don't know, or I don't reply and hope they figure it out themself."
+        ]
+    },
+    {
+        "question": "A friend holds a birthday party but doesn’t invite you. How do you react?",
+        "ans": [
+            "I don’t think about it. There’s probably a good reason, and it’s probably not personal.",
+            "I let it slide, but ask my other friends what they think. I can’t help but wonder why I wasn’t included…",
+            "I ask the host why they didn’t invite me. It might be a bit much, but so is excluding me in front of everyone.",
+            "I don't know, or I'm not sure."
+        ]
+    },
+    {
+        "question": "You run into someone who hurt you years back, and they invite you to lunch later. Do you accept?",
+        "ans": [
+            "Yes. Enough time has passed that we're both different people. I'll give them a chance.",
+            "I accept, but only to be polite, and I'll probably bail. There's no reason to expose old wounds.",
+            "I turn them down. They had their chance with me, and they blew it.",
+            "I don't know, or I'm not sure."
+        ]
+    }
+]

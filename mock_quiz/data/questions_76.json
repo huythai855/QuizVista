@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Do you feel an intense fear when exposed to a specific situation, activity, object, animal, or person?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Does your fear feel irrational or out of proportion to the actual level of danger?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you experience symptoms like lightheadedness, nausea, sweating, increased heart rate, shortness of breath, trembling, or upset stomach when thinking about or facing your fear?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you experience panic or panic attacks when facing or thinking about what you fear?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Does your fear interfere with your daily life or activities?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you avoid the object, animal, person, or situation you’re afraid of?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you worry about encountering what you’re afraid of, even if that’s unlikely to happen?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you often think about your fear, what would happen if you encountered it, and/or how to avoid it?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you dread and fret over experiences in which you have to face your fear?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Are you unable to face the object, animal, person, or situation you’re afraid of?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Does encountering your fear feel traumatic and/or terrifying?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you worry that other people might notice that you are anxious or fearful when encountering what you’re afraid of?",
+        "ans": [
+            "Yes",
+            "Sometimes",
+            "Rarely",
+            "No"
+        ]
+    }
+]

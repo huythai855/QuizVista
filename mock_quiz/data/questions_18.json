@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Choose the correct analogy! Child is to human as:",
+        "ans": [
+            "Kitten is to cat.",
+            "Dog is to pet.",
+            "Bird is to fly.",
+            "Plant is to grow."
+        ]
+    },
+    {
+        "question": "Which word isn’t like the others?",
+        "ans": [
+            "Kayak",
+            "Racecar",
+            "Wow",
+            "Woah"
+        ]
+    },
+    {
+        "question": "How many birthdays does the average person have?",
+        "ans": [
+            "1",
+            "Every year",
+            "75",
+            "90"
+        ]
+    },
+    {
+        "question": "Determine which number best completes the following sequence: 1, 2, 4, 7, 11, ?, 22.",
+        "ans": [
+            "16",
+            "14",
+            "15",
+            "18"
+        ]
+    },
+    {
+        "question": "Which of these animals is least like the others?",
+        "ans": [
+            "Lizard",
+            "Lion",
+            "Grizzly bear",
+            "Hamster"
+        ]
+    },
+    {
+        "question": "Take a look at the following sequence: A Z B Y C X D W E. Which letter completes the sequence?",
+        "ans": [
+            "V",
+            "U",
+            "M",
+            "Q"
+        ]
+    },
+    {
+        "question": "Pick the set of words where each word has a different meaning when the first letter is capitalized.",
+        "ans": [
+            "dog, play, peace",
+            "march, turkey, polish",
+            "glass, song, lyric",
+            "bird, fence, feeling"
+        ]
+    },
+    {
+        "question": "Which three numbers give you the same result when you add them or when you multiply them?",
+        "ans": [
+            "1, 2, 3",
+            "2, 4, 6",
+            "3, 5, 7",
+            "1, 3, 4"
+        ]
+    },
+    {
+        "question": "At a swim meet, Alan wasn’t first or last. Jane beat Alan. Alan beat Morgan. Gina wasn’t first or last. Gina beat Kevin. Morgan beat Gina. Who came in last?",
+        "ans": [
+            "Kevin",
+            "Alan",
+            "Morgan",
+            "Gina"
+        ]
+    },
+    {
+        "question": "Rita went to visit Rachel. Rachel is Rita’s only husband’s mother-in-law’s only husband’s only daughter’s only daughter. What relation is Rachel to Rita?",
+        "ans": [
+            "Rita’s daughter",
+            "Rita’s stepdaughter",
+            "Rita’s sister-in-law",
+            "Rita’s granddaughter"
+        ]
+    }
+]

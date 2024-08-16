@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Pick a place:",
+        "ans": [
+            "A gorgeous campsite. I have friends, a backpack of necessities, and the world to explore.",
+            "A cozy cottage. There’s a warm fire, fuzzy blankets, a table of food, and a lush forest outside.",
+            "A treehouse in the clouds, filled with my favorite books, a diary, and a telescope.",
+            "A penthouse apartment in the city, filled with everything on my Amazon wishlist."
+        ]
+    },
+    {
+        "question": "Choose a dream career:",
+        "ans": [
+            "Travel guide.",
+            "Therapist.",
+            "Professor.",
+            "Entrepreneur."
+        ]
+    },
+    {
+        "question": "Your friend is upset. What do you say?",
+        "ans": [
+            "“This is only the beginning. Everything will be okay, just wait.”",
+            "“You’re not alone. I love you, and so many others do too.”",
+            "“Every challenge makes for a wiser, more resilient you.”",
+            "“Buck up; you can do this. Get back on your feet.”"
+        ]
+    },
+    {
+        "question": "Which interests you most?",
+        "ans": [
+            "History.",
+            "Art.",
+            "Philosophy.",
+            "Science."
+        ]
+    },
+    {
+        "question": "What’s your zodiac sign?",
+        "ans": [
+            "A fire sign (Aries, Leo, Sagittarius)",
+            "A water sign (Cancer, Scorpio, Pisces)",
+            "An air sign (Gemini, Libra, Aquarius)",
+            "An earth sign (Taurus, Virgo, Capricorn)"
+        ]
+    },
+    {
+        "question": "Which statement sums up your thoughts on love?",
+        "ans": [
+            "It’s thrilling, especially at the beginning.",
+            "It knows no limits.",
+            "It can be distracting.",
+            "It’s one of life’s amazing challenges."
+        ]
+    },
+    {
+        "question": "What’s your superpower?",
+        "ans": [
+            "I’m hopeful—I see a bright future ahead of me.",
+            "I’m creative—I feel connected to my soul and the souls of others.",
+            "I’m introspective—I know myself, inside and out.",
+            "I’m resourceful—I can always make something out of nothing."
+        ]
+    },
+    {
+        "question": "Which quote speaks to you:",
+        "ans": [
+            "New beginnings are often disguised as painful endings.",
+            "The most important thing in life is to learn how to give love.",
+            "Knowing yourself is the beginning of all wisdom.",
+            "The best way to predict the future is to invent it."
+        ]
+    },
+    {
+        "question": "Pick a meaningful life event:",
+        "ans": [
+            "Stamping your passport for the first time.",
+            "Falling in love.",
+            "Writing a book.",
+            "Owning a home."
+        ]
+    },
+    {
+        "question": "How do other people see you?",
+        "ans": [
+            "Exciting, adventurous, energetic.",
+            "Relaxed, nurturing, attractive.",
+            "Intelligent, curious, introverted.",
+            "Hard-working, capable, confident."
+        ]
+    },
+    {
+        "question": "Choose your favorite season:",
+        "ans": [
+            "Spring.",
+            "Fall.",
+            "Winter.",
+            "Summer."
+        ]
+    },
+    {
+        "question": "How old is your spirit?",
+        "ans": [
+            "18",
+            "40",
+            "75",
+            "25"
+        ]
+    }
+]

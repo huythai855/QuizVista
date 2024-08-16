@@ -1,0 +1,110 @@
+[
+    {
+        "question": "How often do you go on dates?",
+        "ans": [
+            "I go on dates regularly because I think they’re fun!",
+            "Never. It’s much easier just to avoid the dating scene.",
+            "Rarely, but I wish I dated more. It’s just so nerve-wracking!",
+            "Sometimes, but only when I’m really feeling it."
+        ]
+    },
+    {
+        "question": "Have you ever been in a relationship before?",
+        "ans": [
+            "Yes, but we broke up. I’m searching for love again!",
+            "No, I never had the courage to ask someone out.",
+            "No, I’ve always felt like nobody will love me.",
+            "Yes, but nothing super meaningful or long-term."
+        ]
+    },
+    {
+        "question": "How did your last relationship end?",
+        "ans": [
+            "It was a mutual decision, but of course it was still tough.",
+            "I haven’t had a real relationship yet.",
+            "They cheated on me, and I had to end it.",
+            "I just had to break things off—they were clingy!"
+        ]
+    },
+    {
+        "question": "Do you ever struggle to talk to people you’re interested in romantically?",
+        "ans": [
+            "No, not really. I just go for it!",
+            "Yes, all the time. I don’t like initiating conversations.",
+            "Yes, because it feels pointless to even try.",
+            "No, I’ve just never met someone I felt that compelled to talk to."
+        ]
+    },
+    {
+        "question": "How do you feel when you look in the mirror?",
+        "ans": [
+            "Great! I’m happy with what I see.",
+            "Fine, I guess. It’s just me, nothing special.",
+            "Bad. I don’t like looking at myself.",
+            "Good, although I can think of a few things I’d change…"
+        ]
+    },
+    {
+        "question": "How would you describe your social life?",
+        "ans": [
+            "Balanced. I have a few close friends I spend plenty of time with.",
+            "Very quiet. I prefer solitude to socializing any day.",
+            "A little slow. I don’t socialize much, despite wanting to.",
+            "Very busy. There are so many friends to see and so little time!"
+        ]
+    },
+    {
+        "question": "How do you feel about commitment?",
+        "ans": [
+            "I’m ready to commit to someone I love fully!",
+            "I’d prefer to keep things casual for now, honestly.",
+            "The idea of commitment scares me.",
+            "I like the idea of commitment for the right person."
+        ]
+    },
+    {
+        "question": "What kind of restaurant would you visit on a first date?",
+        "ans": [
+            "Somewhere casual and inviting where we can comfortably chat for a while.",
+            "Somewhere quick and cheap. It’s the first date; I don’t want to get too invested yet.",
+            "I’d visit whatever kind of restaurant my date wanted to go to.",
+            "Somewhere expensive and fancy, so my date will be impressed."
+        ]
+    },
+    {
+        "question": "Do you need to find love to be happy?",
+        "ans": [
+            "No. I’m not in a rush, but I still want to find love someday!",
+            "Not really. I don’t mind having lots of alone time.",
+            "Yes, I do. It’s worrying me that I haven’t found love yet.",
+            "Maybe, but so far, I’ve found dating to be pretty unsatisfying."
+        ]
+    },
+    {
+        "question": "How do you usually react to rejection?",
+        "ans": [
+            "I try to learn from the experience and move on from it.",
+            "It makes me want to avoid future situations where I could be rejected.",
+            "It hurts deeply and makes me feel worse about myself.",
+            "It hurts, but I try to shrug it off. It’s just part of life, right?"
+        ]
+    },
+    {
+        "question": "Do you think you deserve a serious, loving relationship?",
+        "ans": [
+            "Yes, of course—don’t we all?",
+            "I’m not sure—I feel like I haven’t earned it.",
+            "No, not really. I’m just not sure if I’m relationship material.",
+            "Yes, I think so, but I haven’t met anyone who deserves me!"
+        ]
+    },
+    {
+        "question": "Finally, what do you think of love?",
+        "ans": [
+            "Love is something special you build over time.",
+            "Finding love makes me nervous, even though I want to have it.",
+            "I’m skeptical about love, but I hope it’s real.",
+            "Love is something that just happens. When you know, you know!"
+        ]
+    }
+]

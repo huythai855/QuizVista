@@ -1,0 +1,83 @@
+[
+    {
+        "question": "Do you usually wake up excited to tackle a new day?",
+        "ans": [
+            "Almost always! When I wake up, I look forward to everything the day has in store for me.",
+            "I'm usually pretty excited! I know not every day will be \"good,\" but I aim to make the most of every day.",
+            "Only sometimes, but it's usually hard to get out of bed and tackle my tasks.",
+            "I don't really ever feel excited for a new day. It feels like things are always too hard."
+        ]
+    },
+    {
+        "question": "Do you ever find yourself daydreaming of a better life?",
+        "ans": [
+            "Not really. I'm pretty happy with the way things are now.",
+            "Sometimes, but for the most part, I'm content with my daily life.",
+            "Yeah. I often feel like the grass is always greener somewhere else, but not all the time.",
+            "I always feel like I'm missing out on the life I'm supposed to have."
+        ]
+    },
+    {
+        "question": "Take a second to reflect. Can you think of anything coming up that you’re excited about?",
+        "ans": [
+            "Yes! I have plenty of things that I'm excited for in the future, and I can't wait for them!",
+            "Sure; there are some things I'm looking forward to.",
+            "There are 1 or 2 things I'm looking forward to, but they don't really make me excited.",
+            "There isn't really anything I'm looking forward to in the future."
+        ]
+    },
+    {
+        "question": "Do you find it easy to share your feelings with other people?",
+        "ans": [
+            "Yes. I'm always expressing myself and sharing my emotions with the people around me.",
+            "I usually only share my inner feelings with people I trust, like friends or family.",
+            "It's sort of hard to talk about my feelings with anyone, but I do try.",
+            "I don't really ever share my inner feelings with anyone."
+        ]
+    },
+    {
+        "question": "Do you participate in social activities besides work or school?",
+        "ans": [
+            "Yes! I'm always seeing friends or going to places where I meet new people.",
+            "I sometimes talk to people outside of work or school, but not a lot.",
+            "No. My main ways of talking to people are through things I have to do, like work or school.",
+            "I don't talk to very many people, even at work or school."
+        ]
+    },
+    {
+        "question": "How often do you spend time in nature, like taking walks or doing recreational activities?",
+        "ans": [
+            "I try to get outdoors every day. I like to hike, play sports, or do other things in nature.",
+            "I get outside a few times a week.",
+            "I usually only go outdoors once or twice a week, or not for very long.",
+            "I don't usually go outdoors, and prefer to stay inside."
+        ]
+    },
+    {
+        "question": "Do you feel like your life has a purpose?",
+        "ans": [
+            "Yes! I know my purpose, and I spend every day fulfilling it.",
+            "Yes, but I wish I spent more of my life trying to fulfill that purpose.",
+            "Maybe, but I'm not sure what that purpose is. I just need to find it!",
+            "I don't really feel like my life has purpose—or if it does, I don’t think that I can find it."
+        ]
+    },
+    {
+        "question": "Would you say you're more of an optimist or a pessimist?",
+        "ans": [
+            "I'm definitely an optimist. I think there's good in everything, even the bad things.",
+            "I'm more of an optimist, but I try to balance it with a healthy dose of reality.",
+            "I don't know—I'm not sure.",
+            "I think I'm more of a pessimist. I feel like things are usually worse than they seem."
+        ]
+    },
+    {
+        "question": "Do you feel like there's someone you could reach out to right now for help, if you needed it?",
+        "ans": [
+            "Yes. I can think of several people who I could ask for help.",
+            "There are a few people I could ask for help.",
+            "There are 1 or 2 people I could ask for help.",
+            "It doesn’t feel like there’s anyone I could ask for help."
+        ]
+    }
+]

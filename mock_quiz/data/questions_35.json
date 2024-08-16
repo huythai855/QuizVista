@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Have you ever been on a date?",
+        "ans": [
+            "Yes. I’ve even gone on more than 1 in a single day.",
+            "Yeah, but hasn’t everyone?",
+            "Kind of? I’m not sure if it counted as a date though.",
+            "No, not yet."
+        ]
+    },
+    {
+        "question": "Have you ever asked for a stranger’s number?",
+        "ans": [
+            "Of course! I’m not afraid to give them a call.",
+            "Yep, but I’ll likely wait a few days to text them.",
+            "Probably, but I’d prefer sliding into their DMs.",
+            "No! I wouldn’t dare ask for someone’s personal information."
+        ]
+    },
+    {
+        "question": "Have you ever snuck out?",
+        "ans": [
+            "Duh! I don’t stick to a curfew.",
+            "Yeah, but only if my friends are too.",
+            "Kind of, but I left a note for my family saying where I went.",
+            "Nope, and I never plan to."
+        ]
+    },
+    {
+        "question": "Have you ever streaked?",
+        "ans": [
+            "Totally!",
+            "Yes, but only because I was dared too.",
+            "Accidentally. My swimsuit fell off in the water.",
+            "No! That would be indecent."
+        ]
+    },
+    {
+        "question": "Have you ever been busted by the cops?",
+        "ans": [
+            "Totally! More than once.",
+            "Once.",
+            "No, but I’ve been close.",
+            "Absolutely not!"
+        ]
+    },
+    {
+        "question": "Have you ever been skinny dipping?",
+        "ans": [
+            "Of course! I do it every summer.",
+            "Yeah, but only because my friends put me up to it.",
+            "No, but I would consider doing it.",
+            "Nope. Anyone could be watching."
+        ]
+    },
+    {
+        "question": "Have you ever made out with someone in public?",
+        "ans": [
+            "Of course! I love a public makeout.",
+            "Yeah, but I only do it occasionally.",
+            "Not really. Only if my partner initiates it.",
+            "No. Intimacy belongs at home."
+        ]
+    },
+    {
+        "question": "Have you ever cheated on a test?",
+        "ans": [
+            "Yep, and I’d do it again!",
+            "Once. But only because I had to!",
+            "Does it count if the teacher gives you the answer?",
+            "Definitely not! That’s despicable!"
+        ]
+    },
+    {
+        "question": "Have you ever dated more than 1 person at once?",
+        "ans": [
+            "Of course. I have to keep my options open.",
+            "Yeah, but it was because of a miscommunication.",
+            "I don’t know. Does crushing on a celebrity while I’m in a relationship count?",
+            "Definitely not! I’d consider that cheating."
+        ]
+    },
+    {
+        "question": "Have you ever been to a party?",
+        "ans": [
+            "Of course! I’ll show up to any party, any time.",
+            "Yep, but only if a friend invites me.",
+            "Sure, if you count a movie night with my friends.",
+            "Nope. Parties just aren’t my thing."
+        ]
+    },
+    {
+        "question": "Have you ever watched a dirty movie?",
+        "ans": [
+            "Totally, and it was marvelous.",
+            "Yeah, but I wasn’t really paying attention.",
+            "Possibly. Does a makeout scene count as dirty?",
+            "Ew, no! My eyes don’t want to see that."
+        ]
+    },
+    {
+        "question": "Have you ever gotten a tattoo?",
+        "ans": [
+            "Yes—I’ve got 2 or more!",
+            "Yeah, I have one.",
+            "Nope, but I’d like one in the future.",
+            "No, and I never want one."
+        ]
+    }
+]

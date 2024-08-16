@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Do you have dimples?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Can you wiggle your ears?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you talk to yourself?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Can you touch your nose with your tongue?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you have two different colored eyes?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Are you over 6 ft (1.8 m) tall?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Are you color blind?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you have a gap in your teeth?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you have freckles?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Can you raise one eyebrow at a time?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Are you double jointed?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Can you lick your elbow?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you have a birthmark?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you have an “outie” belly button (a belly button that sticks out)?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Did you have imaginary friends growing up?",
+        "ans": [
+            "Yes",
+            "No"
+        ]
+    }
+]

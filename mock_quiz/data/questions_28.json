@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Choose a random pair of songs:",
+        "ans": [
+            "“9 to 5” by Dolly Parton and “You’re Still the One” by Shania Twain",
+            "“I Would Die 4 U” by Prince and “Nothing Compares 2 U” by Sinead O’Connor",
+            "“Year 3000” by Jonas Brothers and “7 Things” by Miley Cyrus",
+            "“Sk8ter Boy” by Avril Lavigne and “Six Feet Under” by The Weeknd"
+        ]
+    },
+    {
+        "question": "Choose your dream home:",
+        "ans": [
+            "A sprawling mansion with a 10-car garage.",
+            "A quaint cottage by the shore.",
+            "A cozy apartment that’s in a city.",
+            "A comfortable house in the suburbs."
+        ]
+    },
+    {
+        "question": "It’s your friend’s birthday! Choose some flowers for their birthday bouquet:",
+        "ans": [
+            "Sunflowers, white dryads, and calla lilies",
+            "Irises, starflowers, and hibiscuses",
+            "Commelinas, poppies, and wood lilies",
+            "Evening primroses, dahlias, and daisies"
+        ]
+    },
+    {
+        "question": "Choose a season:",
+        "ans": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Fall"
+        ]
+    },
+    {
+        "question": "What are two traits that a friend might use to describe you?",
+        "ans": [
+            "Confident and self-assured",
+            "Resourceful and adaptable",
+            "Careful and patient",
+            "Persevering and persistent"
+        ]
+    },
+    {
+        "question": "Pick a crystal to add to your collection:",
+        "ans": [
+            "Tiger’s eye",
+            "Moonstone",
+            "Jasper",
+            "Citrine"
+        ]
+    },
+    {
+        "question": "A wizard offers you 4 different magic pills. Which one do you take?",
+        "ans": [
+            "Blue: the power to fly",
+            "Red: the power to create fire",
+            "Yellow: the power to heal",
+            "Green: the power to see glimpses of the future"
+        ]
+    },
+    {
+        "question": "Which affirmation resonates with you the most?",
+        "ans": [
+            "“I can grow and progress at my own speed.”",
+            "“I deserve all that I have earned.”",
+            "“Change makes me stronger.”",
+            "“I decide who I will become.”"
+        ]
+    },
+    {
+        "question": "Pick a pair of TV shows to marathon this weekend:",
+        "ans": [
+            "Sense8 and The 4400",
+            "Brooklyn 99 and 30 Rock",
+            "12 Monkeys and Odyssey 5",
+            "7th Heaven and 6teen"
+        ]
+    },
+    {
+        "question": "Pick a random plotline:",
+        "ans": [
+            "An orphan learns that they’ve inherited a great fortune.",
+            "An ex-skydiver struggles to conquer their fear of heights.",
+            "A psychic helps all sorts of clients using their powers of intuition.",
+            "A person wakes up from a coma and reconnects with their long-lost love."
+        ]
+    },
+    {
+        "question": "What could you use a little more of in your life right now?",
+        "ans": [
+            "Patience",
+            "Hope",
+            "Confidence",
+            "Purpose"
+        ]
+    },
+    {
+        "question": "Which numbers stick out to you the most?",
+        "ans": [
+            "3, 6, and 9",
+            "2, 7, and 0",
+            "1 and 5",
+            "4 and 8"
+        ]
+    }
+]

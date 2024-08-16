@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Pick a sea creature:",
+        "ans": [
+            "Sea turtle",
+            "Dolphin",
+            "Crab",
+            "Cuttlefish"
+        ]
+    },
+    {
+        "question": "Would you redo the past 10 years of your life if you were given the chance?",
+        "ans": [
+            "Yes, without hesitation.",
+            "Maybe—that doesn’t sound so bad.",
+            "I’d have to think about it. It could be a great chance to help others more!",
+            "No. That sounds like way too much work."
+        ]
+    },
+    {
+        "question": "Which of the seven deadly sins do you most relate to?",
+        "ans": [
+            "Wrath or greed",
+            "Sloth",
+            "Lust or gluttony",
+            "Pride or envy"
+        ]
+    },
+    {
+        "question": "Which of these holidays do you like the most?",
+        "ans": [
+            "Valentine’s Day",
+            "St. Patrick’s Day",
+            "April Fool’s Day",
+            "Labor Day"
+        ]
+    },
+    {
+        "question": "Which unflattering yearbook superlative are you winning?",
+        "ans": [
+            "Most Likely to Win the Lottery after Going Broke",
+            "Most Likely to Waste Money on a Yacht",
+            "Most Likely to Be Forgotten",
+            "Most Likely to Take Their Parking Ticket to Court"
+        ]
+    },
+    {
+        "question": "Your boss just gave you 0. What are you doing with the money?",
+        "ans": [
+            "Treating myself to something super nice. I deserve it!",
+            "Nothing. I’ll probably just save it.",
+            "Ask if they’re sure. I feel guilty taking it!",
+            "Ask for a little bit more."
+        ]
+    },
+    {
+        "question": "Choose a foreign word that doesn’t have an exact English translation:",
+        "ans": [
+            "Schadenfreude: taking pleasure from others’ misery",
+            "Fernweh: a feeling of longing or nostalgia for somewhere you’ve never visited",
+            "Tsundoku: buying several books and then never reading them",
+            "Greng jai: A deep sense of thoughtfulness and consideration for another person’s feelings"
+        ]
+    },
+    {
+        "question": "What are your plans for the weekend?",
+        "ans": [
+            "Helping out my friend with a project.",
+            "Forcing my friends to see a movie with me.",
+            "Taking a nap and lounging around.",
+            "Waiting in dread as Monday quickly approaches."
+        ]
+    },
+    {
+        "question": "Which of the four elements do you resonate with the most?",
+        "ans": [
+            "Water",
+            "Earth",
+            "Fire",
+            "Air"
+        ]
+    },
+    {
+        "question": "Why did you steal a cookie from the cookie jar?",
+        "ans": [
+            "It was there.",
+            "I deserved it.",
+            "I was stealing it for a friend.",
+            "I was hoping no one would notice."
+        ]
+    },
+    {
+        "question": "You’re not going to school today. What’s your excuse?",
+        "ans": [
+            "My brain is all over the place today.",
+            "I just don’t feel like it.",
+            "I’m helping my parent/guardian with something important.",
+            "I dunno. I’ll make something up the morning of."
+        ]
+    },
+    {
+        "question": "Time for a self-roast! Which pair of words best describes you?",
+        "ans": [
+            "Overwhelmed and exploited.",
+            "Insecure and rash.",
+            "Unmotivated and apathetic.",
+            "Self-centered and anxious."
+        ]
+    }
+]

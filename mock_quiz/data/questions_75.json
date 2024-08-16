@@ -1,0 +1,110 @@
+[
+    {
+        "question": "You’re judging the Best Food in the Universe Competition. Which dish wins?",
+        "ans": [
+            "Fish tacos.",
+            "Mac and cheese.",
+            "California sushi roll.",
+            "Dino chicken nuggets."
+        ]
+    },
+    {
+        "question": "Pick a donut flavor:",
+        "ans": [
+            "Classic glazed.",
+            "Strawberry frosted with rainbow sprinkles.",
+            "French cruller.",
+            "Boston cream."
+        ]
+    },
+    {
+        "question": "Why didn’t you finish your homework?",
+        "ans": [
+            "My dog ate it.",
+            "I ate it.",
+            "I was helping a friend.",
+            "I forgot about it."
+        ]
+    },
+    {
+        "question": "What’s the best pizza topping?",
+        "ans": [
+            "Pepperoni.",
+            "Mushrooms.",
+            "Pineapple.",
+            "Only cheese, please!"
+        ]
+    },
+    {
+        "question": "Pick a puzzling question:",
+        "ans": [
+            "Is cereal a soup?",
+            "How many holes does a straw have—1 or 2?",
+            "Shouldn’t iPhone chargers be called apple juice?",
+            "Is it possible to daydream in the evening?"
+        ]
+    },
+    {
+        "question": "Roses are red, violets are blue:",
+        "ans": [
+            "This poem is dumb; I’m not finishing it for you.",
+            "I have to sneeze—ah-ah-ah-choo!",
+            "I love my friends, and they love me, too.",
+            "A group of vultures is called a venue."
+        ]
+    },
+    {
+        "question": "What would you do if you met an alien?",
+        "ans": [
+            "Befriend it.",
+            "Give it a tour of Earth.",
+            "Ask to see its spaceship.",
+            "Ask to try some of its alien food."
+        ]
+    },
+    {
+        "question": "What would be the best part of being a Squishmallow?",
+        "ans": [
+            "Hanging out with my Squishmallow friends.",
+            "Snoozing and cruising on a comfy bed all day.",
+            "Looking super adorable 24/7.",
+            "Getting the best hugs ever."
+        ]
+    },
+    {
+        "question": "Pick a Nintendo game:",
+        "ans": [
+            "Mario Kart.",
+            "Mario Party.",
+            "Super Mario Bros.",
+            "Super Smash Bros."
+        ]
+    },
+    {
+        "question": "What’s your fave season?",
+        "ans": [
+            "Summer.",
+            "Winter.",
+            "Spring.",
+            "Autumn."
+        ]
+    },
+    {
+        "question": "Which of these silly holidays would you celebrate?",
+        "ans": [
+            "World Sword Swallowers Day.",
+            "National Cheesecake Day.",
+            "Lost Sock Memorial Day.",
+            "International Talk Like a Pirate Day."
+        ]
+    },
+    {
+        "question": "Choose an ice cream flavor:",
+        "ans": [
+            "Mint chocolate chip.",
+            "Birthday cake.",
+            "Rainbow sherbert.",
+            "Chocolate chip cookie dough."
+        ]
+    }
+]

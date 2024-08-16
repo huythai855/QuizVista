@@ -1,0 +1,128 @@
+[
+    {
+        "question": "Who do you spend the most time with?",
+        "ans": [
+            "Myself or a couple of close friends.",
+            "Friends with similar interests.",
+            "Friends who can keep up with me.",
+            "Friends, family, acquaintances—whoever is around."
+        ]
+    },
+    {
+        "question": "How much energy do you have right now?",
+        "ans": [
+            "I have tons of creative energy but don’t know what to do with it.",
+            "Mentally, I have tons of energy! Physically, not so much.",
+            "I’m super energized! I could run a marathon if you asked me to.",
+            "I have lots of social energy, but not as much when I’m alone."
+        ]
+    },
+    {
+        "question": "Which of these would you speak to your soul?",
+        "ans": [
+            "Writing a short poem.",
+            "Using a brand-new recipe.",
+            "Climbing a mountain.",
+            "Introducing myself to a stranger."
+        ]
+    },
+    {
+        "question": "The worst thing that could happen today is:",
+        "ans": [
+            "Having to socialize when I want to focus on myself.",
+            "Getting absolutely nothing done.",
+            "Spending all day lying on the couch.",
+            "Nobody texting me to ask how I’m doing."
+        ]
+    },
+    {
+        "question": "Are you willing to leave home at all today?",
+        "ans": [
+            "I’d prefer not to.",
+            "I would if there was a good reason.",
+            "Yes! I’m dying to get out and stretch my legs.",
+            "Sure, if I had plans with someone."
+        ]
+    },
+    {
+        "question": "Which word best describes how you’re feeling right now?",
+        "ans": [
+            "Uninspired.",
+            "Unproductive.",
+            "Cooped up.",
+            "Lonely."
+        ]
+    },
+    {
+        "question": "What kinds of movies do you enjoy?",
+        "ans": [
+            "Fantasy movies.",
+            "Documentaries.",
+            "Action-adventure.",
+            "Drama."
+        ]
+    },
+    {
+        "question": "Which compliment would you find most flattering?",
+        "ans": [
+            "You’re so talented.",
+            "You’re so smart.",
+            "You’re so brave.",
+            "You’re the nicest person I know."
+        ]
+    },
+    {
+        "question": "What always cheers you up?",
+        "ans": [
+            "Making something cool and watching it take shape as I work.",
+            "The excitement of watching a movie for the first time.",
+            "Feeling the energy rush through my body during a workout.",
+            "Getting a card in the mail, knowing someone is thinking of me."
+        ]
+    },
+    {
+        "question": "Pick your favorite activity:",
+        "ans": [
+            "Painting.",
+            "Reading.",
+            "Hiking.",
+            "Partying."
+        ]
+    },
+    {
+        "question": "What do you usually do when you’re bored?",
+        "ans": [
+            "I doodle in a notebook.",
+            "I look for new songs to add to my playlist.",
+            "I go for a run until I’m exhausted.",
+            "I text people until someone responds."
+        ]
+    },
+    {
+        "question": "Which is most important to you?",
+        "ans": [
+            "Expressing myself creatively.",
+            "Learning new things.",
+            "Going on exciting adventures.",
+            "Connecting with people."
+        ]
+    },
+    {
+        "question": "What feels more up your alley today?",
+        "ans": [
+            "Doing something that's traditionally artsy.",
+            "Diving into something crafty.",
+            "Learning about a new idea.",
+            "Practicing a new, hands-on skill."
+        ]
+    },
+    {
+        "question": "Which of these activities is an instant veto for you today?",
+        "ans": [
+            "Anything involving gym shoes.",
+            "Anything in the fresh air.",
+            "Anything that forces me to talk to a stranger.",
+            "Anything that requires me to spend energy on someone else."
+        ]
+    }
+]

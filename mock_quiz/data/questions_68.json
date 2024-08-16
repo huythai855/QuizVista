@@ -1,0 +1,167 @@
+[
+    {
+        "question": "Think fast: how would your friends describe you in one word?",
+        "ans": [
+            "Introverted",
+            "Fun-loving",
+            "Easygoing",
+            "Hard-working",
+            "All of these",
+            "None of these"
+        ]
+    },
+    {
+        "question": "What’s your greatest strength?",
+        "ans": [
+            "My adaptability",
+            "My uniqueness",
+            "My kindness",
+            "My honesty",
+            "All of these",
+            "None of these"
+        ]
+    },
+    {
+        "question": "What would your dream house be?",
+        "ans": [
+            "A sprawling mansion",
+            "A cabin in the mountains",
+            "A cozy beach house",
+            "A penthouse apartment",
+            "A fancy RV",
+            "A suburban condo"
+        ]
+    },
+    {
+        "question": "Choose a famous Nintendo character:",
+        "ans": [
+            "Mario",
+            "Luigi",
+            "Kirby",
+            "Zelda",
+            "Yoshi",
+            "Samus"
+        ]
+    },
+    {
+        "question": "What’s your favorite birthday party decoration?",
+        "ans": [
+            "Funky streamers",
+            "Party blowers",
+            "A piñata",
+            "Balloons",
+            "Party hats",
+            "Confetti"
+        ]
+    },
+    {
+        "question": "You’re spending the day in the city! What would you want to do first?",
+        "ans": [
+            "Eat at a viral food spot",
+            "Vlog my trip for TikTok",
+            "See the famous landmarks",
+            "Chill at a local park",
+            "Visit a museum",
+            "Shop at the popular stores"
+        ]
+    },
+    {
+        "question": "What’s your go-to snack?",
+        "ans": [
+            "Cheese crackers",
+            "Pretzels",
+            "Granola bars",
+            "String cheese",
+            "Chips",
+            "Popcorn"
+        ]
+    },
+    {
+        "question": "Choose an accessory for your outfit:",
+        "ans": [
+            "A baseball hat",
+            "A fanny pack",
+            "A belt",
+            "A smartwatch",
+            "A pair of sunglasses",
+            "A pair of gloves"
+        ]
+    },
+    {
+        "question": "It’s Friday night! Which movie are you seeing?",
+        "ans": [
+            "A romantic drama",
+            "A comedy",
+            "A horror/thriller",
+            "A fantasy adventure",
+            "A sci-fi epic",
+            "A documentary"
+        ]
+    },
+    {
+        "question": "Pick an animal onesie to wear:",
+        "ans": [
+            "Red panda",
+            "Wolf",
+            "Penguin",
+            "Unicorn",
+            "Giraffe",
+            "Lemur"
+        ]
+    },
+    {
+        "question": "Wow, it’s so hot outside! Pick a drink to help you cool down:",
+        "ans": [
+            "Lemonade",
+            "An energy drink",
+            "Ice water",
+            "Sweet tea",
+            "A sports drink",
+            "Chocolate milk"
+        ]
+    },
+    {
+        "question": "If you could have any pet, which would it be?",
+        "ans": [
+            "Dog",
+            "Cat",
+            "Hamster",
+            "Bird",
+            "Fish",
+            "Pig"
+        ]
+    },
+    {
+        "question": "You’re locked in a room with 6 different buttons—only one will unlock the door. Which do you pick?",
+        "ans": [
+            "The black and white one",
+            "The orange one",
+            "The pink one",
+            "The yellow one",
+            "The purple one",
+            "The green one"
+        ]
+    },
+    {
+        "question": "You just dug up a treasure chest! Which prize are you claiming?",
+        "ans": [
+            "The knitted blanket",
+            "The music box",
+            "The binoculars",
+            "The sealed envelope",
+            "The strange bottle",
+            "The funky hat"
+        ]
+    },
+    {
+        "question": "You just won a weekend trip to the city of your choice. Where are you going?",
+        "ans": [
+            "New York City",
+            "London",
+            "Sydney",
+            "Los Angeles",
+            "Tokyo",
+            "Seoul"
+        ]
+    }
+]

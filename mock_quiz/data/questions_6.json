@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Pick one:",
+        "ans": [
+            "A window of a train, watching beautiful little worlds pass by in vivid color, while I'm lost in thought.",
+            "A sword in a sheath. It’s been passed down for generations, from the hands of the greats and on to me…",
+            "An old map with ripped edges, smudged lines, and a big circle around an “X.” Could it be…?",
+            "A violet gemstone. Rumor says it holds magic, but you have to know how to coax it out…"
+        ]
+    },
+    {
+        "question": "What’s your heart made of?",
+        "ans": [
+            "Glass",
+            "Stone",
+            "Gold",
+            "Stars"
+        ]
+    },
+    {
+        "question": "Pick a list that speaks to you:",
+        "ans": [
+            "Mystery, secrets, stars, silence.",
+            "Empathy, roses, royalty, reverence.",
+            "Adventure, candles, compasses, cleverness.",
+            "Beauty, desire, dancing, dreams."
+        ]
+    },
+    {
+        "question": "Other people:",
+        "ans": [
+            "Underestimate me.",
+            "Don't truly know me.",
+            "Light up my life.",
+            "Are my highest priority."
+        ]
+    },
+    {
+        "question": "If you were a character in a fairytale, what would the weather be on the last page of the story?",
+        "ans": [
+            "A rainbow would be just barely peaking out through the clouds.",
+            "It would be dark, with powerful storm clouds just beginning to roll in overhead.",
+            "It would be hot, sunny, and completely beautiful.",
+            "It would be a totally average day, nothing special to note."
+        ]
+    },
+    {
+        "question": "Pick a rare word beginning with “P:”",
+        "ans": [
+            "Petrichor (the smell of the earth after a rainfall)",
+            "Panglossian (someone who holds on to hope, even in dark times)",
+            "Philocalist (someone who finds beauty in all things)",
+            "Peiskos (the experience of enjoying a warm fire)"
+        ]
+    },
+    {
+        "question": "Pick something up off of the ground:",
+        "ans": [
+            "A perfect, unbroken seashell.",
+            "A four-leaf clover.",
+            "A five-dollar bill.",
+            "An old, lost letter."
+        ]
+    },
+    {
+        "question": "If you were a type of fire, what would you be?",
+        "ans": [
+            "A lit match.",
+            "A flickering candle.",
+            "A warm campfire.",
+            "An uncontrollable wildfire."
+        ]
+    },
+    {
+        "question": "How do you handle high-pressure situations?",
+        "ans": [
+            "Very well. I have great instincts.",
+            "It depends. I’m intelligent, but I’m not always big on taking action.",
+            "I’m not sure.",
+            "Not very well, but I don’t care."
+        ]
+    },
+    {
+        "question": "How do you handle your emotions?",
+        "ans": [
+            "Very well. I know how to take the high and low in stride.",
+            "It depends, I’m usually unemotional, but sometimes I can’t hold my feelings in.",
+            "I experience big emotions, but they sometimes overwhelm me.",
+            "Not very well, because I’m better with logic."
+        ]
+    },
+    {
+        "question": "How do you handle love?",
+        "ans": [
+            "Very well. I have a loving heart, it’s my gift.",
+            "It depends on the person.",
+            "I’m not sure. Love is a mystery to me…",
+            "Not very well, because I’m independent at heart."
+        ]
+    },
+    {
+        "question": "What are you here for?",
+        "ans": [
+            "To make something of myself.",
+            "To be loved by the person I love.",
+            "To bring more joy into the world.",
+            "To solve the mystery of being alive."
+        ]
+    }
+]

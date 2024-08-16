@@ -1,0 +1,134 @@
+[
+    {
+        "question": "Pick something heroic that you’ve done in real life!",
+        "ans": [
+            "I stood up to a bully.",
+            "I tried something that scared me.",
+            "I helped a sick friend.",
+            "I picked up litter.",
+            "I did random acts of kindness.",
+            "I did volunteer work."
+        ]
+    },
+    {
+        "question": "What would you do with your superpowers once you had them?",
+        "ans": [
+            "Save people and fight crime.",
+            "Devote myself to learning my powers.",
+            "I’d panic!",
+            "I’d make my own life easier.",
+            "I’d ignore them—too stressful!",
+            "Take over the world!"
+        ]
+    },
+    {
+        "question": "What do you think is the most valuable quality for someone to have?",
+        "ans": [
+            "Intelligence",
+            "Compassion",
+            "Ambition",
+            "Patience",
+            "Loyalty",
+            "Creativity"
+        ]
+    },
+    {
+        "question": "Which of the following do you fear the most?",
+        "ans": [
+            "Being alone.",
+            "Failure.",
+            "Being lied to.",
+            "Being vulnerable.",
+            "Darkness.",
+            "Spiders–ew!"
+        ]
+    },
+    {
+        "question": "Which natural phenomenon appeals to you most?",
+        "ans": [
+            "A booming thunderstorm.",
+            "A still, frozen lake.",
+            "A brilliant sunrise.",
+            "An erupting volcano.",
+            "The colors of the aurora borealis.",
+            "A meteor shower crossing the sky."
+        ]
+    },
+    {
+        "question": "What’s your favorite season?",
+        "ans": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "I’m not sure.",
+            "I love them all!"
+        ]
+    },
+    {
+        "question": "How would you describe the style of your room?",
+        "ans": [
+            "Cozy and full of knick-knacks.",
+            "Modern and minimalistic.",
+            "Colorful, bold, and vibrant.",
+            "Retro but chic.",
+            "Simple, rustic farmhouse vibes.",
+            "Style? It’s just plain messy."
+        ]
+    },
+    {
+        "question": "If you were a superhero, what would your gadget of choice be?",
+        "ans": [
+            "A teleportation device",
+            "Thermal goggles",
+            "A bulletproof suit",
+            "A laser pen",
+            "Zero gravity boots",
+            "Web shooters"
+        ]
+    },
+    {
+        "question": "Do you like being the center of attention?",
+        "ans": [
+            "Absolutely!",
+            "Most of the time.",
+            "In certain situations.",
+            "I don't care either way.",
+            "I usually prefer not to be.",
+            "Never!"
+        ]
+    },
+    {
+        "question": "Your friend is upset. To comfort them, you’re:",
+        "ans": [
+            "Offering a hug.",
+            "Letting them cry on my shoulder.",
+            "Taking them out to burn off steam.",
+            "Giving insightful advice.",
+            "Rationalizing the problem.",
+            "Telling jokes to make them laugh."
+        ]
+    },
+    {
+        "question": "Which of these colors do you like best?",
+        "ans": [
+            "Red, the color of passion.",
+            "Blue, the color of peace.",
+            "Green, the color of growth.",
+            "Yellow, the color of energy.",
+            "Purple, the color of mystery.",
+            "Orange, the color of optimism."
+        ]
+    },
+    {
+        "question": "Choose an awesome animal:",
+        "ans": [
+            "Eagles—they’re so free.",
+            "Elephants—they’re gentle giants.",
+            "Vipers—they can always slip away.",
+            "Chameleons—they blend in anywhere.",
+            "Platypus—they’re cute (and just plain weird!).",
+            "Cheetahs—they run like the wind."
+        ]
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Rise and shine! What’s for breakfast?",
+        "ans": [
+            "Scrambled eggs, bacon, and toast.",
+            "An everything bagel with cream cheese.",
+            "French toast and strawberries.",
+            "Quiche and a cucumber salad."
+        ]
+    },
+    {
+        "question": "What city sounds like the most fun to explore?",
+        "ans": [
+            "London, England",
+            "Paris, France",
+            "Barcelona, Spain",
+            "Venice, Italy"
+        ]
+    },
+    {
+        "question": "Pick a career:",
+        "ans": [
+            "Party planner",
+            "Veterinarian",
+            "Musician",
+            "Travel blogger"
+        ]
+    },
+    {
+        "question": "How would your friends describe you?",
+        "ans": [
+            "Carefree, playful, and funny.",
+            "Bold, daring, and independent.",
+            "Kind, loyal, and determined.",
+            "Creative, sensitive, and original."
+        ]
+    },
+    {
+        "question": "You have the day all to yourself! What are you doing?",
+        "ans": [
+            "Grabbing my friends and going out on the town.",
+            "Relaxing with a good book, movie, or TV show.",
+            "Surfing or going on a hike.",
+            "Trying a new hobby, like photography or crocheting."
+        ]
+    },
+    {
+        "question": "Pick a sweet treat:",
+        "ans": [
+            "Chocolate chip cookies",
+            "Cheesecake",
+            "Rainbow sherbet",
+            "Lemon pound cake"
+        ]
+    },
+    {
+        "question": "You’re on vacation! Where are you going?",
+        "ans": [
+            "A tropical beach to relax and recharge.",
+            "A big city to check out the arts and culture.",
+            "A snow-covered mountain to snowboard and ski.",
+            "A solo backpacking trip to get away from it all."
+        ]
+    },
+    {
+        "question": "What superpower would you most like to have?",
+        "ans": [
+            "Healing abilities.",
+            "Flying.",
+            "Teleportation.",
+            "Control of the weather."
+        ]
+    },
+    {
+        "question": "You can only eat one snack for the rest of your life. What do you choose?",
+        "ans": [
+            "Potato chips",
+            "Pretzels",
+            "Peanut butter cups",
+            "Popcorn"
+        ]
+    },
+    {
+        "question": "What’s your biggest pet peeve?",
+        "ans": [
+            "Loud chewing.",
+            "Being late.",
+            "Walking slowly.",
+            "Texting at the dinner table."
+        ]
+    },
+    {
+        "question": "You show up to a party and someone’s wearing the same outfit! You:",
+        "ans": [
+            "Laugh it off and compliment them. Hey, they’ve got good taste!",
+            "Go home and change. I don’t want to look like I copied them!",
+            "Ask them to change. I know I planned my outfit first!",
+            "Throw on a stylish coat and sunglasses. Now I'll stand out even more!"
+        ]
+    },
+    {
+        "question": "What types of flavors do you like the most?",
+        "ans": [
+            "Salty",
+            "Sweet",
+            "Sour",
+            "Savory"
+        ]
+    },
+    {
+        "question": "What can’t you leave home without?",
+        "ans": [
+            "A colorful accessory. I like to look fun and eye-catching!",
+            "Lip balm and sunscreen. I’m always prepared for the day!",
+            "A water bottle and extra snacks. My friends might need a pick-me-up!",
+            "A book or magazine. I like to learn, even in my spare time!"
+        ]
+    },
+    {
+        "question": "What quality is most important to you in a relationship or in a friend?",
+        "ans": [
+            "Humor",
+            "Independence",
+            "Loyalty",
+            "Communication"
+        ]
+    },
+    {
+        "question": "Pick the animal you like most:",
+        "ans": [
+            "Lion",
+            "Dog",
+            "Dolphin",
+            "Horse"
+        ]
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "question": "If your best friend could describe you in 1 word, what would it be?",
+        "ans": [
+            "Empathetic.",
+            "Individualistic.",
+            "Intellectual.",
+            "I'm not sure."
+        ]
+    },
+    {
+        "question": "You’re getting ready for a job interview. What strength do you think you’d have that might get you the job?",
+        "ans": [
+            "Making a great impression with my natural charisma.",
+            "Being super prepared for the interviewer’s questions.",
+            "Acting confident and assertive throughout the interview.",
+            "I'm not sure."
+        ]
+    },
+    {
+        "question": "You’re planning a beach trip with your friends. Which statement sounds most like you?",
+        "ans": [
+            "I'm the friend who makes sure all our plans go smoothly (because I hate when things go awry).",
+            "I'm just focused on soaking in as many amazing sites, sounds, and fun times as possible.",
+            "To me, it’s important to go with the flow of what the group wants.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Which fear do you find most relatable?",
+        "ans": [
+            "I’m scared of not knowing who I am.",
+            "I’m scared of being abandoned.",
+            "I have a perpetual case of FOMO (Fear Of Missing Out) for all the lives I’m not living.",
+            "I'm not sure."
+        ]
+    },
+    {
+        "question": "Which compliment would absolutely make your day?",
+        "ans": [
+            "“I appreciate how much work you put into getting the details just right.”",
+            "“I so admire how willing you are to put others first.”",
+            "“I think you’re really going places in life.”",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Imagine that you could redo any moment in your life. What would you do?",
+        "ans": [
+            "I would sign up for a class/club about a topic that really interests me.",
+            "I would stand up to a teacher or boss who was rude to me.",
+            "I would de-escalate a big fight between my friends or loved ones.",
+            "I'm not sure."
+        ]
+    },
+    {
+        "question": "You’re planning a surprise birthday bash for your friend. How do you prepare?",
+        "ans": [
+            "I iron out every last detail at least 2 months in advance.",
+            "I start planning things a few weeks before.",
+            "I start preparing the week before their birthday.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Your friend is struggling with a really tough break-up. How do you support them?",
+        "ans": [
+            "I head over to their place immediately (or spend hours on the phone with them if they live far away).",
+            "I shoot them a long, sweet text offering my support and telling them how much I love them.",
+            "I’ll say something nice the next time I happen to see them.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "You just scored an 85% on a big test. How are you feeling?",
+        "ans": [
+            "Unhappy. I won’t be satisfied until I get the highest grade in my class!",
+            "Satisfied. It’s not my best performance, but not my worst.",
+            "I don't care. I passed—that’s all that I care about.",
+            "I'm not sure."
+        ]
+    },
+    {
+        "question": "Are you a creative person at heart?",
+        "ans": [
+            "Absolutely! I feel like I’m super creative.",
+            "Kind of? I’m creative sometimes, at least.",
+            "Not especially—I wouldn’t use that word to describe myself.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Do you prefer to work by yourself, or do you work better in a group?",
+        "ans": [
+            "By myself, definitely.",
+            "I like working by myself, but I’m fine in a group setting, too.",
+            "In a group, 100%.",
+            "I'm not sure."
+        ]
+    },
+    {
+        "question": "You have a friend you’re losing touch with. What’s your next move?",
+        "ans": [
+            "I’m going to do everything I can to get in touch and rebuild the relationship. I’m loyal to a fault.",
+            "I’ll send a couple of messages to try and reconnect.",
+            "I’ll let the friendship fade—it probably wasn’t meant to be, anyway.",
+            "I'm not sure."
+        ]
+    },
+    {
+        "question": "When you visit a new city, what’s your top priority?",
+        "ans": [
+            "Experiencing as many new things as I possibly can.",
+            "Seeing a few sights while also getting some downtime.",
+            "Staying put and having a relaxing time.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "Do you consider yourself more of a leader or a follower?",
+        "ans": [
+            "A leader, definitely. I’m comfortable taking charge.",
+            "I’m pretty flexible, but I prefer to be in a leadership position.",
+            "A follower—I don’t like taking the lead.",
+            "I’m not sure."
+        ]
+    },
+    {
+        "question": "You’re dealing with a frustrating problem at school or work. What’s your default reaction?",
+        "ans": [
+            "I ignore it (or pretend it isn’t as bad as it actually is).",
+            "I make a plan to address the problem in the (distant) future.",
+            "I plan to face the problem head-on.",
+            "I'm not sure."
+        ]
+    }
+]

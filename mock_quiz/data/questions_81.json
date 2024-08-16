@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What do you like to do in your free time?",
+        "ans": [
+            "Paint or sketch. I find artistic inspiration everywhere.",
+            "Read. There are too many books and not enough time!",
+            "Nap. With my busy schedule, I’ll relax whenever I can.",
+            "Explore. Why sit still when I can visit new places?"
+        ]
+    },
+    {
+        "question": "How would you describe yourself as a child?",
+        "ans": [
+            "Adventurous, fearless, and rambunctious.",
+            "Social, outgoing, and stubborn.",
+            "Calm, care-free, and curious.",
+            "Headstrong, loud, and obnoxious."
+        ]
+    },
+    {
+        "question": "When you have nightmares, what are they usually about?",
+        "ans": [
+            "Failure. I must be perfect, no matter what.",
+            "My appearance. I don’t want to be ugly!",
+            "Losing control. I like having power.",
+            "Being trapped. I need to be free to do what I want."
+        ]
+    },
+    {
+        "question": "You’ve been hiding something. What is it?",
+        "ans": [
+            "I write cheesy poems about my crushes.",
+            "I pretend I’m on a cooking show when making dinner.",
+            "I bought a plane ticket to a place I’ve never heard of.",
+            "I enrolled in a parkour course."
+        ]
+    },
+    {
+        "question": "Who are you in your friend group?",
+        "ans": [
+            "The leader. People tend to follow my example.",
+            "The protector. I keep everyone safe.",
+            "The smarty pants. I can answer any and all questions.",
+            "The creative. People often catch me daydreaming."
+        ]
+    },
+    {
+        "question": "Which of these animals do you feel the most connected to?",
+        "ans": [
+            "Birds. They can fly wherever they want.",
+            "Poodles. They have fabulous hair.",
+            "Dolphins. They’re intelligent and curious.",
+            "Elephants. They’re smart and creative."
+        ]
+    },
+    {
+        "question": "Where do you experience the most deja vu?",
+        "ans": [
+            "At the library. There’s something nostalgic about it.",
+            "On a plane. Sometimes I think I’ve sat in the seat before.",
+            "At the gym. Training my body helps me beat the competition.",
+            "In the city. I feel powerful meeting new people."
+        ]
+    },
+    {
+        "question": "What do you like to watch on TV?",
+        "ans": [
+            "The news. I like keeping up with current events.",
+            "Reality shows. The drama is everything!",
+            "Documentaries. There’s always something new to learn.",
+            "Dramas. I like getting lost in a good story."
+        ]
+    },
+    {
+        "question": "What are you unintentionally good at?",
+        "ans": [
+            "Crafting. I like making new things.",
+            "Sports. I love competing and showing off my skills.",
+            "Talking. I can be very persuasive.",
+            "Planning. I can squeeze anything into a schedule."
+        ]
+    },
+    {
+        "question": "Which quote do you resonate with the most?",
+        "ans": [
+            "“Don’t wait for inspiration. It comes while working.”",
+            "“To handle yourself, use your head; to handle others, use your heart.”",
+            "“Courage is resistance to fear, mystery of fear, not absence of fear.”",
+            "“Question everything. Learn something. Answer nothing.”"
+        ]
+    },
+    {
+        "question": "It’s your birthday! What’s your ideal gift?",
+        "ans": [
+            "A book or journal.",
+            "A reusable water bottle.",
+            "A camera.",
+            "A pocket knife."
+        ]
+    },
+    {
+        "question": "What do you value most in life?",
+        "ans": [
+            "Knowledge.",
+            "Power.",
+            "Popularity.",
+            "Imagination."
+        ]
+    }
+]

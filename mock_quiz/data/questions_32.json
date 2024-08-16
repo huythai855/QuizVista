@@ -1,0 +1,119 @@
+[
+    {
+        "question": "The washing machine isn’t working! What do you do?",
+        "ans": [
+            "Find the manual and try to diagnose the issue by reading carefully.",
+            "Take a look at the control panel and look for anything broken.",
+            "Go on YouTube to see if I can find tutorials.",
+            "Call the company’s customer service line and ask for advice."
+        ]
+    },
+    {
+        "question": "If 6 lizards can eat 6 dandelions in 6 minutes, how much time would it take a single lizard to eat 2 dandelions?",
+        "ans": [
+            "12 minutes",
+            "6 minutes",
+            "18 minutes",
+            "15 minutes"
+        ]
+    },
+    {
+        "question": "You’re hiking alone when you injure yourself in a pretty bad tumble. What do you do first?",
+        "ans": [
+            "Use my upper body strength to crawl to a more visible location.",
+            "Try to identify the type of injury I have based on my symptoms.",
+            "Take a deep breath. I need to be calm before I do anything.",
+            "Look for anything in nature that can help me. Do I see any leaves or sticks that would make a good tourniquet?"
+        ]
+    },
+    {
+        "question": "You're asked to explain what an adverb is. What do you say?",
+        "ans": [
+            "It’s a word that modifies verbs, adjectives, and adverbs.",
+            "It’s a word that modifies other nouns.",
+            "It’s an action word, like “catch” or “play.”",
+            "It’s a word that connects other parts of a sentence together."
+        ]
+    },
+    {
+        "question": "You’re waiting to be interviewed for your dream job. How do you calm your nerves?",
+        "ans": [
+            "I pray or speak to a higher power.",
+            "I remind myself of my strengths and capabilities (it's proven that mantras help with performance!).",
+            "I hum a tune to distract myself.",
+            "I think about how statistically, I'm qualified for the job—the odds are in my favor!"
+        ]
+    },
+    {
+        "question": "Imagine you're editing a photo that’s overloaded with intense colors. What setting allows you to tone these hues down?",
+        "ans": [
+            "Saturation",
+            "Brightness",
+            "Contrast",
+            "Sharpness"
+        ]
+    },
+    {
+        "question": "You're lifting up a heavy box. How do you do it?",
+        "ans": [
+            "I hold it close to my body, have my feet set at a wide stance, and lift with my legs (not my back).",
+            "I don't think about it, I just pick it up.",
+            "I hold it close to my body, have my feet close together, and lift with back (not my legs).",
+            "I use a lifting tool to raise it off the ground."
+        ]
+    },
+    {
+        "question": "Which of the following is NOT proper camping etiquette?",
+        "ans": [
+            "Keep your campsite lights pointed up so you can be easily found during an emergency.",
+            "Look for occupancy tags before setting up camp so you don’t steal someone’s site.",
+            "Stay quiet during your campsite’s requested hours.",
+            "Throw away your trash and keep your campsite clean."
+        ]
+    },
+    {
+        "question": "Your friend says they’re learning an instrument with a double reed. You assume they’re learning to play:",
+        "ans": [
+            "The oboe or bassoon.",
+            "The clarinet or saxophone.",
+            "The flute or piccolo.",
+            "The trumpet or trombone."
+        ]
+    },
+    {
+        "question": "Someone is upset. Which phrase is most likely to make them feel better?",
+        "ans": [
+            "\"I totally understand why you'd feel that way. That sounds really upsetting.\"",
+            "\"It's going to be okay.\"",
+            "\"Can I give you some advice?\"",
+            "\"You should try calming down.\""
+        ]
+    },
+    {
+        "question": "Give yourself 30 seconds to list as many of your favorite things as you can (count on your fingers as you go). How many do you come up with?",
+        "ans": [
+            "Over 30",
+            "20-30",
+            "10-20",
+            "Less than 10"
+        ]
+    },
+    {
+        "question": "You have to memorize a difficult list of information by the end of the day. What do you do?",
+        "ans": [
+            "Put the information into a song, then memorize it that way.",
+            "I'm not worried. I'm great at memorizing what I read naturally.",
+            "I use a visual memorization trick (like the Memory Palace trick) so that I can see the information in my mind.",
+            "I invite friends over to help me learn. I know that I have an easier time studying in a group than solo."
+        ]
+    },
+    {
+        "question": "It wouldn't be an intelligence quiz without a \"choose the true statement\" question! Pick the answer that you think is truest:",
+        "ans": [
+            "Fame, success, and money are most important.",
+            "Having fun as often as possible is most important.",
+            "Love and relationships are most important.",
+            "My spirit, soul, and faith are most important."
+        ]
+    }
+]

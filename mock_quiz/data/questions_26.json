@@ -1,0 +1,182 @@
+[
+    {
+        "question": "I value kindness over competition.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I don't like to admit when I'm wrong.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I’m open to new ideas and experiences. I don’t consider myself close-minded.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "People usually come to me for advice.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I don't see an issue with lying, so I do it pretty regularly.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I don't mind breaking promises if it gets me closer to what I want.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "People say I’m approachable.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I probably have a negative outlook on life.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I’m always willing to lend a helping hand.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I think other people’s opinions matter.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "People like being my teammate or colleague.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I like giving genuine compliments, even to strangers.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I find it difficult to express my feelings honestly.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I like to praise others, not myself.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I’m always grateful when people help me out.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I don't enjoy doing favors for other people",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I think I'm probably more jealous than the average person.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I accept myself as I am, regardless of what people think.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I like to make kind-hearted jokes instead of mean-spirited ones.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    },
+    {
+        "question": "I find it difficult to listen attentively to other people.",
+        "ans": [
+            "Agree",
+            "Slightly agree",
+            "Slightly disagree",
+            "Disagree"
+        ]
+    }
+]

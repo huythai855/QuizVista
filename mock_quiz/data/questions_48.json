@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Whoops! You just broke your sibling’s phone. What’s your response?",
+        "ans": [
+            "“Could you ever forgive me for breaking your phone screen?”",
+            "“I am so sorry that I broke your screen. I feel terrible about this.”",
+            "“I wasn’t being careful—this is on me. This is tough reminder for me to be more alert.”",
+            "“I’m truly sorry about your phone screen. I’ll pay to have it fixed ASAP.”"
+        ]
+    },
+    {
+        "question": "Your best friend sent you a hurtful text. Which type of apology would you like?",
+        "ans": [
+            "“What I said was honestly careless and I didn’t think it through.”",
+            "“What can I do to make things right between us?”",
+            "“I feel terrible about what I said. Would you forgive me?”",
+            "“I’m sorry that I hurt your feelings. In the future, I’ll be extra mindful about what I send.”"
+        ]
+    },
+    {
+        "question": "You and your parents had a bad fight. What do you wish they’d say to you?",
+        "ans": [
+            "“We feel terribly. We know we must have deeply hurt you.”",
+            "“Could you please forgive us for what we said?”",
+            "“We really regret how we acted. The next time we get frustrated, we promise to get some air.”",
+            "“This is our fault—we shouldn’t have jumped to conclusions. What can we do to repair our relationship?”"
+        ]
+    },
+    {
+        "question": "Your co-worker missed their deadline. How should they apologize?",
+        "ans": [
+            "“This is on me. I gave you my word, and I was late.”",
+            "“I never want to do that again. Can we discuss ways I could improve?”",
+            "“I can only imagine the stress you’ve felt, and I’m so sorry for the role I played in it.”",
+            "“There’s no rush to decide, but I would be grateful it if you forgave me.”"
+        ]
+    },
+    {
+        "question": "Your friend said they’d pick you up, but they left you hanging. You’re hoping that they:",
+        "ans": [
+            "Offer to drive you somewhere else. It’s the least they can do!",
+            "Say how sorry they are for making you wait.",
+            "Take responsibility for what they did or ask for your forgiveness.",
+            "Share what they’ll do to be timelier in the future."
+        ]
+    },
+    {
+        "question": "Your best friend spilled your big secret. How should they apologize?",
+        "ans": [
+            "“I’m going to be way more careful in the future. How else can I earn your trust back?”",
+            "“I don’t expect you to decide now, but could you ever forgive me?”",
+            "“I am so sorry for breaking your trust. Words can’t express how awful I feel right now.”",
+            "“I take full responsibility for this. I can’t apologize enough.”"
+        ]
+    },
+    {
+        "question": "You accidentally embarrassed your little sibling in public. How do you apologize?",
+        "ans": [
+            "“I feel so bad about what happened. I’m so sorry that I hurt you.”",
+            "“I was careless and said some really hurtful things. I’m truly sorry!”",
+            "“I’m very sorry that I embarrassed you. Next time, I promise to be on my best behavior.”",
+            "“I hope someday you can forgive me for what I did. What can I do in the meantime to make things better?”"
+        ]
+    },
+    {
+        "question": "Oh no! You spilled your drink on someone in the restaurant. What’s your response?",
+        "ans": [
+            "“Darn! I apologize for this. Let me pay to get your shirt cleaned.”",
+            "“That was completely on me. I feel so terrible about this—I sincerely apologize!”",
+            "“I’m incredibly sorry about this. Could you ever forgive me?”",
+            "“I’m sorry; that was so clumsy of me. I’ll take this as a reminder to be more aware of my surroundings.”"
+        ]
+    },
+    {
+        "question": "Your partner forgot about date night. How do you hope they’ll respond?",
+        "ans": [
+            "“I can only imagine how hurt  you must feel right now. Can you forgive me?”",
+            "“I feel horrible about this. Please tell me what I can do to make it up to you.”",
+            "“I’m going to better organize my schedule so this never ever happens again.”",
+            "“I have no excuse—this is my fault. I can’t believe I forgot about tonight.”"
+        ]
+    },
+    {
+        "question": "You lost your temper with your partner. What does your apology look like?",
+        "ans": [
+            "“I have no excuse. I didn’t think before I spoke and was pretty rude.”",
+            "“I feel awful about how I acted. I’ll look for ways to control my temper in the future.”",
+            "“I’m very sorry for the way I spoke to you then. Would you forgive me?”",
+            "“I can’t take back what I said, but I’d like to make things right. What can I do?”"
+        ]
+    },
+    {
+        "question": "Your friend made plans with you and then bailed. How should they apologize?",
+        "ans": [
+            "“I’m so very sorry for wasting your time like that. I feel terrible!”",
+            "“In the future, I’ll make sure to text you when my plans change. Can you forgive me?”",
+            "“I’d like to make this up to you. Can I treat you to lunch this weekend?”",
+            "“I made a commitment that I didn’t follow through on. That’s my fault, and I can’t apologize enough.”"
+        ]
+    },
+    {
+        "question": "Your co-worker shared some mean gossip about you. How should they apologize?",
+        "ans": [
+            "“I have no excuse for what I said. I know I don’t deserve it, but would you forgive me?”",
+            "“I was being mean and thoughtless—I’m so sorry. Is there anything I can do to fix this?”",
+            "“I am ashamed about what I said, and I can’t apologize enough.”",
+            "“I’m very sorry. From now on, I won’t take part in workplace gossip.”"
+        ]
+    }
+]

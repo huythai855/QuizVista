@@ -1,0 +1,272 @@
+[
+    {
+        "question": "In which country did D-Day take place?",
+        "ans": [
+            "France",
+            "Germany",
+            "Great Britain",
+            "The Netherlands"
+        ]
+    },
+    {
+        "question": "What year did Australia officially become a country?",
+        "ans": [
+            "1942",
+            "1883",
+            "1901",
+            "1957"
+        ]
+    },
+    {
+        "question": "After which global conflict was the United Nations formed?",
+        "ans": [
+            "World War 1",
+            "World War 2",
+            "The Cold War",
+            "The Korean War"
+        ]
+    },
+    {
+        "question": "Which of these countries is the oldest?",
+        "ans": [
+            "Iran",
+            "China",
+            "USA",
+            "India"
+        ]
+    },
+    {
+        "question": "Which country was NOT considered one of the “Big Three” Allies in World War 2?",
+        "ans": [
+            "USA",
+            "UK",
+            "Soviet Union",
+            "Canada"
+        ]
+    },
+    {
+        "question": "Which Latin American country was involved in an infamous missile crisis in 1962?",
+        "ans": [
+            "Cuba",
+            "Guatemala",
+            "Venezuela",
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What was the name of the military mission led by the US in the Gulf War?",
+        "ans": [
+            "Operation Desert Storm",
+            "Operation Thunder Wave",
+            "Operation Desert Ground",
+            "Operation Ocean Shield"
+        ]
+    },
+    {
+        "question": "What was the name of the famous trading route network that linked China to other regions?",
+        "ans": [
+            "The Ivory Road",
+            "The Silk Road",
+            "The Spice Road",
+            "The Wool Road"
+        ]
+    },
+    {
+        "question": "In which country was the Taj Mahal built?",
+        "ans": [
+            "India",
+            "Thailand",
+            "Pakistan",
+            "Myanmar"
+        ]
+    },
+    {
+        "question": "What was the first state established in the USA?",
+        "ans": [
+            "Pennsylvania",
+            "New York",
+            "Delaware",
+            "Rhode Island"
+        ]
+    },
+    {
+        "question": "Which prehistoric age is NOT real?",
+        "ans": [
+            "The Iron Age",
+            "The Stone Age",
+            "The Gold Age",
+            "The Bronze Age"
+        ]
+    },
+    {
+        "question": "Which event kickstarted the beginning of World War 1?",
+        "ans": [
+            "The assassination of Archduke Francis Ferdinand",
+            "The German invasion of Luxembourg and Belgium",
+            "The German naval blockade of Great Britain",
+            "The sinking of the Lusitania"
+        ]
+    },
+    {
+        "question": "Which of the following WASN’T one of Christopher Columbus’s ships?",
+        "ans": [
+            "The Niña",
+            "The Santa Maria",
+            "The Niño",
+            "The Pinta"
+        ]
+    },
+    {
+        "question": "Who was the very first Roman emperor?",
+        "ans": [
+            "Augustus",
+            "Caligula",
+            "Nero",
+            "Tiberius"
+        ]
+    },
+    {
+        "question": "Which battle ended the American Revolutionary War?",
+        "ans": [
+            "The Battle of Yorktown",
+            "The Battle of Trenton",
+            "The Battle of Lexington and Concord",
+            "The Battle of Bunker Hill"
+        ]
+    },
+    {
+        "question": "What was the infamous European plague of the 1300s called?",
+        "ans": [
+            "The Plague to End All Plagues",
+            "The Great Plague",
+            "The Black Death",
+            "The Great Reckoning"
+        ]
+    },
+    {
+        "question": "Who helped start the Protestant Reformation by writing a document known as the Ninety-five Theses?",
+        "ans": [
+            "Martin Luther",
+            "John Calvin",
+            "William Tyndale",
+            "John Knox"
+        ]
+    },
+    {
+        "question": "What event inspired the USA to join World War 2?",
+        "ans": [
+            "The bombing of Pearl Harbor",
+            "The invasion of Poland",
+            "The capture of Paris",
+            "The Blitz of the UK"
+        ]
+    },
+    {
+        "question": "Who did Ancient Egyptians worship as the god of the Sun?",
+        "ans": [
+            "Anubis",
+            "Ra",
+            "Horus",
+            "Seth"
+        ]
+    },
+    {
+        "question": "Which small European territory is the home of the Catholic Pope?",
+        "ans": [
+            "Vatican City",
+            "Andorra",
+            "San Marino",
+            "Monaco"
+        ]
+    },
+    {
+        "question": "Which state became part of the USA on January 3, 1959?",
+        "ans": [
+            "New Mexico",
+            "Alaska",
+            "Arizona",
+            "Hawaii"
+        ]
+    },
+    {
+        "question": "What year did World War 2 end?",
+        "ans": [
+            "1943",
+            "1944",
+            "1945",
+            "1946"
+        ]
+    },
+    {
+        "question": "Which country did Australia officially establish independence from in 1986?",
+        "ans": [
+            "The UK",
+            "Belgium",
+            "The Netherlands",
+            "France"
+        ]
+    },
+    {
+        "question": "Who was the leader of the Russian Revolution in 1917?",
+        "ans": [
+            "Vladimir Lenin",
+            "Karl Marx",
+            "Joseph Stalin",
+            "Georgy Malenkhov"
+        ]
+    },
+    {
+        "question": "Which European city was famously split by a wall between 1961 and 1989?",
+        "ans": [
+            "Paris",
+            "Budapest",
+            "Prague",
+            "Berlin"
+        ]
+    },
+    {
+        "question": "Which of the following countries still has an emperor?",
+        "ans": [
+            "Japan",
+            "The UK",
+            "Brazil",
+            "Vietnam"
+        ]
+    },
+    {
+        "question": "Which of the following WASN’T one of the original 13 American states?",
+        "ans": [
+            "Georgia",
+            "Virginia",
+            "New York",
+            "Florida"
+        ]
+    },
+    {
+        "question": "What is the official dividing line of North and South Korea?",
+        "ans": [
+            "The 38th Parallel",
+            "The 35th Parallel",
+            "The 40th Parallel",
+            "The 21st Parallel"
+        ]
+    },
+    {
+        "question": "Which African country has the most pyramids built?",
+        "ans": [
+            "Egypt",
+            "Sudan",
+            "Uganda",
+            "Ethiopia"
+        ]
+    },
+    {
+        "question": "How many years was Alexander the Great the King of Macedonia?",
+        "ans": [
+            "13 years",
+            "20 years",
+            "25 years",
+            "8 years"
+        ]
+    }
+]

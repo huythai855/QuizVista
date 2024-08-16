@@ -1,0 +1,74 @@
+[
+    {
+        "question": "If you could magically gain 1 skill right now just from reading a wikiHow article, what would it be?",
+        "ans": [
+            "Pet telepathy: the ability to talk to animals.",
+            "Invisibility: the ability to vanish without a trace.",
+            "Persuasion: the ability to get people to do whatever I want.",
+            "Intuition: the ability to know how something works, just by looking at it."
+        ]
+    },
+    {
+        "question": "We're casting a play starring wikiHow users! What's your role? (For the record, we're not actually doing this…yet!)",
+        "ans": [
+            "I'm a writer! I put my pen to work writing every little scene and line, making sure they're top quality.",
+            "I'm the star! The audience follows my gripping story and learns something new by the end. And I get loads of awards.",
+            "I'm a background actor that offers a helpful tip or a snappy joke that gives the whole thing some flavor.",
+            "I'm the scenery artist! I’m making a beautiful, hand-illustrated prop to help the audience get immersed."
+        ]
+    },
+    {
+        "question": "How do you respond when a friend asks for help with a project?",
+        "ans": [
+            "Sign me up! I'm always willing to lend a hand.",
+            "Hold on, I need to hear what we're doing first before I make a decision...",
+            "No thanks, I've got my own mountain of projects to finish!",
+            "I'm gonna do the same project but better, just to foster a little healthy competition."
+        ]
+    },
+    {
+        "question": "No particular reason for this question, but how do you feel about fish?",
+        "ans": [
+            "I love fish. I love eating them, specifically.",
+            "I've never really trusted fish. They just seem like they're up to something. Something fishy.",
+            "Fish are the cutest animals on planet Earth. I couldn't even bring myself to eat them, they're so cute.",
+            "I try to stay far away from fish. They're slimy and cold. And smelly."
+        ]
+    },
+    {
+        "question": "What genre of wikiHow article are you most likely to read?",
+        "ans": [
+            "Sports & fitness. wikiHow is my personal trainer!",
+            "Pets & animals. wikiHow is my personal animal whisperer!",
+            "Food & cooking. wikiHow is my personal chef!",
+            "Careers & jobs. wikiHow is my go-to business partner!"
+        ]
+    },
+    {
+        "question": "You're being ambushed! Grab a weapon to defend yourself:",
+        "ans": [
+            "A sword and ninja stars, naturally! I don't know how to use them, but there's a wikiHow article for that!",
+            "I'll stick with my fists. They're all I need.",
+            "A slingshot that shoots something heavy, like potatoes. I'll have the firepower advantage!",
+            "Wait wait wait! Can't we just talk this out?"
+        ]
+    },
+    {
+        "question": "What are you most likely to do when you're bored?",
+        "ans": [
+            "Think of all the ways I'd make the world a better place if I were in charge.",
+            "Dream of making a new, perfect life for myself.",
+            "Work on a new, practical skill. Like kickboxing. Or crochet.",
+            "Research obscure topics and wild periods in history."
+        ]
+    },
+    {
+        "question": "Do you enjoy teaching or showing other people how to do something?",
+        "ans": [
+            "Yes! I like helping people learn and grow.",
+            "Yes, but mostly because I like to be in control, if I’m being totally honest...",
+            "Not really, I prefer letting other people teach me new things!",
+            "No! It's way too much responsibility for me."
+        ]
+    }
+]

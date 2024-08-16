@@ -1,0 +1,110 @@
+[
+    {
+        "question": "How do you make important decisions?",
+        "ans": [
+            "I base decisions on cold, hard facts, even if my instincts say otherwise.",
+            "I could go either way, but I’m more likely to use my head over my heart.",
+            "I tend to use my intuition, but logic wins out occasionally.",
+            "I go with my gut above everything else. It’s important to trust yourself!"
+        ]
+    },
+    {
+        "question": "You have the option to take a statistics or a photography class. Which do you pick?",
+        "ans": [
+            "Statistics, no contest.",
+            "Probably statistics, but both sound interesting.",
+            "Most likely photography, but I feel like I could do either.",
+            "Definitely photography."
+        ]
+    },
+    {
+        "question": "You have a bunch of work projects that need doing—how do you tackle them?",
+        "ans": [
+            "Methodically. I organize them by importance and finish them one by one.",
+            "I organize them by importance but jump from project to project when I’m bored.",
+            "I prioritize them by how interesting they are to me and complete them one by one.",
+            "Sporadically. I jump around a lot, but make sure they get done eventually."
+        ]
+    },
+    {
+        "question": "Your workspace is super messy. How do you deal with that?",
+        "ans": [
+            "I absolutely hate it and organize everything as soon as possible.",
+            "It’s definitely not ideal; I organize it when I have time.",
+            "I don’t mind clutter, but I try rearranging it so it’s at least easier to find stuff.",
+            "I leave it cluttered—it’s my creative mess!"
+        ]
+    },
+    {
+        "question": "Do you ever struggle with consistency?",
+        "ans": [
+            "Not at all. I stick to a tight schedule, and that’s how I like it.",
+            "Occasionally. I tend to follow a schedule, but I can bend it if I have to.",
+            "Sometimes. I don't really like routines, but I schedule things when I have to.",
+            "Who needs consistency? Routine is boring, so I just go with the flow."
+        ]
+    },
+    {
+        "question": "As a child, how well did you follow rules?",
+        "ans": [
+            "I followed them to the letter. All my teachers said I was super well-behaved.",
+            "I followed most of the rules I was given but occasionally asked why first.",
+            "I tried to be respectful, but I definitely questioned a lot of rules.",
+            "I was a wild child! I broke rules often and hated being told what to do."
+        ]
+    },
+    {
+        "question": "You’re getting a haircut. What’s the easiest way to tell the barber what hairstyle you want?",
+        "ans": [
+            "I describe the hairstyle in a ton of detail.",
+            "I offer the most important details and let the barber fill in the rest.",
+            "I find an approximate photo and offer a few details as well.",
+            "I create a collage of hairstyle photos that I can share with the stylist."
+        ]
+    },
+    {
+        "question": "How often do you catch yourself daydreaming?",
+        "ans": [
+            "I never daydream. I prefer to focus on the task in front of me.",
+            "I daydream from time to time, but I wouldn’t say it’s a habit.",
+            "I definitely daydream when I’m bored, but I can refocus when I have to.",
+            "All the time. I have a pretty strong imagination."
+        ]
+    },
+    {
+        "question": "What does your closet look like right now?",
+        "ans": [
+            "Neat. Every type of clothing has its own spot and stays carefully folded.",
+            "It’s organized, but I tend to group clothes by style—formal wear, work stuff, etc.",
+            "I keep all my clothing in one spot but don’t really take the time to fold or organize.",
+            "Messy. Clothes are on the floor, on my bed, in the guest room—I don’t organize."
+        ]
+    },
+    {
+        "question": "Your birthday is coming up. How do you plan it?",
+        "ans": [
+            "I plan it down to the tiniest detail. I want everything to go perfectly!",
+            "I plan the important stuff—food, drinks, activities—but don’t stress the details.",
+            "I ask a good friend to help me. Planning isn’t my forte, but I know I need to!",
+            "I play it by ear. Planning is no fun; I prefer having fun in the moment."
+        ]
+    },
+    {
+        "question": "You have a story to tell—what’s your storytelling style?",
+        "ans": [
+            "I tell every detail of the story with perfect accuracy.",
+            "I give a pretty detailed account, but I don’t ramble for too long.",
+            "I give a summary but add a few of the most interesting details.",
+            "I get straight to the point—why get lost in details?"
+        ]
+    },
+    {
+        "question": "When you meet someone new, what do you remember best?",
+        "ans": [
+            "I remember their names and important details but don’t really recall faces.",
+            "I tend to remember names, but important facial features also stand out.",
+            "I’m better with faces than with names, but sometimes I can connect the dots.",
+            "I remember faces, but I’m terrible with names."
+        ]
+    }
+]

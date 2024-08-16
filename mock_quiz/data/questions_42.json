@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which do you find funniest?",
+        "ans": [
+            "Goofy puns.",
+            "Tumblr memes.",
+            "Stand-up comedy clips.",
+            "Celebrity reaction videos."
+        ]
+    },
+    {
+        "question": "You’re with your friends and see someone standing off by themselves. What do you do?",
+        "ans": [
+            "Say hi and ask if everything’s okay.",
+            "Walk over and tell a joke to break the ice.",
+            "Invite them along to a big group activity that I carefully planned for next weekend.",
+            "Call them over, make introductions, and invite them to join the discussion."
+        ]
+    },
+    {
+        "question": "What are your favorite topics to bring up with friends?",
+        "ans": [
+            "I enjoy discussing topical things like the news or social issues.",
+            "I bring up pop culture topics and all the shows I’m watching.",
+            "I send them funny videos and memes all day, every day.",
+            "I talk about personal stuff (like who I’m crushing on!)."
+        ]
+    },
+    {
+        "question": "Your BFF just won an award! How do you react?",
+        "ans": [
+            "I congratulate them sincerely and tell them how great they are.",
+            "I plan a celebratory party with our friends.",
+            "I talk up their accomplishment to everyone I know!",
+            "I just give them a great, big hug."
+        ]
+    },
+    {
+        "question": "Your friend group is trying to make plans in the group chat. What are you doing?",
+        "ans": [
+            "I say, “I can hang out whenever!” and let them figure out the rest.",
+            "I tell them when I’m free and try to help come up with the best time to hang.",
+            "I’m a little hard to pin down and say, “I’m free, but only before 12 or after 9!”",
+            "I’m the one who initiated the plans."
+        ]
+    },
+    {
+        "question": "Your friend tells you they’re feeling super stressed. What’s your reaction?",
+        "ans": [
+            "I comfort them and ask if there’s anything I can do to help.",
+            "I help them make a plan to deal with whatever is stressing them out.",
+            "I suggest we watch their favorite funny movie to lighten the mood.",
+            "I tell them not to worry—whatever it is will pass."
+        ]
+    },
+    {
+        "question": "What superlative would you be most likely to win?",
+        "ans": [
+            "Most Responsible",
+            "Biggest Goofball",
+            "Most Unique",
+            "Best Shoulder to Cry On"
+        ]
+    },
+    {
+        "question": "What were you like in elementary school?",
+        "ans": [
+            "I spent all my time with my 2 closest friends.",
+            "I was super friendly, running from group to group like a social butterfly.",
+            "I was one of the popular kids—and hung out with the other popular kids.",
+            "I was a bit of a loner and sometimes struggled to make friends."
+        ]
+    },
+    {
+        "question": "It’s your birthday. What kind of gift are you hoping to get?",
+        "ans": [
+            "I just want a thoughtful party thrown by my besties.",
+            "I want a cool, artsy piece of clothing.",
+            "I want tickets to an exciting event, like an axe-throwing class or concert.",
+            "I want something practical I’ll actually use, like new stationery or a cozy blanket."
+        ]
+    },
+    {
+        "question": "Your friend group is going to hang out this weekend. What activities do you suggest?",
+        "ans": [
+            "I suggest we make a bunch of cool, hands-on crafts!",
+            "I suggest we have a sleepover and talk late into the night.",
+            "I suggest we go on an adventure to explore a brand-new hangout spot!",
+            "I suggest we relax! I’d like to lounge by a pool all day or watch movies."
+        ]
+    },
+    {
+        "question": "What’s your biggest friendship red flag?",
+        "ans": [
+            "Friends who cancel plans without warning.",
+            "Friends who ask for advice but never follow it.",
+            "Friends who ask to borrow money and don’t repay it.",
+            "Friends who ask to hang out but text other people the whole time."
+        ]
+    },
+    {
+        "question": "Pick the band you like most!",
+        "ans": [
+            "Queen",
+            "BTS",
+            "ABBA",
+            "Green Day"
+        ]
+    }
+]

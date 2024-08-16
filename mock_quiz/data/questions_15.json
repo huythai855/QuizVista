@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Your friends would describe you as:",
+        "ans": [
+            "Chill. I’m pretty laid-back.",
+            "Loyal. I never turn my back on anyone.",
+            "Enthusiastic. I get excited about everything.",
+            "Strong-willed. I know what I want."
+        ]
+    },
+    {
+        "question": "What do you value most in life?",
+        "ans": [
+            "Kindness. It doesn’t take much to be nice.",
+            "Fairness. Things should always be equal.",
+            "Happiness. Everyone deserves to smile.",
+            "Attentiveness. We should focus on the present."
+        ]
+    },
+    {
+        "question": "You’re in an Escape Room. What’s your team role?",
+        "ans": [
+            "Follower. I’m just here for a good time.",
+            "Peacemaker. We should all come out as friends.",
+            "Mood lifter. This should be fun, after all!",
+            "Leader. I like to be in control."
+        ]
+    },
+    {
+        "question": "What do you look for in a partner?",
+        "ans": [
+            "Honesty. I expect someone to be truthful, no matter what.",
+            "Harmony. I want to find my missing puzzle piece.",
+            "Optimism. I don’t need someone raining on my parade.",
+            "Patience. I need someone willing to put up with me."
+        ]
+    },
+    {
+        "question": "Which option best describes your dream vacation?",
+        "ans": [
+            "A week at a resort, lounging or doing whatever.",
+            "A weekend camping and hiking the Redwood Forest.",
+            "A day sunbathing on the beach with a Piña Colada.",
+            "A week at a theme park where I make the itinerary."
+        ]
+    },
+    {
+        "question": "What’s your biggest pet peeve?",
+        "ans": [
+            "Lying. It just causes problems.",
+            "Privilege. People should start on the same playing field.",
+            "Pessimism. The glass doesn’t always have to be empty.",
+            "Laziness. I hate it when people sit around all day."
+        ]
+    },
+    {
+        "question": "It’s the weekend—yipee! What’s on your to-do list?",
+        "ans": [
+            "Watching movies. It’s time to kick back and relax.",
+            "A picnic in the park. Got to digitally detox from the week.",
+            "Visiting all my friends. We’re going to have so much fun!",
+            "The gym. I’m going to beat my deadlift record."
+        ]
+    },
+    {
+        "question": "If you could have a superpower, what would it be?",
+        "ans": [
+            "To freeze time. Sometimes I wish life would slow down.",
+            "To be good at everything I do. Does that count?",
+            "To mind control. I just want people to be happy.",
+            "To throw fireballs. It would look so epic."
+        ]
+    },
+    {
+        "question": "What motto do you relate to the most?",
+        "ans": [
+            "“It’s all about finding the calm in the chaos.”",
+            "“I can do hard things.”",
+            "“Try to be a rainbow in someone’s cloud.”",
+            "“When there’s a will, there’s a way.”"
+        ]
+    },
+    {
+        "question": "What’s your favorite part of the day?",
+        "ans": [
+            "Midnight. There’s something so peaceful about the dark.",
+            "Early evening. The world seems brighter under the setting sun.",
+            "Morning. Who knows what amazing things are in store!",
+            "Afternoon. It’s when I feel the strongest."
+        ]
+    },
+    {
+        "question": "Your friend failed a test. How do you comfort them?",
+        "ans": [
+            "Hug them and surprise them with their favorite treat.",
+            "I pat them on the back and tell them it’s only fair.",
+            "Smile and tell them that they will ace the next one.",
+            "Diss the teacher. They probably failed my friend on purpose!"
+        ]
+    },
+    {
+        "question": "What’s your fatal flaw?",
+        "ans": [
+            "I look after others instead of looking after myself.",
+            "I strive to be perfect.",
+            "I pretend to be happy, even when I’m not.",
+            "I’m too ambitious for my own good."
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Do you want someone who lives alone?<br><br><i>(About 47% of all single people in America live alone.)</i>",
+        "ans": [
+            "Yes, I need someone who has a place all to themself. No roommates.",
+            "They could have one or two roommates, but I think that's about it.",
+            "Living alone is a plus, but my partner doesn’t have to live alone.",
+            "I don't know; I’m not sure about my answer."
+        ]
+    },
+    {
+        "question": "Does your life partner need to have an impressive career?<br><br><i>(About half of all Americans say they have a desirable job.)</i>",
+        "ans": [
+            "Yes, a successful career is a must.",
+            "I want someone who has a stable job, but they don’t have to be successful.",
+            "I don't care if they have a successful career.",
+            "I don't know; I’m not sure about my answer."
+        ]
+    },
+    {
+        "question": "Are you only open to dating someone with your same religious or spiritual beliefs?<br><br><i>(About 1 in 6 couples say they're both equally religious.)</i>",
+        "ans": [
+            "Absolutely. I want us to have the same faith.",
+            "I'd definitely prefer someone with the same spirituality, but it's not a dealbreaker.",
+            "It's not super important to me, as long as they respect my views.",
+            "I don't know; I’m not sure about my answer."
+        ]
+    },
+    {
+        "question": "Do you prefer someone who’s vegan or vegetarian?<br><br><i>(About 6% of American adults are vegan or vegetarian.)</i>",
+        "ans": [
+            "Yes, they must be vegan or vegetarian.",
+            "I'd definitely prefer someone who’s vegan or vegetarian, but it’s not a dealbreaker.",
+            "Actually, I’d prefer it if they <i>weren’t</i> vegan or vegetarian.",
+            "I don’t know, or I don’t really mind either way, as long as we eat tasty food!"
+        ]
+    },
+    {
+        "question": "Do you prefer someone who’s more outgoing than you, or more reserved?",
+        "ans": [
+            "I’m definitely the outgoing one, so they should probably be more reserved. Otherwise, just think of the chaos!",
+            "I’m pretty shy, so I’d appreciate someone who’s more outgoing to balance our personalities.",
+            "I don’t really if they’re outgoing or not, as long as our personalities work together.",
+            "I don't know."
+        ]
+    },
+    {
+        "question": "Do you prefer a partner who's super clean, or can they be a little messy?<br><br><i>(About half of all Americans say they clean their home at least once a month.)</i>",
+        "ans": [
+            "They have to be organized and squeaky clean! I don't want to clean up after anyone.",
+            "They can be a little messy, as long as it doesn't get in my way.",
+            "I don't mind a messy person, but I don't want total chaos.",
+            "I don't know, or I don't care."
+        ]
+    },
+    {
+        "question": "Do you prefer someone who's more active than you, or less active?",
+        "ans": [
+            "I definitely want someone who's super active and likes to get moving!",
+            "I want someone who's down to get their heart rate up, but they don't have to be a huge athlete.",
+            "I don't really need someone who's super active, but I don't mind if they are.",
+            "I don't know."
+        ]
+    },
+    {
+        "question": "Do you want a partner who gives more expensive gifts than you give them?",
+        "ans": [
+            "Totally. I want to be absolutely spoiled!",
+            "I love getting gifts, but they don't have to go all-out or anything.",
+            "Nah, I don't need gifts to like someone!",
+            "I don't know, or I don't care."
+        ]
+    },
+    {
+        "question": "Are you looking for someone who’s a specific height? (As in, someone who’s taller or shorter than you?)",
+        "ans": [
+            "Yes. I need someone who’s a perfect match for my height, whether that means they’re tall to my short, or the other way around.",
+            "It’d be nice to find someone who’s a certain height, but I’m willing to overlook that if they’re a good fit for me otherwise.",
+            "I don’t really care about their height! That’s not something I look for in a partner.",
+            "I don't know."
+        ]
+    },
+    {
+        "question": "Do you prefer a partner who plays an instrument?<br><br><i>(About 20% of all Americans play an instrument.)</i>",
+        "ans": [
+            "Nope. I need quiet around my household.",
+            "I’d like a musician, as long as music doesn’t get in the way of the relationship.",
+            "It doesn't really matter to me if they play an instrument or not.",
+            "I don't know."
+        ]
+    },
+    {
+        "question": "Are you open to a more casual relationship for now? Or do you only want to date someone who wants something serious?<br><br><i>(About 31% of singles in America say they’re only looking for a committed relationship.)</i>",
+        "ans": [
+            "I'm looking for my life partner, and will accept nothing less!",
+            "I'm on the hunt for my life partner, but I don't mind something short-term in the meantime.",
+            "I'm kind of just enjoying myself! If I meet someone who I want to spend the rest of my life with, great. If not, no big deal.",
+            "I don't know."
+        ]
+    },
+    {
+        "question": "Finally, would you be willing to compromise on one or more of the dealbreakers we’ve asked about so far, if the person was amazing?",
+        "ans": [
+            "Nope. They're not the person for me if I have to compromise on what I want.",
+            "Maybe, but I'd have to really think about it, and there are some things I wouldn't compromise on.",
+            "Sure, if I liked the person enough! My standards are more of a wishlist than anything.",
+            "I don't really have expectations for a relationship, so I guess I wouldn't have to compromise!"
+        ]
+    }
+]

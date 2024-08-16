@@ -1,0 +1,119 @@
+[
+    {
+        "question": "Which words best describe you?",
+        "ans": [
+            "Fun & bubbly",
+            "Hip & adventurous",
+            "Artistic & unique",
+            "Edgy & rebellious"
+        ]
+    },
+    {
+        "question": "Choose a dream vacation:",
+        "ans": [
+            "Shopping in Paris.",
+            "Surfing in Sydney.",
+            "Galleries in Rome.",
+            "Punk rock shows in Amsterdam."
+        ]
+    },
+    {
+        "question": "What do you hope people think when they look at you?",
+        "ans": [
+            "That person is *so* cute—I can’t take my eyes off of them.",
+            "Wow, they’re the definition of effortlessly cool.",
+            "That person looks so intuitive and creative. I love their style.",
+            "Woah, that person is so bold. They seem so sure of themselves."
+        ]
+    },
+    {
+        "question": "Dream tattoo:",
+        "ans": [
+            "A simple, sweet design, like a heart, star, or infinity sign.",
+            "My favorite flower or mountain range.",
+            "A quirky design, like a frog reading on a stump.",
+            "I’d get anything: I already have a few tattoos, and I want to be totally covered someday."
+        ]
+    },
+    {
+        "question": "How committed will you be to your piercing?",
+        "ans": [
+            "I’d love the lowest maintenance piercing possible.",
+            "I’m willing to carefully follow a daily cleaning schedule, but I don’t want anything super risky.",
+            "If I like something, I'm willing to risk infections or piercing rejections.",
+            "I’ll do anything for the piercing I really want."
+        ]
+    },
+    {
+        "question": "How much pain are you willing to tolerate for your piercing?",
+        "ans": [
+            "Are you kidding? I hope it’s almost painless.",
+            "I can handle a little pain.",
+            "I’m tough—I can deal with quite a bit of pain.",
+            "Pain is temporary. I’d do anything for the perfect piercing."
+        ]
+    },
+    {
+        "question": "Which trends are you loving right now?",
+        "ans": [
+            "Ballet flats and charm bracelets.",
+            "White Air Force 1s and bucket hats.",
+            "Doc Martens and long skirts.",
+            "Wolf haircuts and dark eyeliner."
+        ]
+    },
+    {
+        "question": "Pick an anthem (one old, one new):",
+        "ans": [
+            "Girls Just Wanna Have Fun, Cyndi Lauper or Bejeweled, Taylor Swift",
+            "American Girl, Tom Petty or I Wanna Be Yours, Arctic Monkeys",
+            "Dreams, Fleetwood Mac or Kyoto, Phoebe Bridgers",
+            "Born to Be Wild, Steppenwolf or Beggin’, Måneskin"
+        ]
+    },
+    {
+        "question": "Pick a birthday party theme:",
+        "ans": [
+            "2nd Prom",
+            "Indoor Beach Party",
+            "Murder Mystery",
+            "Saints & Sinners"
+        ]
+    },
+    {
+        "question": "What’s your main goal in life?",
+        "ans": [
+            "To look and feel good.",
+            "To explore everything I can.",
+            "To be creative and love freely.",
+            "To march to the beat of my own drum."
+        ]
+    },
+    {
+        "question": "Pick a statement that applies to you.",
+        "ans": [
+            "I want to hide my piercing from my parents or boss.",
+            "I want something that barely hurts and doesn’t scar.",
+            "I want something that’s super uncommon.",
+            "I want a really cheap piercing."
+        ]
+    },
+    {
+        "question": "How many piercings do you already have?",
+        "ans": [
+            "None",
+            "1",
+            "2",
+            "3+"
+        ]
+    },
+    {
+        "question": "Do you want your piercing to have shock value?",
+        "ans": [
+            "No, not at all.",
+            "I guess I want it to surprise people a little, but I don’t want anything that’s too wild.",
+            "I’d love if it was shocking, but wasn’t obvious to everyone on the street.",
+            "I want a head-turning that’s visible to everyone I pass by."
+        ]
+    }
+]

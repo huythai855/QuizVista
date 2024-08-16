@@ -1,0 +1,92 @@
+[
+    {
+        "question": "When are you the most productive?",
+        "ans": [
+            "In the morning, for sure.",
+            "At night, most definitely.",
+            "When dusk falls, before it’s completely dark out.",
+            "At the crack of dawn."
+        ]
+    },
+    {
+        "question": "What is your favorite type of food?",
+        "ans": [
+            "Sweet. What’s a little sugar between friends?",
+            "Salty. I just can’t get enough!",
+            "Sour. The more lip-puckering, the better!",
+            "Spicy. I don’t want to feel my lips when I’m done!"
+        ]
+    },
+    {
+        "question": "What is your dream job?",
+        "ans": [
+            "A job where I can protect others, like a firefighter.",
+            "A job where I have a lot of power and control, like a politician.",
+            "A job where I can have fun, like a safari guide.",
+            "A job where I can help others, like a doctor."
+        ]
+    },
+    {
+        "question": "What are your friends like?",
+        "ans": [
+            "They’re high-energy—I feel like I’m their parent half the time.",
+            "They’re all on the introverted side.",
+            "They’re pretty independent, but we make time for each other.",
+            "They’re really loyal."
+        ]
+    },
+    {
+        "question": "How do you feel on a daily basis?",
+        "ans": [
+            "Happy and loved.",
+            "Anxious and uncertain.",
+            "Bored and restless.",
+            "Determined and strong."
+        ]
+    },
+    {
+        "question": "If you had a superpower, what would it be?",
+        "ans": [
+            "The ability to grow infinite arms. I’d get so much done!",
+            "The ability to speak every language. I’d be able to help everyone.",
+            "The ability to fly. That would make things interesting!",
+            "The ability to turn back time. I could fix everything wrong with the world."
+        ]
+    },
+    {
+        "question": "How do you see your life?",
+        "ans": [
+            "I see it as a boat, journeying courageously into uncharted waters.",
+            "I see it as a train, chugging along to a set destination.",
+            "I see it as a path, well-traveled by those who came before me.",
+            "I see it as a tree: determined, vibrant, and unyielding."
+        ]
+    },
+    {
+        "question": "Which color best represents you?",
+        "ans": [
+            "Yellow or orange.",
+            "Black or blue.",
+            "Purple or pink.",
+            "Red or gold."
+        ]
+    },
+    {
+        "question": "What’s your favorite thing about the sky?",
+        "ans": [
+            "The Sun. It’s so warm and nurturing!",
+            "The Moon. It’s always changing, but it never leaves the sky.",
+            "The stars. I love to watch them come out each night.",
+            "The sunrise. All the colors are so beautiful!"
+        ]
+    },
+    {
+        "question": "Your friend is having a tough time. How do you support them?",
+        "ans": [
+            "I give them a shoulder to cry on.",
+            "I play a game with them to take their mind off things.",
+            "I send them an encouraging text.",
+            "I show up at their home with their favorite snack."
+        ]
+    }
+]

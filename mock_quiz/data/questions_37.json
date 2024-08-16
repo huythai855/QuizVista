@@ -1,0 +1,110 @@
+[
+    {
+        "question": "How would your friends describe you?",
+        "ans": [
+            "Intelligent, caring, and unique.",
+            "Clever, pretty, and outgoing.",
+            "Friendly, charismatic, and fun.",
+            "Creative, outspoken, and independent."
+        ]
+    },
+    {
+        "question": "If you were a dessert, what dessert would you be?",
+        "ans": [
+            "Strawberry shortcake with lots of whipped cream.",
+            "Chocolate mousse cake with a raspberry topping.",
+            "Rice Krispie treat drizzled with chocolate.",
+            "Vanilla cupcake with pink frosting."
+        ]
+    },
+    {
+        "question": "What totally useless thing would you bring with you on a deserted island?",
+        "ans": [
+            "A notepad. What? I always have one on me.",
+            "A mirror. I could start a fire with the reflection <i>and</i> check my hair.",
+            "A tube of lipgloss. I would definitely get chapped lips.",
+            "A stuffed animal. I couldn’t bear to be alone."
+        ]
+    },
+    {
+        "question": "What’s your favorite subject in school?",
+        "ans": [
+            "Art",
+            "Math",
+            "Science",
+            "Theatre"
+        ]
+    },
+    {
+        "question": "You’re planning a weekend getaway. Where are you headed?",
+        "ans": [
+            "A tropical island where I can lounge and drink out of a coconut.",
+            "An amusement park full of fun rides.",
+            "An art museum that has an installation on human rights.",
+            "A savannah with exotic animals I’ve never seen before."
+        ]
+    },
+    {
+        "question": "Which of these items would we be most likely to find in your bedroom?",
+        "ans": [
+            "A cluttered bookshelf and homemade macaroni picture frame.",
+            "Band posters and a colorful shag rug.",
+            "A full-length mirror and makeup station with bulb lighting.",
+            "Stuffed animals and glow-in-the-dark stars."
+        ]
+    },
+    {
+        "question": "You win the lottery. What do you do?",
+        "ans": [
+            "Donate to charity. I want to give back.",
+            "Buy my dream house and car, duh.",
+            "Get a new wardrobe. When you look good, you feel good.",
+            "Buy a treehouse. That would be so fun!"
+        ]
+    },
+    {
+        "question": "Your friend’s having a rough day. What do you text them?",
+        "ans": [
+            "“Want me to punch them?” I’m here for whatever they need.",
+            "“I love you, and don’t you forget it!” I just want to make them smile.",
+            "“Guess what I heard.” I’ll distract them with the latest gossip. Juicy drama heals all wounds.",
+            "“Get over it.” What? They’re just being dramatic. A little tough love will be good for them."
+        ]
+    },
+    {
+        "question": "Are you a morning bird or night owl?",
+        "ans": [
+            "Morning bird, 100%.",
+            "Night owl, definitely.",
+            "A mix of both! It depends on my schedule.",
+            "Huh? I’m not a bird—I’m a person, silly!"
+        ]
+    },
+    {
+        "question": "If you were an animal, what animal would you be?",
+        "ans": [
+            "Dog",
+            "Bunny",
+            "Bird",
+            "Cat"
+        ]
+    },
+    {
+        "question": "What iconic line from <i>Mean Girls</i> is your favorite?",
+        "ans": [
+            "“She doesn’t even go here!”",
+            "“One time she punched me in the face. It was awesome.”",
+            "“I’m sorry that people are so jealous of me, but I can’t help it that I’m popular.”",
+            "“I’m not a regular mom, I’m a cool mom!”"
+        ]
+    },
+    {
+        "question": "You’re participating in a talent show. What’s your act?",
+        "ans": [
+            "Dancing to a trendy song.",
+            "Making water glasses sing.",
+            "Roasting people in the audience.",
+            "Performing magic tricks."
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "question": "If you asked your friends to describe you in one word, what would they say?",
+        "ans": [
+            "Relaxed. I’m typically the easy-going one.",
+            "Loud. I love being the life of the party!",
+            "Flirtatious. I can’t go a day without winking at someone.",
+            "Indifferent. I generally don’t care what’s going on."
+        ]
+    },
+    {
+        "question": "The popular kids invite you to the biggest party of the year. How do you respond?",
+        "ans": [
+            "By fist bumping them. Sounds pretty cool, if you ask me.",
+            "By jumping up and down. This is going to be epic!",
+            "With a giggle. I’m already planning the best, eye-catching outfit.",
+            "With a shrug. I’m only going if my friends drag me along."
+        ]
+    },
+    {
+        "question": "Someone walks into the room to see you chilling on the couch. How do they find you?",
+        "ans": [
+            "Draped over the couch with my arms casually behind my head.",
+            "Balancing on the arm of the couch. I like the challenge.",
+            "Sitting upright with my legs crossed and back straight. I have to look my best.",
+            "Whatever feels comfortable for me in the moment."
+        ]
+    },
+    {
+        "question": "It’s finally the weekend, and you’ve got the whole house to yourself. What’s the first thing you do?",
+        "ans": [
+            "Who knows, man? I’ll flow with whatever comes my way.",
+            "Call all my friends to have the most epic party ever!",
+            "Text my crush to see if he wants to come over and hang out.",
+            "Silence my phone, close the blinds, and settle in for a movie marathon."
+        ]
+    },
+    {
+        "question": "You’re totally crushing on your lab partner. What’s your next move?",
+        "ans": [
+            "Nothing. I’ll just talk to them and see what happens.",
+            "Ask a million questions, and bite my tongue long enough for them to answer.",
+            "Scooch my chair closer and flirt. They’ll be asking me out by the end of the day.",
+            "Try to avoid eye contact. If they look into my eyes, I’m a goner."
+        ]
+    },
+    {
+        "question": "The waiter comes by to take your order, but you’re still scanning the menu. What do you do?",
+        "ans": [
+            "Give them the menu and ask them to surprise me.",
+            "Ask what they’d recommend and start a conversation.",
+            "Bat my eyelashes and ask for a few more minutes.",
+            "Avoid their eyes and quietly ask for more time."
+        ]
+    },
+    {
+        "question": "How would you describe your bedroom in 3 words?",
+        "ans": [
+            "Cozy, bright, and lived-in.",
+            "Vibrant, messy, and mismatched.",
+            "Romantic, comfortable, and tidy.",
+            "Dark, safe, and quiet."
+        ]
+    },
+    {
+        "question": "You slip and fall in front of the whole school! With everyone’s eyes on you, what do you do?",
+        "ans": [
+            "Get up and smile like nothing happened. People fall all the time, after all.",
+            "Jump up and laugh along with them. Maybe I’ll even take a bow!",
+            "Try to keep my face from turning red. Please tell me my crush didn’t see…",
+            "Crawl away absolutely mortified. School’s the worst."
+        ]
+    },
+    {
+        "question": "What do you want people to remember the most about you?",
+        "ans": [
+            "That I was always a good friend.",
+            "My wild stories! I want my adventures and antics to be the talk of every party.",
+            "Anything, as long as it doesn’t involve my exes.",
+            "I don’t think they’ll remember me. If they do, I hope it’s for my deep thoughts."
+        ]
+    },
+    {
+        "question": "You’re heading to the movies. What do you beg your friends to watch with you?",
+        "ans": [
+            "Anything’s cool with me! But I’ll always advocate for ones with talking dogs.",
+            "Something action-packed or that will make you wet your pants with fear!",
+            "They better want to see the rom-com. It has something for everyone.",
+            "I’d rather go by myself or watch at home so I don’t have to argue."
+        ]
+    },
+    {
+        "question": "If you could be any celebrity for a day, who would you be?",
+        "ans": [
+            "Jennifer Lawrence. She’s so down-to-earth.",
+            "Lindsay Lohan. She knows how to party.",
+            "Chris Evans. He knows he’s hot and isn’t afraid to show it.",
+            "Robert Pattison. Mysterious and equally fine."
+        ]
+    },
+    {
+        "question": "What quote speaks to you the most?",
+        "ans": [
+            "“Don’t take things too seriously.”",
+            "“Life is nothing without a little chaos to make it interesting.”",
+            "“Spread love everywhere you go.”",
+            "“Quiet people have the loudest minds.”"
+        ]
+    }
+]
