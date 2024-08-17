@@ -4,3 +4,5 @@ pypdf2~=3.0.1
 pillow~=10.4.0
 python-docx
 youtube-transcript-api
+google-search-results
+python-dotenv
