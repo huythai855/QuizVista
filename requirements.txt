@@ -6,3 +6,4 @@ python-docx
 youtube-transcript-api
 google-search-results
 python-dotenv
+wikipedia-api
