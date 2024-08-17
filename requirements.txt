@@ -3,3 +3,4 @@ beautifulsoup4~=4.12.3
 pypdf2~=3.0.1
 pillow~=10.4.0
 python-docx
+youtube-transcript-api
