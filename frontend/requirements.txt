@@ -1,0 +1,3 @@
+streamlit
+st-pages
+json5
