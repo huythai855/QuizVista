@@ -2,3 +2,4 @@ quizen
 .venv
 .idea
 .env
+.DS_Store
