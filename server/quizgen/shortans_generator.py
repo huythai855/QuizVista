@@ -6,6 +6,7 @@ from scipy.spatial.distance import cosine
 class ShortAnsConfig: 
     qa_generation: str = "potsawee/t5-large-generation-squad-QuestionAnswer"
     scoring: str = "bert-base-uncased"
+    cache_dir = "server/quizgen/cache/"
 
 class ShortAnsGenerator:
 
@@ -16,8 +17,8 @@ class ShortAnsGenerator:
         self._init_scoring_model()
         
     def _init_qa_model(self): 
-        self.qa_tokenizer = AutoTokenizer.from_pretrained(ShortAnsConfig.qa_generation)
-        self.qa_model = AutoModelForSeq2SeqLM.from_pretrained(ShortAnsConfig.qa_generation).to(self.device)
+        self.qa_tokenizer = AutoTokenizer.from_pretrained(ShortAnsConfig.qa_generation, cache_dir = ShortAnsConfig.cache_dir)
+        self.qa_model = AutoModelForSeq2SeqLM.from_pretrained(ShortAnsConfig.qa_generation, cache_dir = ShortAnsConfig.cache_dir).to(self.device)
 
     def _init_scoring_model(self):
         self.scoring_tokenizer = BertTokenizer.from_pretrained(ShortAnsConfig.scoring)

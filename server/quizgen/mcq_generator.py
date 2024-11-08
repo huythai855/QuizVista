@@ -6,6 +6,7 @@ class QAConfig:
     qa_generation: str = "potsawee/t5-large-generation-squad-QuestionAnswer"
     distractor_generation: str = "potsawee/t5-large-generation-race-Distractor"
     answer_scoring: str = "potsawee/longformer-large-4096-answering-race"
+    cache_dir = "server/quizgen/cache/"
 
 
 # MCQ questgen model 
@@ -21,10 +22,10 @@ class MCQGenerator:
     
 
     def _init_qa_model(self): 
-        self.qa_tokenizer = AutoTokenizer.from_pretrained(QAConfig.qa_generation)
-        self.qa_model = AutoModelForSeq2SeqLM.from_pretrained(QAConfig.qa_generation).to(self.device)
-        self.dist_tokenizer = AutoTokenizer.from_pretrained(QAConfig.distractor_generation)
-        self.dist_model = AutoModelForSeq2SeqLM.from_pretrained(QAConfig.distractor_generation).to(self.device)
+        self.qa_tokenizer = AutoTokenizer.from_pretrained(QAConfig.qa_generation, cache_dir=QAConfig.cache_dir)
+        self.qa_model = AutoModelForSeq2SeqLM.from_pretrained(QAConfig.qa_generation, cache_dir=QAConfig.cache_dir ).to(self.device)
+        self.dist_tokenizer = AutoTokenizer.from_pretrained(QAConfig.distractor_generation, cache_dir=QAConfig.cache_dir)
+        self.dist_model = AutoModelForSeq2SeqLM.from_pretrained(QAConfig.distractor_generation, cache_dir=QAConfig.cache_dir).to(self.device)
 
     def _init_scoring_model(self): 
         self.ans_tokenizer = AutoTokenizer.from_pretrained(QAConfig.answer_scoring)

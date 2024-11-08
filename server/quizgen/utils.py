@@ -1,6 +1,7 @@
 from transformers import T5Tokenizer, LongformerTokenizer, T5ForConditionalGeneration
 from nltk.tokenize import sent_tokenize
-## preprocessing 
+
+## text preprocessing 
 def preprocessing_input_qa(tokenizer: T5Tokenizer, context: str, device): 
 
     text_encoding = tokenizer(context, return_tensors="pt") 

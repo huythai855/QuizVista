@@ -5,6 +5,7 @@ from utils import beamsearch_encoding, greedysearch_encoding, preprocessing_inpu
 class BoolConfig: 
     bool_model: str = "ramsrigouthamg/t5_boolean_questions"
     bool_tokenizer: str = "t5-base"
+    cache_dir = "server/quizgen/cache/"
 
 
 class BoolGenerator: 
@@ -15,8 +16,8 @@ class BoolGenerator:
 
 
     def _init_model(self): 
-        self.bool_model = T5ForConditionalGeneration.from_pretrained(BoolConfig.bool_model).to(self.device)
-        self.bool_tokenizer = T5Tokenizer.from_pretrained(BoolConfig.bool_tokenizer)
+        self.bool_model = T5ForConditionalGeneration.from_pretrained(BoolConfig.bool_model,cache_dir = BoolConfig.cache_dir).to(self.device)
+        self.bool_tokenizer = T5Tokenizer.from_pretrained(BoolConfig.bool_tokenizer, cache_dir = BoolConfig.cache_dir)
 
 
     def random_choice(self): 
