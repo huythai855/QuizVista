@@ -1,0 +1,53 @@
+CS224N: Natural Language Processing with Deep Learning
+Winter 2018 Midterm Exam
+
+This examination consists of 17 printed sides, 5 questions, and 100 points. The exam accounts
+for 20% of your total grade. Please write your answers on the exam paper in the spaces provided.
+You may use the 16’ page if necessary but you must make a note on the question’s answer
+box. You have 80 minutes to complete the exam. Exams turned in after the end of the exam-
+ination period will be either penalized or not graded at all. The exam is closed book and allows
+only a single page of notes. You are not allowed to: use a phone, laptop/tablet, calculator or
+spreadsheet:
+You must disable all networking and radios (“airplane mode”).
+
+If you are taking the exam remotely, please send us the exam by Tuesday, February 13 at
+5:50 pm PDT as a scanned PDF copy to scpd-distribution@lists.stanford.edu.
+
+Stanford University Honor Code: I attest that I have not given or received aid in this
+
+access the internet, communicate with others, or use other programming capabilities.
+
+examination, and that I have done my share and taken an active part in seeing to it that others as
+well as myself uphold the spirit and letter of the Honor Code.
+
+SUNet ID: Signature:
+
+Name (printed): 0 SCPD student
+
+Question Points | Score
+
+Multiple Choice 18
+
+Short Questions 32
+
+Word Vectors 12
+
+Backpropagation 17
+RNNs 21
+Total: 100
+
+The standard of academic conduct for Stanford students is as follows:
+
+1. The Honor Code is an undertaking of the students, individually and collectively: a. that they will not
+give or receive aid in examinations; that they will not give or receive unpermitted aid in class work,
+in the preparation of reports, or in any other work that is to be used by the instructor as the basis of
+grading; b. that they will do their share and take an active part in seeing to it that they as well as
+others uphold the spirit and letter of the Honor Code.
+
+2. The faculty on its part manifests its confidence in the honor of its students by refraining from proc-
+toring examinations and from taking unusual and unreasonable precautions to prevent the forms of
+dishonesty mentioned above. The faculty will also avoid, as far as practicable, academic procedures
+that create temptations to violate the Honor Code.
+
+3. While the faculty alone has the right and obligation to set academic requirements, the students and
+faculty will work together to establish optimal conditions for honorable academic work.
