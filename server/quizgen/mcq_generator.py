@@ -18,7 +18,6 @@ class MCQGeneration:
 
         self.device = device 
         self._init_qa_model()
-        self._init_scoring_model()
     
 
     def _init_qa_model(self): 
@@ -31,14 +30,8 @@ class MCQGeneration:
         self.ans_tokenizer = AutoTokenizer.from_pretrained(QAConfig.answer_scoring)
         self.ans_model = AutoModelForMultipleChoice.from_pretrained(QAConfig.answer_scoring).to(self.device)
 
-    def generate(self, context: str, num_question: int = 10):
 
-
-
-
-        pass 
-
-    def question_generation_sampling(self, context: str, num_question: int):
+    def generate(self, context: str, num_question: int):
 
         qa_input_ids = preprocessing_input_qa(self.qa_tokenizer, context, self.device)
         max_sampling = int(num_question * 2)
@@ -53,7 +46,6 @@ class MCQGeneration:
             ques_ans = ques_ans.replace(self.qa_tokenizer.eos_token, "").replace(self.qa_tokenizer.pad_token, "").split(self.qa_tokenizer.sep_token)
 
             if len(ques_ans) != 2: continue 
-            num_valid_quest += 1
             quest, ans = ques_ans[0].strip(), ques_ans[1].strip()
 
             # distractor gen 
@@ -63,8 +55,10 @@ class MCQGeneration:
             distract_output = self.dist_model.generate(input_ids=distract_input_ids, max_new_tokens= 128, do_sample= True)
 
             distraction = self.dist_tokenizer.decode(distract_output[0], skip_special_tokens=False)
+            distraction = distraction.replace(self.dist_tokenizer.eos_token, "").replace(self.dist_tokenizer.pad_token, "")
             distractors = re.sub("<extra\S+>", self.dist_tokenizer.sep_token, distraction)
             distractors = [y.strip() for y in distractors.split(self.dist_tokenizer.sep_token)]
+            
             options = [ans] + distractors
 
             while len(options) < 4: 
@@ -76,7 +70,8 @@ class MCQGeneration:
                 "options": options,
                 "answer": ans
             })
-
+            num_valid_quest += 1
+            if num_valid_quest == num_question: break
         return questions
     
 
