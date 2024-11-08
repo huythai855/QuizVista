@@ -76,16 +76,18 @@ class ShortAnsGenerator:
 
 if __name__ == '__main__': 
     from pprint import pprint 
+    import time
 
     def test(context: str): 
         print("Test shortans generation")
-
+        start = time.time()
         shortans_gen = ShortAnsGenerator()
 
         shortans = shortans_gen.generate(context, 5)
 
         pprint(shortans)
-
+        end = time.time()
+        print("Time: ", end - start)
         print("Pass Test scoring")
 
     context = """The history of the United States is what happened in the past in the United States, a country in North America. 

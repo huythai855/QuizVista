@@ -76,12 +76,15 @@ class MCQGenerator:
     
 
 if __name__ == "__main__": 
+    import time
 
     def test(context: str):
-
+        start = time.time()
         mcq = MCQGenerator()
         questions = mcq.question_generation_sampling(context, 10)
         print(questions)
+        end = time.time()
+        print(f"Time elapsed: {end - start}")
 
     context = """The history of the United States is what happened in the past in the United States, a country in North America. 
             Native Americans lived in the Americas for thousands of years. English people in 1607 went to the place now called Jamestown, Virginia. Other European settlers went to the colonies, mostly from England and later Great Britain. France, Spain, and the Netherlands also colonized North America. In 1775, a war between the thirteen colonies and Britain began when the colonists were upset over changes in British policies. On July 4, 1776, rebel leaders made the United States Declaration of Independence. 
