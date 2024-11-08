@@ -7,7 +7,7 @@ class ShortAnsConfig:
     qa_generation: str = "potsawee/t5-large-generation-squad-QuestionAnswer"
     scoring: str = "bert-base-uncased"
 
-class ShortAnsGeneration:
+class ShortAnsGenerator:
 
     def __init__(self, device = None):
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
     def test(context: str): 
         print("Test shortans generation")
 
-        shortans_gen = ShortAnsGeneration()
+        shortans_gen = ShortAnsGenerator()
 
         shortans = shortans_gen.generate(context, 5)
 

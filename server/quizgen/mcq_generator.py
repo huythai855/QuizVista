@@ -9,7 +9,7 @@ class QAConfig:
 
 
 # MCQ questgen model 
-class MCQGeneration: 
+class MCQGenerator: 
     """
     This class is used to generate multiple choice questions from a given context and question using the fine-tuned model
     which is public on HuggingFace 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
     def test(context: str):
 
-        mcq = MCQGeneration()
+        mcq = MCQGenerator()
         questions = mcq.question_generation_sampling(context, 10)
         print(questions)
 
