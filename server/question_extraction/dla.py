@@ -129,7 +129,7 @@ def get_image_position(path):
         return img_position, []
     return img_position, table_position
 
-def merge_table_detection(img_position, table_detection):
+def merge_image_and_table_detection(img_position, table_detection):
     # Xác định khóa cuối cùng trong img_position
     if img_position:
         last_key = max(img_position.keys())

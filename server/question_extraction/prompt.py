@@ -1,122 +1,50 @@
-system_instruction_question_vn = """Bạn có nhiệm vụ xác định các câu hỏi có kèm theo hình ảnh (hoặc bảng và đồ thị) minh họa.
-Nhiệm vụ của bạn là trả về một đối tượng JSON chứa toàn bộ nội dung câu hỏi và câu trả lời của những câu hỏi có kèm theo hình ảnh (hoặc bảng và đồ thị) đó.
+system_instruction_all_text = """
+You are a system designed to identify questions and answers.
+Your task is to return a JSON object containing the full content of questions and answers.
+You should also correct any spelling errors in the questions and answers if they exist.
+If the text contain pattern like (a), (b), (c) it is also considered as Answer
 
-Mỗi mục nên được gán nhãn như sau:
+Each item should be labeled as follows:
 - "question1": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm yêu cầu hình ảnh (hoặc bảng và đồ thị) kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
+    "Question": "<Multiple-choice question>"
+    "Answer 1": "<First answer option for the question>"
+    "Answer 2": "<Second answer option for the question>"
+    ...
+    "Answer n": "<N-th answer option for the question>"
   }
 - "question2": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm tiếp theo yêu cầu hình ảnh (hoặc bảng và đồ thị) kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
+    "Question": "<Next multiple-choice question>"
+    "Answer 1": "<First answer option for the question>"
+    "Answer 2": "<Second answer option for the question>"
+    ...
+    "Answer n": "<N-th answer option for the question>"
   }
 ...
 - "question n": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm thứ n yêu cầu hình ảnh (hoặc bảng và đồ thị) kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
+    "Question": "<N-th multiple-choice question>"
+    "Answer 1": "<First answer option for the question>"
+    "Answer 2": "<Second answer option for the question>"
+    ...
+    "Answer n": "<N-th answer option for the question>"
   }
 
-Khi xác định câu hỏi, hãy tìm các cụm từ chỉ ra rằng câu hỏi yêu cầu hình ảnh (hoặc bảng và đồ thị), chẳng hạn như:
-- "Tham khảo sơ đồ ..."
-- "Dựa trên biểu đồ được hiển thị..."
-- "Xem xét biểu đồ được cung cấp."
-- "Sử dụng hình ảnh được cung cấp..."
-- "Như được hiển thị trong bản đồ..."
-- "Quan sát bức ảnh."
-- "Xem xét đồ thị được cho."
-- "Cho biểu đồ"
-- "Sử dụng dữ liệu từ bảng..."
-- "Hình ảnh minh họa sau đây..."
-- "Cho hàm số có bảng ..."
-- "Bảng xét dấu đạo hàm như sau"
-- "Theo bảng dưới đây..."
-- "Cho bảng như sau"
-- "Có đồ thị như hình vẽ sau"
-- "Như hình ảnh"
-- "bảng biến thiên dưới đây"
-- "bảng biến thiên như sau"
+-- BEGIN EXAMPLE --
+The original text is below:
+"An inventory manager has accumulated records of demand
+for her company's certain product over the last year. The rv, Xi, represents the
+number orders per day and the rv, X2, represents the number of units per order.
+The joint probability (Pr) distribution of the random vector [X; __X2]' is tabulated
+below. (a) Compute the constant C and obtain the marginal PDs (or pmfs) of X,
+and X,. (b) Given that p1; = 2.60, 01, = o?= 1.1400, obtain the covariance matrix
+2 to 4 decimals, compute the value of p (to 4 decimals), and determine if X, and 
+X, are independent. (c) Compute the E(X2| x: = 2)."
 
-Nếu văn bản có dạng "Câu hỏi n" cùng với nội dung thì bạn phải trả về toàn bộ nội dung cho đến khi xuất hiện "Câu hỏi m".
-Bạn không được phép thay đổi văn bản gốc trong file, ngay cả khi có lỗi trong cách diễn đạt.
-"""
-system_instruction_question_vn_not_image = """Bạn là một hệ thống được thiết kế để xác định các câu hỏi không yêu cầu kèm theo hình ảnh.
-Nhiệm vụ của bạn là trả về một đối tượng JSON chứa toàn bộ nội dung câu hỏi và câu trả lời của những câu hỏi không yêu cầu hình ảnh.
-Bạn cũng cần sửa lại câu hỏi và câu trả lời nếu có lỗi chỉnh tả.
-Mỗi mục nên được gán nhãn như sau:
-- "question1": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm yêu cầu hình ảnh kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
+The return format for questions and answers is:
+"question1": {
+    "Question": "An inventory manager has accumulated records of demand for her company's product over the last year. The random variable (rv), X₁, represents the number of orders per day, and the rv, X₂, represents the number of units per order. The joint probability distribution of the random vector [X₁ X₂]' is tabulated below."
+    "Answer 1": "Given that μ₁ = 2.60, σ₁² = σ₂² = 1.1400, obtain the covariance matrix to 4 decimals, compute the value of ρ (to 4 decimals), and determine if X₁ and X₂ are independent."
+    "Answer 2": "Determine the improved value of 6 (to 4 decimals), denoted as oj, such that p< 0.01."
+    "Answer 3": "Compute the E(X₂| x₁ = 2). \n\nX₂ 2 3 4\nX₁\n1 0.05 0.10 0.05\n2 0.10 0.05 0.10\n3 0.10 0.10 0.10\n4 0.10 0.10 C"
   }
-- "question2": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm tiếp theo yêu cầu hình ảnh kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
-  }
-...
-- "question n": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm thứ n yêu cầu hình ảnh kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
-  }
-
-Khi xác định câu hỏi, hãy tìm các cụm từ thường chỉ ra rằng cần có hình ảnh, chẳng hạn như:
-- "Tham khảo sơ đồ trên."
-- "Dựa trên biểu đồ được hiển thị..."
-- "Xem xét biểu đồ được cung cấp."
-- "Sử dụng hình ảnh được cung cấp..."
-- "Như được hiển thị trong bản đồ..."
-- "Quan sát bức ảnh."
-- "Xem xét đồ thị được cho."
-- "Cho biểu đồ :"
-- "Sử dụng dữ liệu từ bảng..."
-- "Hình ảnh minh họa sau đây..."
-- "Cho hàm số có bảng"
-- "như hình vẽ"
-- "bảng xét dấu đạo hàm"
-- "Cho bảng biến thiên"
-Nếu văn bản có dạng "Câu hỏi n" cùng với nội dung thì bạn phải trả về toàn bộ nội dung cho đến khi xuất hiện "Câu hỏi m".
-"""
-
-system_instruction_all_text = """Bạn là một hệ thống được thiết kế để xác định các câu hỏi và câu trả lời.
-Nhiệm vụ của bạn là trả về một đối tượng JSON chứa toàn bộ nội dung câu hỏi và câu trả lời.
-Bạn cũng cần sửa lại câu hỏi và câu trả lời nếu có lỗi chỉnh tả.
-Mỗi mục nên được gán nhãn như sau:
-- "question1": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm yêu cầu hình ảnh kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
-  }
-- "question2": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm tiếp theo yêu cầu hình ảnh kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
-  }
-...
-- "question n": {
-    "Câu hỏi": "<Câu hỏi trắc nghiệm thứ n yêu cầu hình ảnh kèm theo>"
-    "Đáp án 1": "<Đáp án đầu tiên của câu hỏi>"
-    "Đáp án 2": "<Đáp án thứ hai của câu hỏi>"
-    "Đáp án 3": "<Đáp án thứ ba của câu hỏi>"
-    "Đáp án 4": "<Đáp án thứ tư của câu hỏi>"
-  }
+-- END EXAMPLE --
 """
