@@ -5,7 +5,6 @@ import re
 class QAConfig: 
     qa_generation: str = "potsawee/t5-large-generation-squad-QuestionAnswer"
     distractor_generation: str = "potsawee/t5-large-generation-race-Distractor"
-    answer_scoring: str = "potsawee/longformer-large-4096-answering-race"
     cache_dir = "server/quizgen/cache/"
 
 
@@ -15,10 +14,17 @@ class MCQGenerator:
     This class is used to generate multiple choice questions from a given context and question using the fine-tuned model
     which is public on HuggingFace 
     """
-    def __init__(self, device = None):
+    def __init__(self, device = None, qa_model: AutoModelForSeq2SeqLM = None, qa_tokenizer: AutoTokenizer = None, 
+                        dist_model: AutoModelForSeq2SeqLM = None, dist_tokenizer: AutoTokenizer = None):
 
         self.device = device 
-        self._init_qa_model()
+        if qa_model and qa_tokenizer and dist_model and dist_tokenizer:
+            self.qa_model = qa_model
+            self.qa_tokenizer = qa_tokenizer
+            self.dist_model = dist_model
+            self.dist_tokenizer = dist_tokenizer
+        else: 
+            self._init_qa_model()
     
 
     def _init_qa_model(self): 
@@ -27,9 +33,6 @@ class MCQGenerator:
         self.dist_tokenizer = AutoTokenizer.from_pretrained(QAConfig.distractor_generation, cache_dir=QAConfig.cache_dir)
         self.dist_model = AutoModelForSeq2SeqLM.from_pretrained(QAConfig.distractor_generation, cache_dir=QAConfig.cache_dir).to(self.device)
 
-    def _init_scoring_model(self): 
-        self.ans_tokenizer = AutoTokenizer.from_pretrained(QAConfig.answer_scoring)
-        self.ans_model = AutoModelForMultipleChoice.from_pretrained(QAConfig.answer_scoring).to(self.device)
 
 
     def generate(self, context: str, num_question: int):

@@ -10,11 +10,18 @@ class ShortAnsConfig:
 
 class ShortAnsGenerator:
 
-    def __init__(self, device = None):
+    def __init__(self, device = None, qa_model: AutoModelForSeq2SeqLM = None, qa_tokenizer: AutoTokenizer = None, 
+                        scoring_model: BertModel = None, scoring_tokenizer: BertTokenizer = None):
 
         self.device = device 
-        self._init_qa_model()
-        self._init_scoring_model()
+        if qa_model and qa_tokenizer and scoring_model and scoring_tokenizer:
+            self.qa_model = qa_model
+            self.qa_tokenizer = qa_tokenizer
+            self.scoring_model = scoring_model
+            self.scoring_tokenizer = scoring_tokenizer
+        else:
+            self._init_qa_model()
+            self._init_scoring_model()
         
     def _init_qa_model(self): 
         self.qa_tokenizer = AutoTokenizer.from_pretrained(ShortAnsConfig.qa_generation, cache_dir = ShortAnsConfig.cache_dir)

@@ -3,9 +3,10 @@ from langchain import hub
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnablePassthrough
 import os 
 import pke 
-from nltk.corpus import stopwords
+import nltk
 import string 
 import traceback
 
@@ -27,7 +28,7 @@ class MatchingGenerator:
         {context}
         Let's define the definition of keywords : {keyword}
         Return the JSON data containing the keywords and its definition as follow: 
-        {
+        {{
 
             "Keyword1": "definition1", 
 
@@ -35,7 +36,7 @@ class MatchingGenerator:
 
             ............................................, 
 
-        }
+        }}
         """ 
         self.prompt = ChatPromptTemplate.from_template(self.template)
         self.chain = self.prompt | self.llm 
@@ -48,13 +49,12 @@ class MatchingGenerator:
         keywords = self.get_keyword(context, num_question)
 
         full_chain = (
-            {"context": context, 'keyword': keywords}
-            | self.prompt 
+            self.prompt 
             | self.llm 
             | StrOutputParser()
-        )
-
-        return full_chain
+        )   
+        result = full_chain.invoke({"context": context, "keyword": keywords})
+        return result 
 
 
     def get_keyword(self, context: str, num_question: int = 4): 
@@ -68,11 +68,7 @@ class MatchingGenerator:
             extractor.load_document(input=context, language='en')
             pos = {'VERB', 'NOUN', 'PROPN'}
 
-            stoplist = list(stopwords.words('english'))
-            stoplist += list(string.punctuation)
-            stoplist += ['-lrb-', '-rrb-', '-lcb-', '-rcb-', '-lsb-', '-rsb-']
-
-            extractor.candidate_selection(pos=pos, stoplist=stoplist)
+            extractor.candidate_selection(pos=pos)
             extractor.candidate_weighting(alpha=1.1,
                                       threshold=0.75,
                                       method='average')

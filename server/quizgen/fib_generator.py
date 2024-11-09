@@ -16,9 +16,13 @@ class FiBConfig:
 
 class FiB_Generator: 
 
-    def __init__(self, device = None): 
+    def __init__(self, device = None, scoring_model: BertModel = None, scoring_tokenizer: BertTokenizer = None): 
         self.device = device
-        self._init_scoring_model()
+        if scoring_model and scoring_tokenizer:
+            self.scoring_model = scoring_model
+            self.scoring_tokenizer = scoring_tokenizer
+        else:
+            self._init_scoring_model()
 
     
     def _init_scoring_model(self):
