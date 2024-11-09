@@ -1,0 +1,74 @@
+{
+    "topic1": {
+        "name": "Word Vectors",
+        "details": "Representations of words as dense vectors capturing semantic relationships. Similar words have similar vectors.",
+        "subtopics": [
+            {
+                "name": "Word2Vec",
+                "details": "Learns word embeddings by predicting surrounding words (CBOW) or being predicted from them (Skip-gram)."
+            },
+            {
+                "name": "GloVe",
+                "details": "Global Vectors for Word Representation.  Leverages word co-occurrence statistics across the whole corpus."
+            },
+            {
+                "name": "Cosine Similarity",
+                "details": "Common metric to measure similarity between word vectors."
+            },
+            {
+                "name": "Word Analogies",
+                "details": "Evaluating word vectors by solving analogies like 'king - man + woman = queen'."
+            }
+        ]
+    },
+    "topic2": {
+        "name": "Backpropagation",
+        "details": "Algorithm for calculating gradients of the loss function with respect to the network's weights.  Essential for training neural networks.",
+        "subtopics": [
+            {
+                "name": "Chain Rule",
+                "details": "Fundamental concept in calculus used to compute derivatives of composite functions.  Key to backpropagation."
+            },
+            {
+                "name": "Computational Graph",
+                "details": "Visual representation of the network's operations, facilitating the application of the chain rule."
+            },
+            {
+                "name": "Gradient Descent",
+                "details": "Optimization algorithm that uses gradients calculated by backpropagation to update weights and minimize loss."
+            }
+        ]
+    },
+    "topic3": {
+        "name": "Recurrent Neural Networks (RNNs)",
+        "details": "Neural networks designed for sequential data, processing information with a hidden state that captures past context.",
+        "subtopics": [
+            {
+                "name": "Vanishing/Exploding Gradients",
+                "details": "Challenges in training RNNs due to repeated multiplications of gradients during backpropagation through time."
+            },
+            {
+                "name": "LSTM (Long Short-Term Memory)",
+                "details": "A specific RNN architecture designed to address vanishing/exploding gradient problems, enabling learning long-range dependencies."
+            },
+            {
+                "name": "GRU (Gated Recurrent Unit)",
+                "details": "Another RNN architecture similar to LSTM, offering a simpler structure while effectively managing gradients and capturing dependencies."
+            },
+            {
+                "name": "Applications",
+                "details": "Examples include machine translation, language modeling, sentiment analysis, speech recognition, etc."
+            }
+        ]
+    },
+    "topic4": {
+        "name": "Multiple Choice Questions",
+        "details": "Questions designed to test broad understanding of core concepts, typically covering terminology, basic principles, and application scenarios.",
+        "subtopics": []
+    },
+    "topic5": {
+        "name": "Short Answer Questions",
+        "details": "Require concise responses demonstrating understanding of specific aspects of the course material. Often involve problem-solving or explaining concepts in a limited space.",
+        "subtopics": []
+    }
+}

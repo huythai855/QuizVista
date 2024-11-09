@@ -1,0 +1,97 @@
+{
+    "main_topic": {
+        "name": "CS224N: Natural Language Processing with Deep Learning Midterm Review",
+        "branches": [
+            {
+                "name": "Multiple Choice Questions",
+                "details": "Review core NLP concepts and terminology",
+                "sub_branches": [
+                    {
+                        "name": "Word Representations",
+                        "details": "One-hot, Word2Vec, GloVe, FastText"
+                    },
+                    {
+                        "name": "Language Modeling",
+                        "details": "N-grams, RNNs, perplexity"
+                    },
+                    {
+                        "name": "Text Classification",
+                        "details": "Naive Bayes, Logistic Regression, RNNs"
+                    }
+                ]
+            },
+            {
+                "name": "Short Answer Questions",
+                "details": "Concise explanations of key concepts and algorithms",
+                "sub_branches": [
+                    {
+                        "name": "Gradient Descent",
+                        "details": "Variants (SGD, Adam), challenges (local minima)"
+                    },
+                    {
+                        "name": "Backpropagation",
+                        "details": "Chain rule, computational graphs"
+                    },
+                    {
+                        "name": "Regularization",
+                        "details": "L1/L2 regularization, dropout"
+                    }
+                ]
+            },
+            {
+                "name": "Word Vectors",
+                "details": "Understanding and applying word embeddings",
+                "sub_branches": [
+                    {
+                        "name": "Word2Vec",
+                        "details": "CBOW, Skip-gram, negative sampling"
+                    },
+                    {
+                        "name": "GloVe",
+                        "details": "Co-occurrence matrix, dimensionality reduction"
+                    },
+                    {
+                        "name": "Word Similarity",
+                        "details": "Cosine similarity, analogies"
+                    }
+                ]
+            },
+            {
+                "name": "Backpropagation",
+                "details": "Calculating gradients and updating parameters",
+                "sub_branches": [
+                    {
+                        "name": "Chain Rule",
+                        "details": "Applying chain rule to compute gradients"
+                    },
+                    {
+                        "name": "Computational Graphs",
+                        "details": "Visualizing and understanding dependencies"
+                    },
+                    {
+                        "name": "Implementation",
+                        "details": "Practical considerations for backpropagation"
+                    }
+                ]
+            },
+            {
+                "name": "RNNs",
+                "details": "Recurrent Neural Networks for sequential data",
+                "sub_branches": [
+                    {
+                        "name": "Vanishing/Exploding Gradients",
+                        "details": "Challenges and solutions (LSTM, GRU)"
+                    },
+                    {
+                        "name": "LSTM/GRU",
+                        "details": "Architecture and functionality of gated RNNs"
+                    },
+                    {
+                        "name": "Applications",
+                        "details": "Language modeling, machine translation"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+Final Exam(B) STAT 3600 = Fall 2009 Maghsoodloo
+
+1(30 Points). An inventory manager has accumulated records of demand
+for her company's certain product over the last year. The rv, Xi, represents the
+number orders per day and the rv, X2, represents the number of units per order.
+The joint probability (Pr) distribution of the random vector [X; __X2]' is tabulated
+below. (a) Compute the constant C and obtain the marginal PDs (or pmfs) of X,
+
+and X,. (b) Given that p1; = 2.60, 01, = o?= 1.1400, obtain the covariance matrix
+2 to 4 decimals, compute the value of p (to 4 decimals), and determine if X, and
+
+X, are independent. (c) Compute the E(X2| x: = 2).
+
+X, 2 3 4
+xX 1
+
+1 0.05 0.10 0.05
+2 0.10 0.05 0.10
+3 0.10 0.10 0.10
+4 0.10 0.10 Cc
+
+2(30 Points). A company manufactures cables for climbing purposes.
+The breaking strength of the cables X ~ N(1520 psi, 4096 psi?). The consumers’
+single (lower specification limit) LSL = 1385.60 psi. (a) Compute the value of
+process FNC (fraction nonconforming), denoted by p, i.e., compute the Pr(X <
+LSL). (b) Determine the improved value of 6 (to 4 decimals), denoted as oj, such
+that p< 0.01. (c) A random sample of size n = 16 cables are selected at random.
+
+Under the conditions of part (a), compute the Pr that the sample mean, X, will be
+less than 1480 psi.
+
+3(30 Points). An electrical circuit has 3 capacitors assembled in such a
+manner that the final outgoing output capacitance of each unit is given by
+Y = Xi- 2X. + 3X3.
+
+The rvs X; (i= 1, 2, 3) are normally distributed with parameters 4; = 50, 20, 30
+
+microfarad (if), and variances 6,7 = 0.80, 0.20, 0.16 uf” , i= 1, 2, 3, respectively. (a)
+
+If X;’ are independent, compute the process mean and variance of the final output Y
+
+and compute its coefficient of variation in % to 2 decimals.. (b) If your company
+
+buys one unit of the product, what is the Pr (to 4 decimals) that its output
