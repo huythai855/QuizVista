@@ -5,6 +5,7 @@ import json
 from img2table.document import Image
 from io import BytesIO
 from PIL import Image as PILImage
+import pytesseract
 
 # dựng tạm một class model để infer ra kết quả với input vào là ảnh 
 '''
@@ -145,7 +146,44 @@ def merge_image_and_table_detection(img_position, table_detection):
     
     return img_position
 
+def get_text_from_image(input_path, output_path):
+    img = cv2.imread(input_path, cv2.IMREAD_GRAYSCALE)
+    try:
+        result = pytesseract.image_to_string(img, lang='eng')
+    except pytesseract.TesseractError as e:
+        return False
+    output_dir = os.path.dirname(output_path)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    with open(output_path, 'w', encoding='utf-8') as file:
+        file.write(result)
+        
+    return result
 
 
 
+def extract_bounding_boxes(image_path, image_position, output_dir='Output/'):
+    # Tạo thư mục để lưu các phần hình ảnh cắt ra nếu chưa tồn tại
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Đọc hình ảnh
+    image = cv2.imread(image_path)
 
+    # Duyệt qua từng bounding box trong image_position
+    for key, value in image_position.items():
+        for idx, box in enumerate(value):
+            top_left, bottom_right = box
+            x1, y1 = top_left
+            x2, y2 = bottom_right
+            
+            # Cắt phần hình ảnh trong bounding box
+            cropped_image = image[y1:y2, x1:x2]
+            
+            # Tạo tên file cho phần hình ảnh đã cắt
+            cropped_filename = f"{key}.png"
+            cropped_path = os.path.join(output_dir, cropped_filename)
+            
+            # Lưu phần hình ảnh đã cắt
+            cv2.imwrite(cropped_path, cropped_image)
+    
+    print(f"Extracted images saved in: {output_dir}")

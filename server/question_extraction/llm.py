@@ -2,10 +2,12 @@ import google.generativeai as genai
 from prompt import *
 import json
 import os
-
-genai.configure(api_key="AIzaSyAgxFNjZ6K7CZVeShJKiWcLtYJhlNTLZus")
+from dotenv import load_dotenv
+load_dotenv()
 
 def return_response_alltext(content, output_path):
+    gemini_api_key = os.getenv('question_extraction')
+    genai.configure(api_key=gemini_api_key)
     model =  genai.GenerativeModel('gemini-1.5-pro-latest',
                                system_instruction=system_instruction_all_text,
                                )

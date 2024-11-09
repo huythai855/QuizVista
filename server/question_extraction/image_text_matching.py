@@ -4,10 +4,6 @@ import torch
 import json
 import os
 
-# Set up device and load CLIP model
-device = "cuda" if torch.cuda.is_available() else "cpu"
-model, preprocess = clip.load("ViT-B/32", device=device)
-
 def get_questions(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
@@ -26,6 +22,9 @@ def truncate_text(text, max_length):
 
 # Function to compute similarity scores and update JSON
 def image_text_matching(text_path, image_folder, context_length = 30):
+    # Set up device and load CLIP model
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model, preprocess = clip.load("ViT-B/32", device=device)
     # Load JSON data and get questions
     data, questions = get_questions(text_path)
     

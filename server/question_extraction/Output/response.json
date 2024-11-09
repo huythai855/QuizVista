@@ -11,15 +11,12 @@
     "question2": {
         "Question": "A company manufactures cables for climbing purposes. The breaking strength of the cables X ~ N(1520 psi, 4096 psi²). The consumers’ single (lower specification limit) LSL = 1385.60 psi.",
         "Answer 1": "Compute the value of process FNC (fraction nonconforming), denoted by p, i.e., compute the Pr(X < LSL).",
-        "Answer 2": "Determine the improved value of σ (to 4 decimals), denoted as σᵢ, such that p < 0.01.",
-        "Answer 3": "A random sample of size n = 16 cables are selected at random. Under the conditions of part (a), compute the probability that the sample mean, X̄, will be less than 1480 psi.",
-        "image_link": [
-            "2.png"
-        ]
+        "Answer 2": "Determine the improved value of σ (to 4 decimals), denoted as σj, such that p < 0.01.",
+        "Answer 3": "A random sample of size n = 16 cables are selected at random. Under the conditions of part (a), compute the probability that the sample mean, X̄, will be less than 1480 psi."
     },
     "question3": {
         "Question": "An electrical circuit has 3 capacitors assembled in such a manner that the final outgoing output capacitance of each unit is given by Y = X₁ - 2X₂ + 3X₃. The random variables Xᵢ (i= 1, 2, 3) are normally distributed with parameters μᵢ = 50, 20, 30 microfarad (μf), and variances σᵢ² = 0.80, 0.20, 0.16 μf², i= 1, 2, 3, respectively.",
         "Answer 1": "If Xᵢ’s are independent, compute the process mean and variance of the final output Y and compute its coefficient of variation in % to 2 decimals.",
-        "Answer 2": "If your company buys one unit of the product, what is the probability (to 4 decimals) that its output capacitance will be less than 120 μf?"
+        "Answer 2": "If your company buys one unit of the product, what is the probability (to 4 decimals) that its output..."
     }
 }
