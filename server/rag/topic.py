@@ -1,4 +1,4 @@
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_community.vectorstores import FAISS
 import wikipedia as wiki 
 from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader, WebBaseLoader
@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 GEMINI_API = os.getenv("GEMINI_APIKEY")
+
 
 class TopicDataBase:
     """
@@ -86,7 +87,7 @@ class TopicDataBase:
     
     def search(self, query: str): 
         """
-        tìm kiếm thông tin từ query 
+        tìm kiếm thông tin từ query và optimize thông tin dựa vào llm 
         """
         results = self.vector_db.similarity_search(query, k=5)
         for result in results:
@@ -95,32 +96,23 @@ class TopicDataBase:
         
         return results
 
-
-
-
-
-
-
-
-class TopicExtractor: 
-    """
-    class này sử dụng để trích xuất dữ liệu và tìm kiếm dữ liệu phù hợp với topic đầu vào ()
-    input : 
-        - short prompt (topic)
-    output : 
-        - thông tin được lấy ra từ topic 
-
-    """
-
-
-    def __init__(self): 
-        pass 
-    
-
-    def download_dataset(self): 
+    def search_with_llm(self, query): 
         pass 
 
+if __name__ == '__main__': 
 
-    def extract_information(self, keyword): 
-        pass 
+    from pprint import pprint 
+    import time 
 
+
+    def test_retrieval(query): 
+        start = time.time()
+
+        db = TopicDataBase()
+
+        print(f"Loading and init time: {time.time() - start}")
+
+        result = db.search(query)
+        pprint(result)
+    query = "Generate  Calculus quizz"
+    test_retrieval(query)

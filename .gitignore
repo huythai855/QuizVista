@@ -6,3 +6,4 @@ quizen
 cache
 \__pycache__
 books
+\vectorstores

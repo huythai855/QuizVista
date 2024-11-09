@@ -74,7 +74,7 @@ class MatchingGenerator:
             extractor.candidate_weighting(alpha=1.1,
                                       threshold=0.75,
                                       method='average')
-            keyphrases = extractor.get_n_best(n= num_question * 2)
+            keyphrases = extractor.get_n_best(n= num_question)
 
             for val in keyphrases: 
                 output.append(val[0])

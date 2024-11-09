@@ -88,10 +88,10 @@ if __name__ == '__main__':
     from pprint import pprint 
 
 
-    def test_one_type(context: str, num_question: int): 
+    def test_one_type(context: str, num_question: int, type: str): 
         start = time.time()
         generator = QuizGenerator()
-        questions = generator.generate_one_type("shortans", context, num_question)
+        questions = generator.generate_one_type(type, context, num_question)
         print(f"Time: {time.time() - start}")
         pprint(questions)
 
@@ -112,7 +112,7 @@ if __name__ == '__main__':
             Native Americans lived in the Americas for thousands of years. English people in 1607 went to the place now called Jamestown, Virginia. Other European settlers went to the colonies, mostly from England and later Great Britain. France, Spain, and the Netherlands also colonized North America. In 1775, a war between the thirteen colonies and Britain began when the colonists were upset over changes in British policies. On July 4, 1776, rebel leaders made the United States Declaration of Independence. 
             They won the Revolutionary War and started a new country. They signed the Constitution in 1787 and the Bill of Rights in 1791. George Washington, who had led the war, became its first president. During the 19th century, the United States gained much more land in the West and began to become industrialized. In 1861, several states in the South left the United States to start a new country called the Confederate States of America. This caused the American Civil War"""
     
-    test_one_type(context, 5)
+    test_one_type(context, 5, "matching")
 
 
     pass 
