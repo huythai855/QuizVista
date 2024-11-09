@@ -11,7 +11,7 @@ class BoolConfig:
 class BoolGenerator: 
 
     def __init__(self, device = None, bool_model: T5ForConditionalGeneration = None, bool_tokenizer: T5Tokenizer = None): 
-        self.devce = device 
+        self.device = device 
         if bool_model and bool_tokenizer: 
             self.bool_model = bool_model
             self.bool_tokenizer = bool_tokenizer

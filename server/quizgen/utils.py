@@ -1,5 +1,8 @@
 from transformers import T5Tokenizer, LongformerTokenizer, T5ForConditionalGeneration
+import nltk 
 from nltk.tokenize import sent_tokenize
+
+nltk.download('punkt_tab')
 
 ## text preprocessing 
 def preprocessing_input_qa(tokenizer: T5Tokenizer, context: str, device): 

@@ -1,5 +1,5 @@
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForMultipleChoice, pipeline
-from utils import preprocessing_input_qa, preprocessing_input_distract, preprocessing_input_ans
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from utils import preprocessing_input_qa, preprocessing_input_distract
 import re 
 # model config 
 class QAConfig: 

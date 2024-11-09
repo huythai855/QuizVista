@@ -54,7 +54,9 @@ class MatchingGenerator:
             | StrOutputParser()
         )   
         result = full_chain.invoke({"context": context, "keyword": keywords})
-        return result 
+        clean_text = result.replace("```json", "").replace("```", "").strip()
+
+        return eval(clean_text)
 
 
     def get_keyword(self, context: str, num_question: int = 4): 

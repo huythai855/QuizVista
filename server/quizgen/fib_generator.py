@@ -35,23 +35,24 @@ class FiB_Generator:
         """
         keywords = self.get_keyword(context, num_question)
         key_sentences = self.get_sentence(keywords, context)
+        print(key_sentences)
         processed = []
         questions = []
         blank_token = "<blank>"
         for key in key_sentences: 
             if len(key_sentences[key]) > 0: 
-                sent = key_sentences[key][0]
+                sent = key_sentences[key]
 
                 insensitive_hippo = re.compile(re.escape(key), re.IGNORECASE)
                 no_of_replacements =  len(re.findall(re.escape(key), sent, re.IGNORECASE))
                 line = insensitive_hippo.sub(blank_token, sent)
 
-                if key_sentences[key][0] not in processed and no_of_replacements < 2: 
+                if key_sentences[key] not in processed and no_of_replacements < 2: 
                     questions.append({
                         "question": line, 
                         "answer": key
                     })
-                    processed.append(key_sentences[key][0])
+                    processed.append(key_sentences[key])
                     if len(questions) == num_question : break 
 
         return questions
@@ -68,11 +69,8 @@ class FiB_Generator:
             extractor.load_document(input=context, language='en')
             pos = {'VERB', 'NOUN', 'PROPN'}
 
-            stoplist = list(stopwords.words('english'))
-            stoplist += list(string.punctuation)
-            stoplist += ['-lrb-', '-rrb-', '-lcb-', '-rcb-', '-lsb-', '-rsb-']
 
-            extractor.candidate_selection(pos=pos, stoplist=stoplist)
+            extractor.candidate_selection(pos=pos)
             extractor.candidate_weighting(alpha=1.1,
                                       threshold=0.75,
                                       method='average')
@@ -88,7 +86,7 @@ class FiB_Generator:
         return output
 
 
-    def get_sentence(keywords: list, context: str): 
+    def get_sentence(self, keywords: list, context: str): 
         """
         trả về câu dài nhất chứa keyword 
         """

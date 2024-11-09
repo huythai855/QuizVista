@@ -40,7 +40,7 @@ class QuizGenerator:
 
         # fib model and ans 
         self.scoring_tokenizer = BertTokenizer.from_pretrained(QuizGenConfig.ans_scoring, cache_dir=QuizGenConfig.cache_dir)
-        self.scoring_model = BertModel.from_pretrained(QuizGenConfig.scoring, cache_dir=QuizGenConfig.cache_dir).to(self.device)
+        self.scoring_model = BertModel.from_pretrained(QuizGenConfig.ans_scoring, cache_dir=QuizGenConfig.cache_dir).to(self.device)
 
         # mcq model and and 
         self.qa_tokenizer = AutoTokenizer.from_pretrained(QuizGenConfig.qa_generation, cache_dir=QuizGenConfig.cache_dir)
@@ -68,7 +68,7 @@ class QuizGenerator:
             generator = FiB_Generator(device=self.device, scoring_model=self.scoring_model, scoring_tokenizer=self.scoring_tokenizer)
             return generator.generate(context, num_question)
         elif type == "matching": 
-            generator = MatchingGenerator(device=self.device, matching_model=QuizGenConfig.matching_model)
+            generator = MatchingGenerator()
             return generator.generate(context, num_question)
         else: 
             raise ValueError("Invalid type of question")
@@ -91,7 +91,7 @@ if __name__ == '__main__':
     def test_one_type(context: str, num_question: int): 
         start = time.time()
         generator = QuizGenerator()
-        questions = generator.generate_one_type("mcq", context, num_question)
+        questions = generator.generate_one_type("shortans", context, num_question)
         print(f"Time: {time.time() - start}")
         pprint(questions)
 
@@ -113,6 +113,6 @@ if __name__ == '__main__':
             They won the Revolutionary War and started a new country. They signed the Constitution in 1787 and the Bill of Rights in 1791. George Washington, who had led the war, became its first president. During the 19th century, the United States gained much more land in the West and began to become industrialized. In 1861, several states in the South left the United States to start a new country called the Confederate States of America. This caused the American Civil War"""
     
     test_one_type(context, 5)
-    test_multiple_type(context)
+
 
     pass 

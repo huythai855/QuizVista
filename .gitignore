@@ -4,3 +4,5 @@ quizen
 .env
 .DS_Store
 cache
+\__pycache__
+books
