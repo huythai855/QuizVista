@@ -3,6 +3,12 @@ quizen
 .idea
 .env
 .DS_Store
+__pycache__
+quizen
+.venv
+.idea
+.env
+.DS_Store
 cache
 \__pycache__
 books
