@@ -6,7 +6,7 @@ this_page = "create_new_test"
 
 st.set_page_config(layout="wide")
 
-st.markdown("## Create a new test")
+st.markdown("# Create a new test")
 st.write('Select input source and upload the file to create a new test')
 st.write("")
 
@@ -40,6 +40,8 @@ if 'submit' not in st.session_state:
     st.session_state.submit = False
 
 with col1:
+    test_name = st.text_input("Test name")
+    test_description = st.text_area("Test description")
     input_source = st.selectbox("Select input source", ["Upload", "Text", "URL", "Subject"])
     if input_source == "Upload":
         uploaded_file = st.file_uploader("Choose a file")

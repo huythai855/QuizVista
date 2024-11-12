@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "fullname": "John Doe",
+        "email": "johndoe@example.com",
+        "username": "johndoe",
+        "role": "student",
+        "avatar": "john_avatar.jpg",
+        "notes": "Needs improvement in math",
+        "active": true,
+        "tests": [1]
+    },
+    {
+        "id": 2,
+        "fullname": "Alice Smith",
+        "email": "alicesmith@example.com",
+        "username": "alicesmith",
+        "role": "teacher",
+        "avatar": "alice_avatar.jpg",
+        "notes": "Math teacher",
+        "active": true,
+        "tests": [1]
+    }
+    
+]
