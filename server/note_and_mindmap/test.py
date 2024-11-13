@@ -1,11 +1,29 @@
 from model import *
 
+import flask
+from flask import request, jsonify
+app = flask.Flask(__name__)
 
-generator = MindmapNoteGenerator(input_path="text.txt", output_note_path="output/notes.json", output_mindmap_path="output/mindmap.json")
+@app.route('/generate_note', methods=['POST'])
+def generate_note():
+    request_body = request.get_json()
+    content = request_body['content']
+    print(content)
 
-# Read content from the input file
-generator.read_file()
+    agent = MindmapNoteGenerator(content)
+    generated_note = agent.generate_note()
+    generated_mindmap = agent.generate_mindmap()
 
-# Generate notes and mindmap
-generator.generate_note()
-generator.generate_mindmap()
+    result = {
+        "generated_note": generated_note,
+        "generated_mindmap": generated_mindmap
+    }
+
+    return jsonify(result)
+
+
+if __name__ == '__main__':
+    app.run(debug=True, port=1512)
+
+
+
