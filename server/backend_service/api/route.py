@@ -1,5 +1,6 @@
 from flask import Blueprint
 
+from .classes.add_member.route import api_add_member
 from .classes.create_new_class.route import api_create_classes
 from .classes.list_all_classes.route import api_list_all_classes
 from .classes.list_all_members.route import api_list_all_members
@@ -15,6 +16,7 @@ api_blueprint = Blueprint('api', __name__)
 api_blueprint.register_blueprint(api_create_classes, url_prefix="/classes")
 api_blueprint.register_blueprint(api_list_all_classes, url_prefix="/classes")
 api_blueprint.register_blueprint(api_list_all_members, url_prefix="/classes")
+api_blueprint.register_blueprint(api_add_member, url_prefix="/classes")
 
 api_blueprint.register_blueprint(api_login, url_prefix="/credentials")
 api_blueprint.register_blueprint(api_register, url_prefix="/credentials")
