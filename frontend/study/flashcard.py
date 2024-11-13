@@ -9,7 +9,7 @@ this_page = "create_new_test"
 
 st.set_page_config(layout="wide")
 
-st.markdown("## Flashcard demo")
+st.markdown("# Flashcard demo")
 st.write("Read the definition, guess, then click on the card to see the term.")
 st.write("")
 

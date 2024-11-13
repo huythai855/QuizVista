@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Math Quiz",
+        "description": "A quiz to test your math skills",
+        "created_by_id": 2,
+        "time_limit": "30 mins",
+        "average_score": 75,
+        "creation_date": "2024-11-01",
+        "image": "math_quiz_image.jpg",
+        "takers": [1, 3],
+        "class_id": 1,
+        "question_list": {
+            "1": {
+                "question": "What is 3 + 5?",
+                "answer_1": "7",
+                "answer_2": "8",
+                "answer_3": "9",
+                "answer_4": "10",
+                "link_image": ""
+            },
+            "2": {
+                "question": "What is 7 * 6?",
+                "answer_1": "42",
+                "answer_2": "36",
+                "answer_3": "48",
+                "answer_4": "54",
+                "link_image": ""
+            },
+            "3": {
+                "question": "What is 12 - 4?",
+                "answer_1": "7",
+                "answer_2": "8",
+                "answer_3": "9",
+                "answer_4": "10",
+                "link_image": ""
+            },
+            "4": {
+                "question": "What is 9 / 3?",
+                "answer_1": "1",
+                "answer_2": "2",
+                "answer_3": "3",
+                "answer_4": "4",
+                "link_image": ""
+            },
+            "5": {
+                "question": "What is 8 + 4?",
+                "answer_1": "10",
+                "answer_2": "12",
+                "answer_3": "14",
+                "answer_4": "16",
+                "link_image": ""
+            },
+            "6": {
+                "question": "What is 15 * 3?",
+                "answer_1": "45",
+                "answer_2": "30",
+                "answer_3": "50",
+                "answer_4": "60",
+                "link_image": ""
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "Science Quiz",
+        "description": "A quiz to test your science skills",
+        "created_by_id": 2,
+        "time_limit": "30 mins",
+        "average_score": 70,
+        "creation_date": "2024-11-01",
+        "image": "science_quiz_image.jpg",
+        "takers": [1, 3],
+        "class_id": 2,
+        "question_list": {
+            "1": {
+                "question": "What is the capital of France?",
+                "answer_1": "London",
+                "answer_2": "Berlin",
+                "answer_3": "Paris",
+                "answer_4": "Madrid",
+                "link_image": ""
+            },
+            "2": {
+                "question": "What is the largest planet in our solar system?",
+                "answer_1": "Earth",
+                "answer_2": "Saturn",
+                "answer_3": "Jupiter",
+                "answer_4": "Mars",
+                "link_image": ""
+            },
+            "3": {
+                "question": "What is the boiling point of water?",
+                "answer_1": "100 degrees Celsius",
+                "answer_2": "50 degrees Celsius",
+                "answer_3": "200 degrees Celsius",
+                "answer_4": "0 degrees Celsius",
+                "link_image": ""
+            },
+            "4": {
+                "question": "What is the chemical symbol for Gold?",
+                "answer_1": "Go",
+                "answer_2": "Au",
+                "answer_3": "Ag",
+                "answer_4": "G",
+                "link_image": ""
+            },
+            "5": {
+                "question": "What is the largest mammal in the world?",
+                "answer_1": "Elephant",
+                "answer_2": "Whale",
+                "answer_3": "Tiger",
+                "answer_4": "Giraffe",
+                "link_image": ""
+            },
+            "6": {
+                "question": "What is the powerhouse of the cell?",
+                "answer_1": "Mitochondria",
+                "answer_2": "Nucleus",
+                "answer_3": "Ribosome",
+                "answer_4": "Lysosome",
+                "link_image": ""
+            }
+        }
+    },
+    {
+        "id": 3,
+        "name": "English Quiz",
+        "description": "A quiz to test your english skills",
+        "created_by_id": 2,
+        "time_limit": "30 mins",
+        "average_score": 80,
+        "creation_date": "2024-11-01",
+        "image": "english_quiz_image.jpg",
+        "takers": [1, 3],
+        "class_id": 3,
+        "question_list": {
+            "1": {
+                "question": "What is the past tense of 'eat'?",
+                "answer_1": "Eaten",
+                "answer_2": "Ate",
+                "answer_3": "Eating",
+                "answer_4": "Eats",
+                "link_image": ""
+            },
+            "2": {
+                "question": "What is the plural of 'child'?",
+                "answer_1": "Childs",
+                "answer_2": "Children",
+                "answer_3": "Child",
+                "answer_4": "Childes",
+                "link_image": ""
+            },
+            "3": {
+                "question": "What is the opposite of 'happy'?",
+                "answer_1": "Sad",
+                "answer_2": "Angry",
+                "answer_3": "Excited",
+                "answer_4": "Joyful",
+                "link_image": ""
+            },
+            "4": {
+                "question": "What is the synonym of 'big'?",
+                "answer_1": "Small",
+                "answer_2": "Large",
+                "answer_3": "Huge",
+                "answer_4": "Tiny",
+                "link_image": ""
+            },
+            "5": {
+                "question": "What is the antonym of 'fast'?",
+                "answer_1": "Slow",
+                "answer_2": "Quick",
+                "answer_3": "Rapid",
+                "answer_4": "Speedy",
+                "link_image": ""
+            },
+            "6": {
+                "question": "What is the present participle of 'run'?",
+                "answer_1": "Ran",
+                "answer_2": "Running",
+                "answer_3": "Runs",
+                "answer_4": "Run",
+                "link_image": ""
+            }
+        }
+    },
+    {
+        "id": 4,
+        "name": "History Quiz",
+        "description": "A quiz to test your history skills",
+        "created_by_id": 2,
+        "time_limit": "30 mins",
+        "average_score": 85,
+        "creation_date": "2024-11-01",
+        "image": "history_quiz_image.jpg",
+        "takers": [1, 3],
+        "class_id": 4,
+        "question_list": {
+            "1": {
+                "question": "Who was the first president of the United States?",
+                "answer_1": "George Washington",
+                "answer_2": "Thomas Jefferson",
+                "answer_3": "John Adams",
+                "answer_4": "Abraham Lincoln",
+                "link_image": ""
+            },
+            "2": {
+                "question": "In what year did World War II end?",
+                "answer_1": "1945",
+                "answer_2": "1939",
+                "answer_3": "1941",
+                "answer_4": "1943",
+                "link_image": ""
+            },
+            "3": {
+                "question": "Who wrote the 'I Have a Dream' speech?",
+                "answer_1": "Martin Luther King Jr.",
+                "answer_2": "Malcolm X",
+                "answer_3": "Nelson Mandela",
+                "answer_4": "Barack Obama",
+                "link_image": ""
+            },
+            "4": {
+                "question": "What year did the Titanic sink?",
+                "answer_1": "1912",
+                "answer_2": "1910",
+                "answer_3": "1914",
+                "answer_4": "1916",
+                "link_image": ""
+            },
+            "5": {
+                "question": "Who was the ",
+                "answer_1": "Elephant",
+                "answer_2": "Whale",
+                "answer_3": "Tiger",
+                "answer_4": "Giraffe",
+                "link_image": ""
+            }
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Math 101",
+        "description": "A class to learn basic math",
+        "created_by_id": 2,
+        "members": [1, 2],
+        "creation_date": "2024-11-01",
+        "tests": [1, 2, 3, 4]
+    },
+    {
+        "id": 2,
+        "name": "Science 101",
+        "description": "A class to learn basic science",
+        "created_by_id": 2,
+        "members": [1],
+        "creation_date": "2024-11-01",
+        "tests": []
+    },
+    {
+        "id": 3,
+        "name": "English 101",
+        "description": "A class to learn basic english",
+        "created_by_id": 2,
+        "members": [1],
+        "creation_date": "2024-11-01",
+        "tests": []
+    },
+    {
+        "id": 4,
+        "name": "History 101",
+        "description": "A class to learn basic history",
+        "created_by_id": 2,
+        "members": [1],
+        "creation_date": "2024-11-01",
+        "tests": []
+    }
+]
