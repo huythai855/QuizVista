@@ -93,7 +93,7 @@ for i in range(0, len(classes_data), class_columns):
     
     for col, classs in zip(cols, row_classes):
         with col:
-            creator_name = get_creator_name(classs['creator'], user_data)
+            creator_name = get_creator_name(classs['created_by_id'], user_data)
             st.markdown(f"""
                 <div class="card">
                     <div class="creation-date">{classs['creation_date']}</div>

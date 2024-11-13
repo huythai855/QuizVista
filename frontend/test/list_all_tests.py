@@ -28,6 +28,7 @@ st.markdown("""
         background-color: #f9f9f9;
         padding: 20px;
         margin-bottom: 20px;
+        margin-right: 40px;
         border-radius: 8px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for hover effect */
         text-align: center;
@@ -90,7 +91,7 @@ for i in range(0, len(tests_data), test_columns):
     cols = st.columns(test_columns)
     
     for col, test in zip(cols, row_tests):
-        creator = find_by_id(users_data, test["creator"])
+        creator = find_by_id(users_data, test["created_by_id"])
         with col:
             st.markdown(f"""
                 <div class="card">

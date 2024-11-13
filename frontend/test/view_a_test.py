@@ -30,10 +30,10 @@ if selected_test:
     st.write(f"{selected_test['description']}")
     
     questions = selected_test["question_list"]
-    creator = find_by_id(users_data, selected_test["creator"])
+    creator = find_by_id(users_data, selected_test["created_by_id"])
     # print(questions)
 
-    col1, col2, col3 = st.columns([0.3, 0.3, 0.3])
+    col1, col2, col3, col4 = st.columns([0.3, 0.3, 0.2, 0.2])
     with col1:
         st.markdown(f"**Number of questions:** {len(questions)}")
         st.markdown(f"**Test creator:** {creator['fullname']}")
@@ -43,6 +43,8 @@ if selected_test:
     with col3:
         flashcard = st.button("Learn with flashcard")
         study_note = st.button("Learn with study notes")
+    with col4:
+        export = st.button("Export test")
     take_quiz_link = f'<a href="/practice?test_id={selected_test["id"]}" target="_self"><button style="background-color:#4CAF50;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;">Take the Quiz Now</button></a>'
     st.markdown(take_quiz_link, unsafe_allow_html=True)
 

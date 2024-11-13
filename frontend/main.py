@@ -1,6 +1,9 @@
 import streamlit as st
 
 pages = {
+    "": [
+        st.Page("home.py", title="Home", icon="🏠"),
+    ],
     "Test management": [
         st.Page("test/create_new_test.py", title="Create a new test", icon="📝"),
         st.Page("test/list_all_tests.py", title="List all tests", icon="📋"),

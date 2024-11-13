@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(layout="wide")
 
-st.markdown("## Register")
+st.markdown("# Register")
 st.write('Welcome to QuizVista, an AI-powered education platform!')
 st.write("")
 

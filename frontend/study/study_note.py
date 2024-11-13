@@ -9,7 +9,7 @@ this_page = "create_new_test"
 
 st.set_page_config(layout="wide")
 
-st.markdown("## Study Notes")
+st.markdown("# Study Notes")
 st.write("Read the summary, then explore the mind map to learn more about the topic.")
 st.write("")
 st.write("")

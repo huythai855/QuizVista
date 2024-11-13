@@ -121,7 +121,7 @@ selected_class = find_by_id(class_data, int(class_id)) if class_id else None
 if selected_class:
     st.title(selected_class["name"])
     st.write(selected_class["description"])
-    creator = find_by_id(user_data, selected_class["creator"])
+    creator = find_by_id(user_data, selected_class["created_by_id"])
     st.markdown(f"**Creator:** {creator['fullname']}")
 
     with st.expander("Add a new member"):
