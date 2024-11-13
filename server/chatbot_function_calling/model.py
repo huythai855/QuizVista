@@ -1,12 +1,20 @@
 import google.generativeai as genai
 import json
 from dotenv import load_dotenv
+import flask
+from flask import request, jsonify
+
+# from frontend.credential.register import response
+
+# from server.note_and_mindmap.model import gemini_api_key
+
 load_dotenv()
 import os
 from prompts import user_id_prompt, system_instruction
 from tools import *
 
 gemini_api_key = os.getenv('gemini_api_key')
+
 genai.configure(api_key=gemini_api_key)
 
 class FunctionCalling():
@@ -41,6 +49,33 @@ class FunctionCalling():
         response = chat.send_message(response_parts)
         return response.text
 
-agent = FunctionCalling()
-response = agent.generate_content("Can you me some recent wrong questions", 1)
-print(response)
+
+
+
+
+
+app = flask.Flask(__name__)
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    user_id = int(request.args.get('user_id'))
+    request_info = request.get_json()
+    print(request_info)
+
+    message = request_info['message']
+    human_message = message[-1]["text"]
+
+    agent = FunctionCalling()
+    print(human_message, user_id)
+    agent_response = agent.generate_content(human_message, user_id)
+
+    message.append({
+        "role": "bot",
+        "text": agent_response
+    })
+
+    return jsonify(message)
+
+
+if __name__ == '__main__':
+    app.run(debug=True, port=1512)
