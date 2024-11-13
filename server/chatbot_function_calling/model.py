@@ -39,7 +39,8 @@ class FunctionCalling():
         ]
 
         response = chat.send_message(response_parts)
-        print(response.text)
+        return response.text
 
 agent = FunctionCalling()
-agent.generate_content("Can you me some recent wrong questions", 1)
+response = agent.generate_content("Can you me some recent wrong questions", 1)
+print(response)
