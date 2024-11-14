@@ -19,7 +19,7 @@ def get_wrong_questions(user_id: str):
         data = response.json()
 
         wrong_questions = data.get("wrong_questions", [])
-
+        print(wrong_questions)
         return wrong_questions
 
     except requests.exceptions.RequestException as e:

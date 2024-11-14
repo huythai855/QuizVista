@@ -32,15 +32,31 @@ class FunctionCalling():
             if fn := part.function_call:
                 args = ", ".join(f"{key}={val}" for key, val in fn.args.items())
                 function_list[fn.name] = args if args else True
-                
+        
+        print("function list: ", function_list)
+        responses = {}
+        for function_name, args in function_list.items():
+            # Map function names to the actual function in tools
+            function = globals().get(function_name)
+
+            if callable(function):
+                # Execute the function with or without arguments based on `args`
+                if args is True:
+                    result = function()  # Call without arguments
+                else:
+                    result = eval(f"{function_name}({args})")
+                responses[function_name] = result
+
+        print("Responses:", responses)
+
         response_parts = [
             genai.protos.Part(function_response=genai.protos.FunctionResponse(name=fn, response={"result": val}))
-                for fn, val in function_list.items()
+            for fn, val in responses.items()  # Use `responses` here to include actual function results
         ]
 
         response = chat.send_message(response_parts)
         return response.text
 
 agent = FunctionCalling()
-response = agent.generate_content("Can you me some recent wrong questions", 1)
+response = agent.generate_content("Can you list some questions that i made mistake recently", 1)
 print(response)
