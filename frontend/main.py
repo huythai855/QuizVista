@@ -13,6 +13,7 @@ pages = {
         st.Page("class/create_new_class.py", title="Create a new class", icon="📝"),
         st.Page("class/list_all_classes.py", title="List all classes", icon="📋"),
         st.Page("class/view_a_class.py", title="View a class detail", icon="🔍"),
+        st.Page("class/view_class_stats.py", title="View class statistics", icon="📊"),
     ],
     "Study": [
         st.Page("study/practice.py", title="Practice with a test", icon="📝"),

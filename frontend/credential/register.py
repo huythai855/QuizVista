@@ -18,8 +18,11 @@ with col1:
     birthdate = st.date_input("Birthdate")
 
     if st.button("Register"):
+
+
         if username == "admin" and password == "admin":
             st.success("Login Successful")
+
         else:
             st.error("Invalid Username or Password")
 

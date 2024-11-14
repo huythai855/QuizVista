@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "taker": 1,
+        "test": 1,
+        "class": 1,
+        "score": 80,
+        "date": "2021-01-01"
+    },
+    {
+        "id": 2,
+        "taker": 1,
+        "test": 2,
+        "class": 1,
+        "score": 90,
+        "date": "2021-01-02"
+    },
+    {
+        "id": 3,
+        "taker": 1,
+        "test": 3,
+        "class": 1,
+        "score": 85,
+        "date": "2021-01-03"
+    },
+    {
+        "id": 4,
+        "taker": 2,
+        "test": 1,
+        "class": 1,
+        "score": 95,
+        "date": "2021-01-01"
+    }
+]
