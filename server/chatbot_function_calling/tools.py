@@ -2,7 +2,7 @@ import json
 import requests
 
 def get_wrong_questions(user_id: str):
-    """Retrieve and display the user's recent wrong questions.
+    """Retrieve the user's recent wrong questions.
 
     Args:
       user_id: The ID of the user whose wrong questions should be retrieved.
@@ -25,6 +25,30 @@ def get_wrong_questions(user_id: str):
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
         return []
+
+def advice_for_learning(user_id: str):
+    """
+    Retrieve a list of learning advice based on the user's recent wrong questions,
+    list of tests, and classes. The output is structured in a way to be processed by 
+    the function calling mechanism.
+
+    Args:
+      user_id: The ID of the user whose learning advice is to be retrieved.
+
+    Returns:
+      A dictionary with advice for learning, categorized by wrong questions, tests, 
+      and classes the user is involved in.
+    """
+    wrong_questions = get_wrong_questions(user_id)
+    tests = list_tests(user_id)
+    classes = list_classes(user_id)
+
+    advice = {
+        "wrong_questions": wrong_questions,
+        "tests": tests,
+        "classes": classes
+    }
+    return advice
 
 def list_tests(user_id: int):
     """Retrieve a list of tests for a given user with specific test details.

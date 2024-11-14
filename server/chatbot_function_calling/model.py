@@ -11,7 +11,7 @@ genai.configure(api_key=gemini_api_key)
 
 class FunctionCalling():
     def __init__(self, max_token=10000, temperature=0.2):
-        self.func_tools = [get_wrong_questions, list_tests, list_classes]
+        self.func_tools = [get_wrong_questions, list_tests, list_classes, advice_for_learning]
         self.model = genai.GenerativeModel('gemini-1.5-pro-latest',
                                system_instruction=system_instruction,
                                tools=self.func_tools
@@ -34,6 +34,8 @@ class FunctionCalling():
                 function_list[fn.name] = args if args else True
         
         print("function list: ", function_list)
+        if not function_list:
+            return self.model.generate_content(user_prompt).text
         responses = {}
         for function_name, args in function_list.items():
             # Map function names to the actual function in tools
@@ -58,5 +60,5 @@ class FunctionCalling():
         return response.text
 
 agent = FunctionCalling()
-response = agent.generate_content("Can you list some questions that i made mistake recently", 1)
+response = agent.generate_content("Can you advise me on my study process based on my current learning status?", 1)
 print(response)
