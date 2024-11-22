@@ -1,0 +1,48 @@
+{
+    "topics": [
+        {
+            "name": "Word Vectors",
+            "details": "Representations of words as dense vectors capturing semantic relationships. Similar words have similar vectors.",
+            "subtopics": [
+                {
+                    "name": "Word2Vec",
+                    "details": "Learns word embeddings by predicting surrounding words (CBOW) or being predicted from them (Skip-gram)."
+                },
+                {
+                    "name": "GloVe",
+                    "details": "Global Vectors for Word Representation.  Leverages word co-occurrence statistics across the whole corpus."
+                },
+                {
+                    "name": "Cosine Similarity",
+                    "details": "Common metric to measure similarity between word vectors."
+                },
+                {
+                    "name": "Word Analogies",
+                    "details": "Evaluating word vectors by solving analogies like 'king - man + woman = queen'."
+                }
+            ]
+        },
+        {
+            "name": "Recurrent Neural Networks (RNNs)",
+            "details": "Neural networks designed for sequential data, processing information with a hidden state that captures past context.",
+            "subtopics": [
+                {
+                    "name": "Vanishing/Exploding Gradients",
+                    "details": "Challenges in training RNNs due to repeated multiplications of gradients during backpropagation through time."
+                },
+                {
+                    "name": "LSTM (Long Short-Term Memory)",
+                    "details": "A specific RNN architecture designed to address vanishing/exploding gradient problems, enabling learning long-range dependencies."
+                },
+                {
+                    "name": "GRU (Gated Recurrent Unit)",
+                    "details": "Another RNN architecture similar to LSTM, offering a simpler structure while effectively managing gradients and capturing dependencies."
+                },
+                {
+                    "name": "Applications",
+                    "details": "Examples include machine translation, language modeling, sentiment analysis, speech recognition, etc."
+                }
+            ]
+        }
+    ]
+}

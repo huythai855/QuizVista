@@ -10,6 +10,7 @@ from .tests.create_new_test.route import api_create_new_test
 from .tests.list_all_tests.route import api_list_all_tests
 from .tests.get_test_detail.route import api_get_test_detail
 from .tests.get_test_history.route import api_get_test_history
+from .preprocess import api_preprocess
 
 api_blueprint = Blueprint('api', __name__)
 
@@ -24,6 +25,7 @@ api_blueprint.register_blueprint(api_create_new_test, url_prefix="/tests")
 api_blueprint.register_blueprint(api_list_all_tests, url_prefix="/tests")
 api_blueprint.register_blueprint(api_get_test_detail, url_prefix="/tests")
 api_blueprint.register_blueprint(api_get_test_history, url_prefix="/tests")
+api_blueprint.register_blueprint(api_preprocess, url_prefix="/preprocess")
 
 
 

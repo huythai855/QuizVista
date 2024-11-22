@@ -6,7 +6,7 @@ load_dotenv()
 import os
 
 # gemini_api_key = os.getenv('gemini_api_key')
-gemini_api_key = "AIzaSyA7ZQssLmLLZxzNVghQvBY4tDCV93Wu6kM"
+gemini_api_key = ""
 genai.configure(api_key=gemini_api_key)
 
 class MindmapNoteGenerator:

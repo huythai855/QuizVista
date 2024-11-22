@@ -1,0 +1,14 @@
+beautifulsoup4==4.12.3
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-google-genai==2.0.4
+wikipedia==1.4.0
+faiss-cpu==1.9.0
+python-dotenv==0.21.0
+transformers==4.45.2
+nltk==3.9.1
+pke @ git+https://github.com/boudinfl/pke.git@69871ffdb720b83df23684fea53ec8776fd87e63
+scipy
+flashtext==2.7
+numpy==1.26.4
+torch==2.5.1

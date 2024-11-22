@@ -4,10 +4,10 @@ from image_text_matching import image_text_matching
 import os
 import shutil
 
-image_path = 'images/statistic.png'
+image_path = 'images/stats.png'
 def extract_question(image_path):
-    output_path = "Output/output.txt"
-    text_path = 'Output/response.json'
+    output_path = "Output/stats.txt"
+    text_path = 'Output/stats.json'
     image_folder = 'Output'
 
     # Kiểm tra nếu thư mục tồn tại

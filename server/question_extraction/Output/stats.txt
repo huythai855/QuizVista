@@ -1,0 +1,37 @@
+As part of the final assignment for a college course, students could choose to take an exam or complete a
+project. The scatterplots below show data for the students’ grades on the final assignment and the number
+of hours the students spent either studying for the exam or completing the project.
+
+Project Exam
+
+f=)
+f=)
+
+Grade on the final assignment
+6
+S
+
+Grade on the final assignment
+
+5 100 :
+20 pote ae
+80 See
+70 aie
+60 Oe
+
+0 2 4 6 8
+
+Hours spent on final assignment Hours spent on final assignment
+ouworid (working) (studying)
+
+Based on the scatterplots, for which type of assignment does there appear to be a positive association
+between the grade on the final assignment and the hours spent on the final assignment?
+
+A. For the project only
+B. For the exam only
+C. For both the project and the exam, but the positive association is particularly strong for
+the project
+v D. For both the project and the exam, but the positive association is particularly strong for
+the exam
+
+E. For neither the project nor the exam

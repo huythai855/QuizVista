@@ -6,9 +6,14 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import bs4
 import os 
 from dotenv import load_dotenv
+from torch.nn.functional import embedding
+
+from quizgen.main import QuizGenerator
 
 load_dotenv()
-GEMINI_API = os.getenv("GEMINI_APIKEY")
+# GEMINI_API = os.getenv("GEMINI_APIKEY")
+GEMINI_API = ""
+
 
 
 class TopicDataBase:
@@ -16,16 +21,22 @@ class TopicDataBase:
     Class này init topic database chứa các bài viết và lưu trữ nó dưới dạng vector Database 
     """
 
-    def __init__(self): 
-        self.data_path = 'books'
-        self.database_path = "vectorstores/db_faiss"
+    def __init__(self, is_build = False):
+        if is_build == False:
+            self.data_path = 'books'
+            self.database_path = "vectorstores/db_faiss"
 
-        wiki_title_filepath = "topic_base.txt"
-        with open(wiki_title_filepath, 'r') as file: 
-            self.topic_title = [line.strip() for line in file if line.strip()]
+            wiki_title_filepath = "topic_base.txt"
+            with open(wiki_title_filepath, 'r') as file:
+                self.topic_title = [line.strip() for line in file if line.strip()]
 
-        self.vector_db = self.building_database()
-    
+            self.vector_db = self.building_database()
+        else:
+            embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=GEMINI_API)
+            new_vector_store = FAISS.load_local(
+                "vectorstores/db_faiss", embeddings, allow_dangerous_deserialization=True
+            )
+            self.vector_db = new_vector_store
 
     def wiki_article_crawler(self): 
         """:
@@ -99,20 +110,47 @@ class TopicDataBase:
     def search_with_llm(self, query): 
         pass 
 
-if __name__ == '__main__': 
+# if __name__ == '__main__':
+#
+#     from pprint import pprint
+#     import time
+#
+#
+#     def test_retrieval(query):
+#         start = time.time()
+#
+#         db = TopicDataBase()
+#
+#         print(f"Loading and init time: {time.time() - start}")
+#
+#         result = db.search(query)
+#         pprint(result)
+#     query = "Generate  Calculus quizz"
+#     test_retrieval(query)
 
-    from pprint import pprint 
-    import time 
+
+import flask
+from flask import request, jsonify
+app = flask.Flask(__name__)
+
+@app.route('/rag', methods=['POST'])
+def generate_note():
+    request_body = request.get_json()
+    print(request_body)
+    content = request_body['message']
+    print(content)
+
+    db = TopicDataBase(is_build=True)
+    contexts = db.search(content)
+
+    all_context = ""
+    for context in contexts:
+        all_context += context.page_content + "\n"
+
+    session_gen = QuizGenerator()
+    result = session_gen.generate_one_type("mcq", all_context, 3)
+    return jsonify(result)
 
 
-    def test_retrieval(query): 
-        start = time.time()
-
-        db = TopicDataBase()
-
-        print(f"Loading and init time: {time.time() - start}")
-
-        result = db.search(query)
-        pprint(result)
-    query = "Generate  Calculus quizz"
-    test_retrieval(query)
+if __name__ == '__main__':
+    app.run(debug=True, port=1516)

@@ -1,0 +1,13 @@
+{
+    "question1": {
+        "Question": "As part of the final assignment for a college course, students could choose to take an exam or complete a project. The scatterplots below show data for the students’ grades on the final assignment and the number of hours the students spent either studying for the exam or completing the project.\n\nProject Exam\n\nGrade on the final assignment\nGrade on the final assignment\n\nBased on the scatterplots, for which type of assignment does there appear to be a positive association between the grade on the final assignment and the hours spent on the final assignment?",
+        "Answer 1": "For the project only",
+        "Answer 2": "For the exam only",
+        "Answer 3": "For both the project and the exam, but the positive association is particularly strong for the project",
+        "Answer 4": "For both the project and the exam, but the positive association is particularly strong for the exam",
+        "Answer 5": "For neither the project nor the exam",
+        "image_link": [
+            "0.png"
+        ]
+    }
+}

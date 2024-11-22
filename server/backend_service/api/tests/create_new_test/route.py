@@ -1,3 +1,4 @@
+import requests
 from flask import Blueprint, request, jsonify
 
 from server.backend_service.api.tests.create_new_test.schemas import (
@@ -38,4 +39,5 @@ def register() -> CreateNewTestResponseSchema:
         db_session.close()
 
     response = CreateNewTestResponseSchema(**result.model_dump())
+
     return response.model_dump()

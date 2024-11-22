@@ -8,7 +8,8 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-GEMINI_API = os.getenv("GEMINI_APIKEY")
+# GEMINI_API = os.getenv("GEMINI_APIKEY")
+GEMINI_API = ""
 LANGCHAIN_TRACING_V2 = os.getenv("LANGCHAIN_TRACING_V2")
 LANGCHAIN_ENDPOINT = os.getenv("LANGCHAIN_ENDPOINT")
 LANGCHAIN_API_KEY = os.getenv("LANGCHAIN_API_KEY")
