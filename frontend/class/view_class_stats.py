@@ -1,33 +1,50 @@
+import requests
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 
+st.set_page_config(layout="wide")
 # Generate larger sample data
 data = []
 np.random.seed(42)  # For reproducibility
 
+class_id = 1
+response = requests.get(f"http://localhost:1510/api/classes/members?class_id={class_id}")
+member_data = response.json()["members"]
+
+response2 = requests.get("http://localhost:1510/api/tests/")
+test_data = response2.json()["tests"]
+
+response3 = requests.get(f"http://localhost:1510/api/classes/")
+class_data = response3.json()["classes"]
+selected_class = None
+for class_ in class_data:
+    if class_["id"] == int(class_id):
+        selected_class = class_
+        break
+
+
 # Simulate data for 10 students, each taking 3 tests
-student_names = [f"Student {i}" for i in range(1, 21)]
-test_names = [f"Test {i}" for i in range(1, 8)]
-class_name = "Class A"
+student_names = [member["fullname"] for member in member_data]
+test_names = [test["name"] for test in test_data]
+class_name = selected_class["name"]
 
 # Simulate data for 20 students, each taking 10 tests
-for student_id, student_name in enumerate(student_names, start=1):
-    for test_id, test_name in enumerate(test_names, start=1):
-        score = np.random.randint(60, 100)  # Random scores between 60 and 100
-        date = f"2021-01-{np.random.randint(1, 28):02d}"  # Random date in January 2021
+tmp = {}
+for student in student_names:
+    for test in test_names:
+        # there is a record of that student in that test, continue
+        if (student, test) in tmp:
+            continue
         data.append({
-            "id": len(data) + 1,
-            "taker": student_id,
-            "taker_name": student_name,
-            "test": test_id,
-            "test_name": test_name,
-            "class": class_name,
-            "score": score,
-            "date": date
+            "taker_name": student,
+            "test_name": test,
+            "score": np.random.randint(60, 100)
         })
+        tmp[(student, test)] = True
+print(data)
 
 # Convert to DataFrame
 df = pd.DataFrame(data)
@@ -36,7 +53,6 @@ table_df = df.pivot(index="taker_name", columns="test_name", values="score")
 table_df = table_df.reset_index().rename(columns={"taker_name": "Name"})
 
 # Set page configuration for full-width layout
-st.set_page_config(layout="wide")
 
 # Page Title
 st.title("Class Statistics")
@@ -46,7 +62,7 @@ st.subheader("Grades Table")
 st.dataframe(table_df, use_container_width=True)
 
 # Calculate summary statistics for charts
-average_scores = df.groupby("test")["score"].mean()
+average_scores = df.groupby("test_name")["score"].mean()
 all_scores = df["score"]
 
 # Histogram: Distribution of Scores

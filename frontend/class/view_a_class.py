@@ -1,15 +1,38 @@
 import streamlit as st
 import json
+import requests
+
+# from frontend.test.list_all_tests import tests_data
+
+# from frontend.test.view_a_test import selected_test
 
 st.set_page_config(layout="wide")
 
 # Load data
-with open("data/class_db.json", "r") as f:
-    class_data = json.load(f)
-with open("data/user_db.json", "r") as f:
-    user_data = json.load(f)
-with open("data/test_db.json", "r") as f:
-    test_data = json.load(f)
+# with open("data/class_db.json", "r") as f:
+#     class_data = json.load(f)
+# with open("data/user_db.json", "r") as f:
+#     user_data = json.load(f)
+# with open("data/test_db.json", "r") as f:
+#     test_data = json.load(f)
+
+
+class_id = st.query_params["class_id"]
+
+response = requests.get("http://localhost:1510/api/tests/")
+test_data = response.json()["tests"]
+
+response = requests.get(f"http://localhost:1510/api/classes/members?class_id={class_id}")
+member_data = response.json()["members"]
+
+response = requests.get(f"http://localhost:1510/api/classes/")
+class_data = response.json()["classes"]
+selected_class = None
+for class_ in class_data:
+    if class_["id"] == int(class_id):
+        selected_class = class_
+        break
+
 
 # Helper to find entries by ID
 def find_by_id(data_list, item_id):
@@ -115,19 +138,22 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-class_id = st.query_params["class_id"]
-selected_class = find_by_id(class_data, int(class_id)) if class_id else None
+
+# selected_class = find_by_id(class_data, int(class_id)) if class_id else None
 
 if selected_class:
     st.title(selected_class["name"])
     st.write(selected_class["description"])
-    creator = find_by_id(user_data, selected_class["created_by_id"])
+    creator = {"fullname": "Nguyen Thi Huong"}
+
     st.markdown(f"**Creator:** {creator['fullname']}")
 
     with st.expander("Add a new member"):
-        username_or_email = st.text_input("Enter username or email to add member")
+        username = st.text_input("Enter username or email to add member")
+
         if st.button("Add Member"):
-            st.success(f"Member '{username_or_email}' added successfully.")
+            st.success(f"Member '{username}' added successfully.")
+            member_data = member_data + [{"fullname": "Nguyen Van A", "role": "Student"}]
 
     view_mode = st.radio("View Mode:", ("📋 Tests in Class", "👥 Members"), index=0, horizontal=True)
 
@@ -136,19 +162,20 @@ if selected_class:
         # Tests grid layout
         test_columns = 4
         st.markdown('<div class="card-grid">', unsafe_allow_html=True)
-        for i in range(0, len(selected_class["tests"]), test_columns):
-            row_tests = selected_class["tests"][i: i + test_columns]
+        for i in range(0, len(test_data), test_columns):
+            row_tests = test_data[i: i + test_columns]
+            print(row_tests)
             cols = st.columns(test_columns)
-            for col, test_id in zip(cols, row_tests):
-                test = find_by_id(test_data, test_id)
+            for col, test in zip(cols, row_tests):
+                # test = find_by_id(test_data, test_id)
                 with col:
                     st.markdown(f"""
                         <div class="card">
-                            <div class="creation-date">{test['creation_date']}</div>
+                            <div class="creation-date">"12/11/2024"</div>
                             <a href="view_a_test?test_id={test['id']}" target="_self">{test['name']}</a>
-                            <p>Total Questions: {len(test['question_list'])}</p>
-                            <p>Time Limit: {test['time_limit']}</p>
-                            <p>Average Score: {test['average_score']}%</p>
+                            <p>Total Questions: 10</p>
+                            <p>Time Limit: 15 minutes</p>
+                            <p>Average Score: 92%</p>
                         </div>
                     """, unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
@@ -158,35 +185,37 @@ if selected_class:
         # Display table header
         table_header([ 
             ("Full Name", 2),
-            ("Username", 2),
-            ("Email", 2),
+            ("Role", 2),
+            # ("Email", 2),
             ("Tests", 3),  # Add a column for tests
         ])
         
         # Member rows
-        for member_id in selected_class["members"]:
-            member = find_by_id(user_data, member_id)
+
+        count = 0
+        for member in member_data:
+            count = count + 1
+            # member = find_by_id(user_data, member_id)
 
             # Get list of tests the user is enrolled in
-            user_tests = [test for test in test_data if member_id in test.get("takers", [])]
+            user_tests = test_data
             test_names = [test["name"] for test in user_tests]
 
             # Create a delete button for each member
             st.text("")
-            delete_button = st.button(f"Delete {member['fullname']}", key=f"delete_{member_id}")
+            # delete_button = st.button(f"Delete {member['fullname']}", key=f"delete_{count}")
 
-            if delete_button:
-                # Remove the member from the class and update the data (in this example, it just removes from the class view)
-                # selected_class["members"].remove(member_id)
-                # In a real app, you'd update the class data here.
-                st.success(f"Member '{member['fullname']}' has been deleted.")
+            # if delete_button:
+            #     # Remove the member from the class and update the data (in this example, it just removes from the class view)
+            #     # selected_class["members"].remove(member_id)
+            #     # In a real app, you'd update the class data here.
+            #     st.success(f"Member '{member['fullname']}' has been deleted.")
 
             st.markdown(f"""
                 <div class="table-row">
                     <div style="flex: 2;">{member['fullname']}</div>
-                    <div style="flex: 2;">{member['username']}</div>
-                    <div style="flex: 2;">{member['email']}</div>
-                    <div style="flex: 3;">{', '.join(test_names) if test_names else 'No tests assigned'}</div>
+                    <div style="flex: 2;">{member['role']}</div>
+                    <div style="flex: 3;">{", ".join(test_names) if test_names else 'No tests assigned'}</div>
                 </div>
                 """, unsafe_allow_html=True)
 else:

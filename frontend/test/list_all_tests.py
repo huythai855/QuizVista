@@ -1,16 +1,21 @@
 import json
+
+import requests
 import streamlit as st
 import pandas as pd
+
+# from frontend.test.view_a_test import users_data
+
 st.set_page_config(layout="wide")
 
 with open("data/test_db.json", "r") as f:
     tests_data = json.load(f)
-
+#
 with open("data/user_db.json", "r") as f:
     users_data = json.load(f)
 
 st.title("All Tests")
-test_columns = 4  # Number of columns in the grid
+test_columns = 3  # Number of columns in the grid
 
 # Define styles for the card
 st.markdown("""
@@ -82,16 +87,45 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+
+response = requests.get("http://localhost:1510/api/tests/")
+tests_data2 = response.json()
+# print(tests_data2['tests'])
+#
+# print(tests_data)
+
+tests_data = tests_data2['tests']
+# tests_data = tests_data + tests_data + tests_data
+
+
+# response2 = requests.get("http://localhost:1510/api/tests/")
+# users_data2 = response.json()
+
+
+# print(users_data)
+
+
 def find_by_id(data_list, item_id):
-    return next((item for item in data_list if item["id"] == item_id), {"name": "Unknown"})
+    return next((item for item in data_list if item["id"] == item_id), {"name": "Nguyễn Thị Hương"})
 
 # Display tests in a grid format
+
 for i in range(0, len(tests_data), test_columns):
     row_tests = tests_data[i: i + test_columns]
     cols = st.columns(test_columns)
-    
+    print("first for")
+
+
     for col, test in zip(cols, row_tests):
+        print("second for")
+        test['created_by_id'] = 1
+        test['time_limit'] = "20 minutes"
+        test['average_score'] = "95"
+        test['creation_date'] = "2022-01-01"
+
         creator = find_by_id(users_data, test["created_by_id"])
+        if creator is None:
+            creator = {"fullname": "Nguyễn Thị Hương"}
         with col:
             st.markdown(f"""
                 <div class="card">

@@ -1,6 +1,10 @@
 import json
 import streamlit as st
+import requests
 import pandas as pd
+
+# from frontend.test.list_all_tests import creator
+
 st.set_page_config(layout="wide")
 
 with open("data/class_db.json", "r") as f:
@@ -11,6 +15,14 @@ with open("data/user_db.json", "r") as f:
 
 st.title("Your classes")
 class_columns = 3  # Number of columns in the grid
+
+response = requests.get("http://localhost:1510/api/classes/")
+print(response.json())
+
+classes = response.json()["classes"]
+
+
+
 
 # Define styles for the card
 st.markdown("""
@@ -28,7 +40,9 @@ st.markdown("""
         background-color: #f9f9f9;
         padding: 20px;
         margin-bottom: 20px;
+        margin-right: 40px;
         border-radius: 8px;
+        
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for hover effect */
         text-align: center;
         transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -87,16 +101,17 @@ def get_creator_name(creator_id, user_db):
             return user["fullname"]
     return "Unknown"
 
-for i in range(0, len(classes_data), class_columns):
-    row_classes = classes_data[i: i + class_columns]
+for i in range(0, len(classes), class_columns):
+    row_classes = classes[i: i + class_columns]
     cols = st.columns(class_columns)
     
     for col, classs in zip(cols, row_classes):
         with col:
-            creator_name = get_creator_name(classs['created_by_id'], user_data)
+            # creator_name = get_creator_name(classs['created_by_id'], user_data)
+            creator_name = "Nguyễn Thị Hương"
             st.markdown(f"""
                 <div class="card">
-                    <div class="creation-date">{classs['creation_date']}</div>
+                    <div class="creation-date">{classs['created_at']}</div>
                     <a href="view_a_class?class_id={classs['id']}" target="_self">{classs['name']}</a>
                     <p>Teacher: {creator_name}</p>
                 </div>

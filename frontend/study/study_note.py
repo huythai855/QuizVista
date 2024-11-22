@@ -1,3 +1,4 @@
+import base64
 import json
 
 import streamlit as st
@@ -5,6 +6,10 @@ import streamlit.components.v1 as components
 from streamlit import button, container
 
 from sympy import false
+import requests
+
+
+
 this_page = "create_new_test"
 
 st.set_page_config(layout="wide")
@@ -14,20 +19,100 @@ st.write("Read the summary, then explore the mind map to learn more about the to
 st.write("")
 st.write("")
 
-notes = """
-    FPT Smart Cloud là một công ty con của FPT, chuyên cung cấp các giải pháp và dịch vụ liên quan đến điện toán đám mây (cloud computing) và trí tuệ nhân tạo (AI). FPT Smart Cloud được thành lập với mục tiêu giúp các doanh nghiệp tại Việt Nam và quốc tế tăng cường khả năng số hóa, tối ưu hóa hệ thống và nâng cao năng lực cạnh tranh trong thời đại chuyển đổi số.
-    ##### FPT Cloud
-    Nền tảng điện toán đám mây toàn diện, cung cấp hạ tầng và các dịch vụ đám mây cho doanh nghiệp. FPT Cloud cho phép các tổ chức triển khai, vận hành, và quản lý hạ tầng IT của mình trên nền tảng đám mây một cách linh hoạt và bảo mật.
-    ##### FPT AI 
-    Cung cấp các giải pháp trí tuệ nhân tạo như chatbot, xử lý ngôn ngữ tự nhiên, nhận dạng giọng nói, và học máy (machine learning). Các dịch vụ này hỗ trợ tự động hóa quy trình và nâng cao trải nghiệm khách hàng thông qua AI.
-    ##### Giải pháp đa đám mây (Multi-cloud Solutions) 
-    Hỗ trợ doanh nghiệp quản lý các hệ thống đám mây khác nhau, chẳng hạn như AWS, Google Cloud, và Microsoft Azure, trên một nền tảng duy nhất.
-    ##### Giải pháp an ninh mạng
-    Bảo vệ hệ thống thông tin của doanh nghiệp bằng các dịch vụ bảo mật và giám sát mạng tiên tiến, giúp giảm thiểu rủi ro về bảo mật.
-    FPT Smart Cloud hướng đến việc cung cấp các giải pháp linh hoạt và toàn diện, giúp doanh nghiệp dễ dàng chuyển đổi và tận dụng các lợi ích từ điện toán đám mây và trí tuệ nhân tạo trong thời đại số hóa.
-"""
+
+# Function to generate the mindmap as a string
+def generate_mindmap(data, level=0):
+    mindmap = ""
+    indent = "    " * level  # Adjust indentation for tree structure
+
+    # Root level
+    if level == 0:
+        mindmap += "(root)\n"
+
+    # Process each topic
+    count = 0
+    for topic in data["topics"]:
+        count += 1
+
+
+        # Process each subtopic under a topic
+        if count != len(data["topics"]):
+            mindmap += f"{indent}├── {topic['name']}\n"
+            for subtopic in topic.get("subtopics", []):
+                mindmap += f"{indent}│   ├── {subtopic['name']}\n"
+            mindmap += "│ \n"
+        else:
+            mindmap += f"{indent}└── {topic['name']}\n"
+            for subtopic in topic.get("subtopics", []):
+                mindmap += f"{indent}    ├── {subtopic['name']}\n"
+
+
+
+
+    return mindmap
+
+
+
+test_id = st.query_params["test_id"]
+response = requests.get(f"http://127.0.0.1:1510/api/tests/detail?test_id={test_id}")
+test_data = response.json()
+
+encoded_study_note = response.json()["study_note"]
+print(encoded_study_note)
+
+# Giải mã từ base64 sang chuỗi JSON
+decoded_question_set = base64.b64decode(encoded_study_note).decode("utf-8")
+
+# Parse chuỗi JSON thành Python dictionary
+study_note = json.loads(decoded_question_set)
+
+print(study_note)
+
+
+notes = ""
+for topic in study_note["topics"]:
+    notes += f"## {topic['name']}\n\n"
+    notes += f"{topic['details']}\n\n"
+    for subtopic in topic.get("subtopics", []):
+        notes += f"#### {subtopic['name']}\n"
+        notes += f"{subtopic['details']}\n\n"
+    notes += "\n\n\n\n\n"
+
+
+print(notes)
+
+
+# notes = """
+#     FPT Smart Cloud là một công ty con của FPT, chuyên cung cấp các giải pháp và dịch vụ liên quan đến điện toán đám mây (cloud computing) và trí tuệ nhân tạo (AI). FPT Smart Cloud được thành lập với mục tiêu giúp các doanh nghiệp tại Việt Nam và quốc tế tăng cường khả năng số hóa, tối ưu hóa hệ thống và nâng cao năng lực cạnh tranh trong thời đại chuyển đổi số.
+#     ##### FPT Cloud
+#     Nền tảng điện toán đám mây toàn diện, cung cấp hạ tầng và các dịch vụ đám mây cho doanh nghiệp. FPT Cloud cho phép các tổ chức triển khai, vận hành, và quản lý hạ tầng IT của mình trên nền tảng đám mây một cách linh hoạt và bảo mật.
+#     ##### FPT AI
+#     Cung cấp các giải pháp trí tuệ nhân tạo như chatbot, xử lý ngôn ngữ tự nhiên, nhận dạng giọng nói, và học máy (machine learning). Các dịch vụ này hỗ trợ tự động hóa quy trình và nâng cao trải nghiệm khách hàng thông qua AI.
+#     ##### Giải pháp đa đám mây (Multi-cloud Solutions)
+#     Hỗ trợ doanh nghiệp quản lý các hệ thống đám mây khác nhau, chẳng hạn như AWS, Google Cloud, và Microsoft Azure, trên một nền tảng duy nhất.
+#     ##### Giải pháp an ninh mạng
+#     Bảo vệ hệ thống thông tin của doanh nghiệp bằng các dịch vụ bảo mật và giám sát mạng tiên tiến, giúp giảm thiểu rủi ro về bảo mật.
+#     FPT Smart Cloud hướng đến việc cung cấp các giải pháp linh hoạt và toàn diện, giúp doanh nghiệp dễ dàng chuyển đổi và tận dụng các lợi ích từ điện toán đám mây và trí tuệ nhân tạo trong thời đại số hóa.
+# """
+
+
+
 box = st.container(border=True)
-box.markdown(notes)
+box.markdown(notes, unsafe_allow_html=True)
+
+
+# Mind map data
+mindmap = generate_mindmap(study_note)
+
+# Display the mind map
+st.text("")
+st.text("")
+
+st.markdown("# Mind Map")
+box2 = st.container(border=True)
+with box2:
+    st.code(mindmap, language="text")
+
 
 flashcard_data = {
     "topic1": {
@@ -159,4 +244,4 @@ def create_mindmap(data):
     components.html(mindmap_html, height=600)
 
 
-create_mindmap(flashcard_data)
+# create_mindmap(flashcard_data)

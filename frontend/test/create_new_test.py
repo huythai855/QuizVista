@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 
 st.markdown("# Create a new test")
 st.write('Select input source and upload the file to create a new test')
-st.write("")
+st.text("")
 
 
 data = '''

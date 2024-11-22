@@ -1,18 +1,11 @@
+import json
+import requests
 import streamlit as st
 from streamlit_chat import message
 from streamlit.components.v1 import html
 
 st.set_page_config(layout="wide")
 
-def on_input_change():
-    user_input = st.session_state.user_input
-    st.session_state.past.append(user_input)
-    st.session_state.generated.append("The messages from Bot\nWith new line")
-
-
-def on_btn_click():
-    del st.session_state.past[:]
-    del st.session_state.generated[:]
 
 
 audio_path = "https://docs.google.com/uc?export=open&id=16QSvoLWNxeqco_Wb2JvzaReSAw5ow6Cl"
@@ -63,38 +56,124 @@ A Table:
 
 st.session_state.setdefault(
     'past',
-    ['Hello, I\'m Thai',
-     'How is my learning progress recently?',
-     'Show me questions that I got wrong',
-     'Yes, please!',
-     'show me some markdown sample',
-     'table in markdown']
+    ['Good morning!',
+     ]
 )
 st.session_state.setdefault(
     'generated',
-    [{'type': 'normal', 'data': "Hi! I'm BotVista. I'm here to help you with your study."},
-     {'type': 'normal', 'data': f'Well, I think you are doing great!\n You have completed 3 out of 5 lessons with an average score of 95%'},
-     {'type': 'normal', 'data': "Here are the questions that you got wrong:\n 1. Question 1: Who is the first President of America? \n2. Question 2: What is the capital of France? \n3. Question 3: What is the largest desert in the world? \n \n Do you want to see the explanation of the questions?"},
-     {'type': 'normal', 'data': f'{youtube_embed}'},
-     {'type': 'normal', 'data': f'{markdown}'},
-     {'type': 'table', 'data': f'{table_markdown}'}]
+    [{'type': 'normal', 'data': "Hi! How do you do?"},
+    ]
 )
 
-st.title("Learn with AI Mentor - BotVista")
 
-chat_placeholder = st.empty()
 
-with chat_placeholder.container():
-    for i in range(len(st.session_state['generated'])):
-        message(st.session_state['past'][i], is_user=True, key=f"{i}_user")
-        message(
-            st.session_state['generated'][i]['data'],
-            key=f"{i}",
-            allow_html=True,
-            is_table=True if st.session_state['generated'][i]['type'] == 'table' else False
-        )
+GEMINI_API_KEY = ""
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
 
-    st.button("Clear message", on_click=on_btn_click)
+# Initialize session state if needed
+if 'past' not in st.session_state:
+    st.session_state['past'] = []
+if 'generated' not in st.session_state:
+    st.session_state['generated'] = []
 
-with st.container():
-    st.text_input("User Input:", on_change=on_input_change, key="user_input")
+
+def get_gemini_response(user_input):
+    headers = {
+        "Content-Type": "application/json",
+    }
+    data = {
+        "contents": [
+            {
+                "parts": [
+                    {
+                        "text": user_input  # User's input goes here
+                    }
+                ]
+            }
+        ]
+    }
+
+    # Send POST request to the Gemini API
+    response = requests.post(
+        f"{GEMINI_API_URL}?key={GEMINI_API_KEY}",
+        headers=headers,
+        data=json.dumps(data)
+    )
+
+    # Check for a successful response and retrieve text
+    if response.status_code == 200:
+        response_data = response.json()
+
+        # Debug: Print parsed response to check for the structure
+        print("Parsed Response Data:", response_data)
+
+        # Extract the response text
+        # Adjust this part based on the exact structure you observe in the API response
+        try:
+            return response_data['candidates'][0]['content']['parts'][0]['text']
+        except (IndexError, KeyError) as e:
+            print("Error parsing response:", e)
+            return "Error in parsing the response from Gemini."
+    else:
+        st.error(f"Error {response.status_code}: {response.text}")
+        return "Error in fetching response from Gemini."
+
+def get_function_calling_response(user_input):
+    response = requests.post(
+        "http://localhost:1513/chat",
+        json={"message": user_input,
+              "user_id": 1
+            }
+    ).json()
+
+    return response['message']
+
+
+
+def on_input_change():
+    user_input = st.session_state.user_input
+    st.session_state.past.append(user_input)  # Append user input to past messages
+
+    # Get response from Gemini API
+    # gemini_response = get_gemini_response(user_input)
+    function_calling_response = get_function_calling_response(user_input)
+    # print("User Input:", function_calling_response)
+    print("Function calling Response:", function_calling_response)
+
+    # Append Gemini's response to the generated messages
+    st.session_state.generated.append({"data": function_calling_response, "type": "text"})
+
+
+def on_btn_click():
+    # Clear conversation history
+    st.session_state.past.clear()
+    st.session_state.generated.clear()
+
+st.title("Learn with AI Mentor")
+st.write("Improve your study experience with BotVista, your personalized AI mentor!")
+st.text("")
+
+st.button("➕ New chat", on_click=on_btn_click)
+
+# Display the chat UI in Streamlit
+
+col1, col2, col3 = st.columns([0.05, 0.9, 0.05])
+with col2:
+    chat_placeholder = st.empty()
+
+    with chat_placeholder.container():
+        for i in range(len(st.session_state['generated'])):
+            message(st.session_state['past'][i], is_user=True, key=f"{i}_user")
+
+            # Display Bot's message with support for different types (text, table)
+            message(
+                st.session_state['generated'][i]['data'],
+                allow_html=True,
+                is_table=True if st.session_state['generated'][i]['type'] == 'table' else False,
+                key=f"{i}_bot"
+            )
+
+    st.text("")
+    st.text_input("Your turn:", on_change=on_input_change, key="user_input")
+
+

@@ -1,3 +1,4 @@
+import requests
 import streamlit as st
 st.set_page_config(layout="wide")
 
@@ -14,6 +15,20 @@ with col1:
     password = st.text_input("Password", type="password")
 
     if st.button("Login"):
+        response = requests.post(
+            "http://localhost:1510/api/credentials/login",
+            json={
+                "username": username,
+                "password": password,
+            }
+        )
+
+        print(response.json())
+
+        if response.status_code == 200:
+            user_id = response.json()["user_id"]
+            print(user_id)
+
         if username == "admin" and password == "admin":
             st.success("Login Successful")
         else:
