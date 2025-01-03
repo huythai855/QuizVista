@@ -58,7 +58,7 @@ QuizVista là ứng dụng đa nền tảng sử dụng các mô hình trí tu�
 </div>
 
 <div style="width: 100%;">
-  <img src="./images/exam-extraction-pipeline.png" alt="Overview of the project's architecture diagram" style="width: 100%;">
+  <img src="./images/exam-extraction-pipeline2.png" alt="Overview of the project's architecture diagram" style="width: 100%;">
   <p style="text-align: center; font-style: italic; color: gray;">
     Exam extraction pipeline
   </p>
